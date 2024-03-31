@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "edmacro"
+version = "0.1.0"
+description = ""
+authors = ["Jose Edmario <56650001+JEdmario16@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+loguru = "^0.7.2"
+pillow = "^10.2.0"
+pyautogui = "^0.9.54"
+opencv-python = "^4.9.0.80"
+keyboard = "^0.13.5"
+pywin32 = "^306"
+ahk = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
