@@ -4,12 +4,30 @@ import pyautogui
 import time
 import win32gui
 import win32con
-from typing import Optional
+from typing import Optional, Union
 from loguru import logger
 from ahk import AHK
 from datetime import datetime
+from enums import Bosses, HyperCoreHealth
+import configparser
 
+config = configparser.ConfigParser()
+config.read("config.ini")
 ahk = AHK()
+
+logger.info("Loaded config.ini")
+logger.info("Showing player stats")
+logger.info(f"Base damage: {config.getint('PLAYER_STATS', 'BASE_DEMAGE')}")
+logger.info(f"Critical chance: {config.getfloat('PLAYER_STATS', 'CRITICAL_CHANCE')}")
+logger.info(
+    f"Critical multiplier: {config.getfloat('PLAYER_STATS', 'CRITICAL_MULTIPLIER')}"
+)
+logger.info("Starting the bot")
+
+PLAYER_BASE_DAMAGE = config.getint("PLAYER_STATS", "BASE_DEMAGE")
+PLAYER_CRITICAL_CHANCE = config.getfloat("PLAYER_STATS", "CRITICAL_CHANCE")
+PLAER_CRITICAL_MULTIPLIER = config.getfloat("PLAYER_STATS", "CRITICAL_MULTIPLIER")
+FREEZE_BUTTON = PIL.Image.open("edmacro/assets/freeze.png")
 
 
 def get_roblox_window():
@@ -115,15 +133,53 @@ def respawn(should_claim: bool = False, needs_respawn: bool = False):
         raise e
 
 
-def freeze_game(seconds):
-    FREEZE_BUTTON = PIL.Image.open("edmacro/assets/freeze.png")
-    logger.info(f"Freezing game for {seconds} seconds")
+def freeze_game(time_needed: Optional[Union[int, float]] = None):
+    # let's estimate the time needed to kill the boss
+    # at 25 level, bos health is 14.890.500
+    # So, the expectation of player damage will be base_dmg *(1-crit_chance) + base_dmg * crit_chance * crit_multiplier
+    # Then, let's suppose that the player hit one time per second
+    # So, the time needed to kill the boss will be boss_health / player_expected_damage
+    # at the end, let's add on it 10 seconds to be sure
+    expected_damage = (
+        PLAYER_BASE_DAMAGE * (1 - PLAYER_CRITICAL_CHANCE)
+        + PLAYER_BASE_DAMAGE * PLAYER_CRITICAL_CHANCE * PLAER_CRITICAL_MULTIPLIER
+    )
+    boss_health = float(HyperCoreHealth.twenty_five.value)
+    time_needed = time_needed or (boss_health / expected_damage) + 10
+
+    # screen size have 1920 of width, life bar in center, wich give us 640 pixels to the left and 640 to the right
+    # so, the middle of the life bar will be at 870 of width. Also, bar starts at 70 of height, so we can use this.
+    SAFE_PIXEL_POSITION = (675, 88)
+    MIDDLE_LIFE_PIXEL_POSITION = (847, 80)
+
+    logger.info(f"Freezing game for {time_needed} seconds")
     box = pyautogui.locateCenterOnScreen(FREEZE_BUTTON, confidence=0.95)
     pyautogui.moveTo(box)
     pyautogui.mouseDown()
-    time.sleep(seconds)
+    time.sleep(time_needed)
     pyautogui.moveTo(100, 30, duration=0.3)
     pyautogui.mouseUp()
+    time.sleep(0.5)
+    pixel_color = pyautogui.pixel(*SAFE_PIXEL_POSITION)
+    logger.info(f"Pixel color: {pixel_color}")
+    if pixel_color == (0, 234, 255):
+        middle_pixel_color = pyautogui.pixel(*MIDDLE_LIFE_PIXEL_POSITION)
+        new_time_needed = time_needed
+        logger.warning("Was expected that boss is dead, but it's not")
+        more_than_middle = middle_pixel_color == (0, 234, 255)
+        if more_than_middle:
+            logger.warning("Boss is more than middle life bar")
+        freeze_game(new_time_needed * (0.25 + 0.5 * more_than_middle))
+        logger.info(f"Freezing game for {new_time_needed} seconds again")
+
+
+def smart_freeze_game():
+    """
+    This function will freeze the game for a certain amount of time, but will also check the boss health
+    and estimate the time needed to kill the boss, then freeze the game for that amount of time
+    """
+    start = time.time()
+    # get the boss health
 
 
 CLAIM_BUTTON_POSITION = (956, 693)
@@ -135,7 +191,7 @@ START_BUTTON_POSITION = (846, 721)
 
 def run_boss():
     times = 0
-    while True:
+    while times < 1:
         run_start = time.time()
         logger.info(f"Starting run {times}")
         ahk.win_activate("Roblox")
@@ -143,7 +199,7 @@ def run_boss():
         time.sleep(1)
         ahk.key_up("w")
         # save a screenshot of the screen before claiming rewards
-        pyautogui.screenshot(f"images/({datetime.now()})before_claim.png")
+        pyautogui.screenshot(f"./images/({time.time()})before_claim.png")
         ahk.mouse_move(*CLAIM_BUTTON_POSITION)
         ahk.click()
         time.sleep(0.3)
@@ -159,7 +215,7 @@ def run_boss():
         ahk.mouse_move(*START_BUTTON_POSITION)
         ahk.click()
         time.sleep(5)
-        freeze_game(90)
+        freeze_game()
         times += 1
         logger.info("Waiting exit from boss room")
         time.sleep(15)
