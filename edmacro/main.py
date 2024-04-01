@@ -12,6 +12,7 @@ from enums import Bosses, HyperCoreHealth
 import configparser
 import os
 
+logger.add(f"log_{time}.log")
 config = configparser.ConfigParser()
 config.read("config.ini")
 ahk = AHK()
@@ -20,6 +21,7 @@ ahk = AHK()
 PLAYER_BASE_DAMAGE = config.getint("PLAYER_STATS", "BASE_DEMAGE")
 PLAYER_CRITICAL_CHANCE = config.getfloat("PLAYER_STATS", "CRITICAL_CHANCE")
 PLAER_CRITICAL_MULTIPLIER = config.getfloat("PLAYER_STATS", "CRITICAL_MULTIPLIER")
+TICKETS_MAX_AMOUNT = config.getint("PLAYER_STATS", "TICKETS_MAX_AMOUNT")
 OUTPUT_FOLDER = config.get("OTHER", "OUTPUT_FOLDER")
 FREEZE_BUTTON = PIL.Image.open("assets/freeze.png")
 
@@ -198,7 +200,7 @@ START_BUTTON_POSITION = (846, 721)
 
 def run_boss():
     times = 0
-    while times < 1:
+    while times < TICKETS_MAX_AMOUNT:
         run_start = time.time()
         logger.info(f"Starting run {times}")
         ahk.win_activate("Roblox")
@@ -240,10 +242,11 @@ if __name__ == "__main__":
         - Critical chance: {PLAYER_CRITICAL_CHANCE}
         - Critical multiplier: {PLAER_CRITICAL_MULTIPLIER}
         - Output folder: {OUTPUT_FOLDER}
+        - Tickets max Amount: {TICKETS_MAX_AMOUNT}
         Do you want to start the macro?""",
         buttons=MsgBoxButtons.YES_NO,
     )
-    if result == "YES":
+    if result == "Yes":
         run_boss()
     else:
         raise SystemExit
