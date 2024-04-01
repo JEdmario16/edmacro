@@ -12,7 +12,7 @@ from enums import Bosses, HyperCoreHealth
 import configparser
 import os
 
-logger.add(f"log_{time}.log")
+logger.add("logs/log_{time}.log")
 config = configparser.ConfigParser()
 config.read("config.ini")
 ahk = AHK()
