@@ -205,6 +205,7 @@ def play_miniagme(game_duration=60):
             ahk.click()
         if time.time() - start_time > game_duration:
             is_running = False
+        logger.debug(f"Pixel color: {pixel_color}")
 
     # wait exit muinigame
     time.sleep(3)
@@ -412,7 +413,7 @@ def main(skip_start_text=False):
         logger.info(start_text)
     else:
         logger.info("Starting another block of runs...")
-        
+
     start_time = time.time()
     activate_roblox()
     restart_char()
