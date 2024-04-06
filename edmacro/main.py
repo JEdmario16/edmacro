@@ -11,6 +11,8 @@ from datetime import datetime
 from enums import Bosses, HyperCoreHealth
 import configparser
 import os
+import colorama
+
 
 logger.add("logs/log_{time}.log")
 config = configparser.ConfigParser()
@@ -22,6 +24,12 @@ PLAYER_BASE_DAMAGE = config.getint("PLAYER_STATS", "BASE_DEMAGE")
 PLAYER_CRITICAL_CHANCE = config.getfloat("PLAYER_STATS", "CRITICAL_CHANCE")
 PLAER_CRITICAL_MULTIPLIER = config.getfloat("PLAYER_STATS", "CRITICAL_MULTIPLIER")
 TICKETS_MAX_AMOUNT = config.getint("PLAYER_STATS", "TICKETS_MAX_AMOUNT")
+MINIGAME_PET_POSITION_ROW = config.getint("PLAYER_STATS", "MINIGAME_PET_POSITION_ROW")
+MINIGAME_PET_POSITION_COLUMN = config.getint(
+    "PLAYER_STATS", "MINIGAME_PET_POSITION_COLUMN"
+)
+
+SHOULD_PLAY_MINIGAME = config.getboolean("OTHER", "SHOULD_PLAY_MINIGAME")
 OUTPUT_FOLDER = config.get("OTHER", "OUTPUT_FOLDER")
 FREEZE_BUTTON = PIL.Image.open("assets/freeze.png")
 
@@ -182,40 +190,165 @@ def freeze_game(time_needed: Optional[Union[int, float]] = None):
         logger.info(f"Freezing game for {new_time_needed} seconds again")
 
 
-def smart_freeze_game():
-    """
-    This function will freeze the game for a certain amount of time, but will also check the boss health
-    and estimate the time needed to kill the boss, then freeze the game for that amount of time
-    """
-    start = time.time()
-    # get the boss health
+def play_miniagme(game_duration=60):
+    start_time = time.time()
+    seek_pixel_position = (963, 596)
+    seek_pixel_color = (168, 27, 14)
+    drop_position = (975, 972)
+    CLAIM_BUTTON_POSITION = (967, 666)
+
+    is_running = True
+    while is_running:
+        pixel_color = pyautogui.pixel(*seek_pixel_position)
+        if pixel_color != seek_pixel_color:
+            ahk.mouse_move(*drop_position)
+            ahk.click()
+        if time.time() - start_time > game_duration:
+            is_running = False
+
+    # wait exit muinigame
+    time.sleep(3)
+    # now claim the reward
+    ahk.mouse_move(*CLAIM_BUTTON_POSITION)
+    ahk.click()
+    time.sleep(0.3)
 
 
-CLAIM_BUTTON_POSITION = (956, 693)
-CLOSE_AFK_WARNING_POSITION = (956, 703)
-RESPAWN_BUTTON_POSITION = (882, 573)
-RESPAWN_TOME_POSITION = (882, 573)
-START_BUTTON_POSITION = (846, 721)
+def get_pet_on_inventory_position(pet_row, pet_column):
+    # Position: Point(x=584, y=311), Color: (228, 238, 240)
+    PET_SLOT_WIDTH = 128
+    PET_SLOT_HEIGHT = 128
+    INVENTORY_START_POS = (584, 312)
+
+    pet_x = INVENTORY_START_POS[0] + PET_SLOT_WIDTH * pet_column
+    pet_y = INVENTORY_START_POS[1] + PET_SLOT_HEIGHT * pet_row
+
+    # calculate the center of the pet slot
+    pet_x += PET_SLOT_WIDTH // 2
+    pet_y += PET_SLOT_HEIGHT // 2
+
+    return (pet_x, pet_y)
+
+
+def start_minigame(pet_row, pet_column):
+    # Point(x=813, y=714), Color: (93, 255, 93)
+    start_minigame_button_position = (813, 714)
+
+    # open start mini game menu
+    ahk.key_down("e")
+    ahk.key_up("e")
+    time.sleep(0.5)
+
+    # click on the start mini game button
+    ahk.mouse_move(*start_minigame_button_position)
+    ahk.click()
+    time.sleep(0.3)
+
+    # find the pet position on the inventory
+    pet_position = get_pet_on_inventory_position(pet_row, pet_column)
+    ahk.mouse_move(*pet_position)
+    ahk.click()
+    time.sleep(0.3)
+
+    choose_button_image = PIL.Image.open("assets/choose_button.png")
+    choose_button_position = pyautogui.locateCenterOnScreen(choose_button_image)
+
+    ahk.mouse_move(
+        choose_button_position[0], choose_button_position[1], relative=False, speed=10
+    )
+    ahk.click()
+
+    time.sleep(0.3)  # fade in animation
+
+    # the minigame takes 3 seconds to start. let's wait for it
+    time.sleep(3)
+
+
+## vamos implementar a mesma funcao acima, mas desta vez calculando a posicao do pet
+
+
+def restart_char():
+    logger.info("Restarting character")
+    ahk.key_press("esc")
+    time.sleep(0.3)
+    ahk.key_press("r")
+    time.sleep(0.3)
+    ahk.key_press("enter")
+    time.sleep(2)
+
+
+def up_camera():
+    logger.info("Resetting camera position")
+    # put the mouse on the center of the screen
+    ahk.mouse_move(960, 540)
+    time.sleep(0.3)
+
+    # now, press right mouse button
+    ahk.mouse_drag(
+        x=960, y=560, from_position=(960, 540), speed=10, relative=False, button="right"
+    )
+
+    # first, up all the way
+    ahk.key_down("o")
+    time.sleep(0.5)
+    ahk.key_up("o")
+
+    # then, down camera a little bit bc of floor
+    ahk.key_down("i")
+    time.sleep(0.1)
+    ahk.key_up("i")
+
+
+def go_to_minigame():
+    logger.info("Going to minigame")
+    ahk.key_down("a")
+    time.sleep(2.8)
+    ahk.key_up("a")
+    time.sleep(0.3)
+    ahk.key_down("s")
+    time.sleep(2.5)
+    ahk.key_up("s")
+    time.sleep(0.3)
+    ahk.key_down("a")
+    time.sleep(1.5)
+    ahk.key_up("a")
+    time.sleep(0.3)
+
+
+def go_to_boss():
+    logger.info("Going to boss")
+    ahk.key_down("a")
+    time.sleep(6.5)
+    ahk.key_up("a")
+    time.sleep(0.3)
+    ahk.key_down("s")
+    time.sleep(2.5)
+    ahk.key_up("s")
+    time.sleep(0.3)
 
 
 def run_boss():
+    # preenche o espaço da tela com == e centraliza o texto "Starting boss runs"
+    # usando métodos de string
+    logger.info("=" * 80)
+    logger.info(" " * 30 + "Starting boss runs" + " " * 30)
+    CLAIM_BUTTON_POSITION = (956, 693)
+    CLOSE_AFK_WARNING_POSITION = (956, 703)
+    RESPAWN_BUTTON_POSITION = (882, 573)
+    RESPAWN_TOME_POSITION = (882, 573)
+    START_BUTTON_POSITION = (846, 721)
+
     times = 0
     while times < TICKETS_MAX_AMOUNT:
         run_start = time.time()
         logger.info(f"Starting run {times}")
         ahk.win_activate("Roblox")
-        ahk.key_down("w")
+        ahk.key_down("s")
         time.sleep(1)
-        ahk.key_up("w")
+        ahk.key_up("s")
         # save a screenshot of the screen before claiming rewards
         pic_time = datetime.now().strftime("%Y-%m-%d %H-%M-%S")
         pyautogui.screenshot(f"{OUTPUT_FOLDER}/{pic_time}.png")
-        ahk.mouse_move(*CLAIM_BUTTON_POSITION)
-        ahk.click()
-        time.sleep(0.3)
-        ahk.mouse_move(*CLOSE_AFK_WARNING_POSITION)
-        ahk.click()
-        time.sleep(0.3)
         ahk.mouse_move(*RESPAWN_TOME_POSITION)
         ahk.click()
         time.sleep(0.3)
@@ -229,7 +362,70 @@ def run_boss():
         times += 1
         logger.info("Waiting exit from boss room")
         time.sleep(15)
+        ahk.mouse_move(*CLAIM_BUTTON_POSITION)
+        ahk.click()
+        time.sleep(0.3)
+        ahk.mouse_move(*CLOSE_AFK_WARNING_POSITION)
+        ahk.click()
+        time.sleep(0.3)
         logger.info(f"Run {times} took {time.time() - run_start} seconds")
+        time.sleep(5)
+
+
+def run_minigame():
+
+    times = 0
+    logger.info("=" * 80)
+    logger.info(" " * 30 + "Starting minigame runs" + " " * 30)
+    while times < TICKETS_MAX_AMOUNT:
+        run_start = time.time()
+        logger.info(f"Starting minigame run {times}")
+        start_minigame(MINIGAME_PET_POSITION_ROW, MINIGAME_PET_POSITION_COLUMN)
+        play_miniagme()
+        times += 1
+        logger.info(f"Run {times} took {time.time() - run_start} seconds")
+        time.sleep(5)
+
+
+start_text = f"""{colorama.Fore.GREEN}
+
+███████╗██████╗ ███╗   ███╗ █████╗  ██████╗██████╗  ██████╗ 
+██╔════╝██╔══██╗████╗ ████║██╔══██╗██╔════╝██╔══██╗██╔═══██╗
+█████╗  ██║  ██║██╔████╔██║███████║██║     ██████╔╝██║   ██║
+██╔══╝  ██║  ██║██║╚██╔╝██║██╔══██║██║     ██╔══██╗██║   ██║
+███████╗██████╔╝██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║╚██████╔╝
+╚══════╝╚═════╝ ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝ ╚═════╝                                              
+{colorama.Fore.RED}For Pet Catchers. version: 0.0.1 {colorama.Style.RESET_ALL}
+
+Welcome to Edmacro - The best macro for Pet Catchers.
+This script will help you to catch pets on Roblox game.
+Your current configuration is:
+ - Game Duration: {colorama.Fore.GREEN} 60 seconds {colorama.Style.RESET_ALL}
+ - Minigame Pet Position: {colorama.Fore.GREEN}(2, 2) {colorama.Style.RESET_ALL}
+ - Max tickets per run: {colorama.Fore.GREEN} 1 {colorama.Style.RESET_ALL}
+ - Should play minigame: {colorama.Fore.GREEN if SHOULD_PLAY_MINIGAME else colorama.Fore.RED} {SHOULD_PLAY_MINIGAME} {colorama.Style.RESET_ALL}
+"""
+
+
+def main(skip_start_text=False):
+    if not skip_start_text:
+        logger.info(start_text)
+    else:
+        logger.info("Starting another block of runs...")
+        
+    start_time = time.time()
+    activate_roblox()
+    restart_char()
+    up_camera()
+    go_to_boss()
+    run_boss()
+    if SHOULD_PLAY_MINIGAME:
+        restart_char()
+        up_camera()
+        go_to_minigame()
+        run_minigame()
+        main(skip_start_text=True)
+    logger.info(f"Total time: {time.time() - start_time} seconds. Finished!")
 
 
 if __name__ == "__main__":
@@ -243,10 +439,12 @@ if __name__ == "__main__":
         - Critical multiplier: {PLAER_CRITICAL_MULTIPLIER}
         - Output folder: {OUTPUT_FOLDER}
         - Tickets max Amount: {TICKETS_MAX_AMOUNT}
+        - Should play minigame: {SHOULD_PLAY_MINIGAME}
+        - Minigame pet position: ({MINIGAME_PET_POSITION_ROW}, {MINIGAME_PET_POSITION_COLUMN})
         Do you want to start the macro?""",
         buttons=MsgBoxButtons.YES_NO,
     )
     if result == "Yes":
-        run_boss()
+        main()
     else:
         raise SystemExit
