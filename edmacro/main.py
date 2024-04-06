@@ -33,6 +33,8 @@ SHOULD_PLAY_MINIGAME = config.getboolean("OTHER", "SHOULD_PLAY_MINIGAME")
 OUTPUT_FOLDER = config.get("OTHER", "OUTPUT_FOLDER")
 FREEZE_BUTTON = PIL.Image.open("assets/freeze.png")
 
+COLOR_SIMILARITY_THRESHOLD = 15
+
 if not os.path.exists(OUTPUT_FOLDER):
     ahk.msg_box(
         title="Error!",
@@ -190,31 +192,6 @@ def freeze_game(time_needed: Optional[Union[int, float]] = None):
         logger.info(f"Freezing game for {new_time_needed} seconds again")
 
 
-def play_miniagme(game_duration=60):
-    start_time = time.time()
-    seek_pixel_position = (963, 596)
-    seek_pixel_color = (168, 27, 14)
-    drop_position = (975, 972)
-    CLAIM_BUTTON_POSITION = (967, 666)
-
-    is_running = True
-    while is_running:
-        pixel_color = pyautogui.pixel(*seek_pixel_position)
-        if pixel_color != seek_pixel_color:
-            ahk.mouse_move(*drop_position)
-            ahk.click()
-        if time.time() - start_time > game_duration:
-            is_running = False
-        logger.debug(f"Pixel color: {pixel_color}")
-
-    # wait exit muinigame
-    time.sleep(3)
-    # now claim the reward
-    ahk.mouse_move(*CLAIM_BUTTON_POSITION)
-    ahk.click()
-    time.sleep(0.3)
-
-
 def get_pet_on_inventory_position(pet_row, pet_column):
     # Position: Point(x=584, y=311), Color: (228, 238, 240)
     PET_SLOT_WIDTH = 128
@@ -243,13 +220,13 @@ def start_minigame(pet_row, pet_column):
     # click on the start mini game button
     ahk.mouse_move(*start_minigame_button_position)
     ahk.click()
-    time.sleep(0.3)
+    time.sleep(1)
 
     # find the pet position on the inventory
     pet_position = get_pet_on_inventory_position(pet_row, pet_column)
     ahk.mouse_move(*pet_position)
     ahk.click()
-    time.sleep(0.3)
+    time.sleep(1)
 
     choose_button_image = PIL.Image.open("assets/choose_button.png")
     choose_button_position = pyautogui.locateCenterOnScreen(choose_button_image)
@@ -263,9 +240,6 @@ def start_minigame(pet_row, pet_column):
 
     # the minigame takes 3 seconds to start. let's wait for it
     time.sleep(3)
-
-
-## vamos implementar a mesma funcao acima, mas desta vez calculando a posicao do pet
 
 
 def restart_char():
@@ -328,9 +302,43 @@ def go_to_boss():
     time.sleep(0.3)
 
 
+def play_miniagme(game_duration=60):
+    start_time = time.time()
+    seek_pixel_position = (963, 596)
+    seek_pixel_color = (110, 242, 35)  # use as reference to know when to drop the pet.
+    drop_position = (975, 972)
+    CLAIM_BUTTON_POSITION = (967, 666)
+
+    is_running = True
+    while is_running:
+        pixel_color = pyautogui.pixel(*seek_pixel_position)
+        color_dist = color_distance(pixel_color, seek_pixel_color)
+        if color_dist < COLOR_SIMILARITY_THRESHOLD:
+            ahk.mouse_move(*drop_position)
+            ahk.click()
+            logger.debug(
+                f"Dropping pet. Color distance: {color_dist}, Pixel color: {pixel_color}"
+            )
+        if time.time() - start_time > game_duration:
+            is_running = False
+        logger.debug(f"Pixel color: {pixel_color}")
+
+    # wait exit muinigame
+    time.sleep(8)
+    # now claim the reward
+    pyautogui.screenshot(f"debug/{time.time()}.png")
+    ahk.mouse_move(*CLAIM_BUTTON_POSITION)
+    ahk.click()
+    time.sleep(0.3)
+    ahk.mouse_move(CLAIM_BUTTON_POSITION[0], CLAIM_BUTTON_POSITION[1] + 20)
+    ahk.click()
+    time.sleep(0.3)
+
+
+def color_distance(color1, color2):
+    return sum((a - b) ** 2 for a, b in zip(color1, color2)) ** 0.5
+
 def run_boss():
-    # preenche o espaço da tela com == e centraliza o texto "Starting boss runs"
-    # usando métodos de string
     logger.info("=" * 80)
     logger.info(" " * 30 + "Starting boss runs" + " " * 30)
     CLAIM_BUTTON_POSITION = (956, 693)
@@ -447,5 +455,9 @@ if __name__ == "__main__":
     )
     if result == "Yes":
         main()
+        # for _ in range(8):
+            # activate_roblox()
+            # start_minigame(1, 5)
+            # play_miniagme()
     else:
         raise SystemExit
