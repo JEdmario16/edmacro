@@ -59,3 +59,12 @@ class Action(ABC):
         self._ahk.key_press("i")
 
         return None
+
+    # Moving through the maps
+    def go_to_map(self, map_index: int, map_column: int) -> None:
+        current_map_index = self.macro_controller.current_map_index
+        current_map_col = self.macro_controller.current_map_col
+
+        if current_map_index == None or current_map_col == None:
+            # Then current map is unknown, so lets force move map to the first one
+            # 
