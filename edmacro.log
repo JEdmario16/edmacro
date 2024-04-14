@@ -1,3 +1,7 @@
 2024-04-07 18:38:23.240 | INFO     | edmacro:__init__:29 - MacroController initialized
 2024-04-07 18:45:24.063 | INFO     | edmacro:__init__:29 - MacroController initialized
 2024-04-07 18:49:14.618 | INFO     | edmacro:__init__:29 - MacroController initialized
+2024-04-14 12:23:48.158 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-14 12:24:34.053 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-14 12:24:34.056 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-14 12:24:34.056 | INFO     | edmacro:__init__:42 - MacroController initialized
