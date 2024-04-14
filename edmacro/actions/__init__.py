@@ -28,7 +28,7 @@ class Action(ABC):
         self._ahk.key_press("r")
         time.sleep(0.3)
         self._ahk.key_press("enter")
-        time.sleep(0.3)
+        time.sleep(2)
 
         self.reset_camera()
 
@@ -43,12 +43,12 @@ class Action(ABC):
         self._ahk.mouse_move(*center)
         time.sleep(0.3)
         self._ahk.mouse_drag(
-            x=center[0],
-            y=center[1],
-            x2=center[0],
-            y2=center[1] - 20,
+            center[0],
+            center[1] + 30,
+            from_position=(center[0], center[1] - 100),
             speed=10,
             button="right",
+            relative=False,
         )
 
         self._ahk.key_down("o")
@@ -67,4 +67,4 @@ class Action(ABC):
 
         if current_map_index == None or current_map_col == None:
             # Then current map is unknown, so lets force move map to the first one
-            # 
+            pass

@@ -3,11 +3,13 @@ from loguru import logger
 
 from edmacro import config
 
-from edmacro import utils as rbx
+from edmacro import utils
 
-from PIL import Image
+import numpy as np
 
 import os
+
+import cv2
 
 from ahk._sync.engine import CoordModeTargets
 
@@ -45,13 +47,22 @@ class MacroController:
 
         # global attributes
         # They are useful for the actions to know the current state of the game
-        self.roblox_hwnd = rbx.get_roblox_window()
-        self.win_dimensions = rbx.get_roblox_window_pos(self.roblox_hwnd)
+        self.roblox_hwnd = utils.get_roblox_window()
+        self.win_dimensions = utils.get_roblox_window_pos(self.roblox_hwnd)
+        self.user_resolution = utils.get_user_resolution()
+
+        # State variables
         self.current_map_index: int | None = None
         self.current_map_col: int | None = None
+        self.needs_restart_perspective: bool = (
+            False  # Used when some action change the perspective to unknown state
+        )
 
-    def __load_assets(self):
-        self.assets = {}
+    def __load_assets(self) -> None:
+        self.assets: dict[str, np.ndarray] = {}
         for asset in os.listdir("assets"):
-            self.assets[asset] = Image.open(f"assets/{asset}")
+            self.assets[asset.split(".")[0]] = cv2.imread(
+                f"assets/{asset}", cv2.IMREAD_COLOR
+            )
+
         logger.debug(f"Loaded {len(self.assets)} assets.")

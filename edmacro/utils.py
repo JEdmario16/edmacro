@@ -1,11 +1,18 @@
 import time
 from typing import List, Optional, Sequence
 
+import PIL.Image
 import cv2 as cv
 import numpy as np
 import win32con
 import win32gui
 import win32ui
+
+import ctypes
+
+import PIL
+
+import pytesseract
 
 
 def get_roblox_window() -> Optional[int]:
@@ -176,8 +183,7 @@ def screenshot(region: tuple[int, int, int, int], hwnd: int) -> np.ndarray:
     cDC.BitBlt((0, 0), (w, h), dcObj, (x, y), win32con.SRCCOPY)
 
     buffer = dataBitMap.GetBitmapBits(True)
-    img_np = np.frombuffer(buffer, dtype=int).reshape(h, w)
-
+    img = np.frombuffer(buffer, dtype=np.uint8).reshape(h, w, 4)
     # Free Resources
     dcObj.DeleteDC()
     cDC.DeleteDC()
@@ -185,11 +191,60 @@ def screenshot(region: tuple[int, int, int, int], hwnd: int) -> np.ndarray:
     win32gui.DeleteObject(dataBitMap.GetHandle())
     del buffer
 
-    return img_np
+    return cv.cvtColor(img, cv.COLOR_RGBA2RGB)
+
+
+def primary_monitor_working_area() -> tuple[int, int]:
+    """
+    Return the current resolution of the primary monitor's working area(i.e monitor resolution - taskbar size).
+
+    This function retrieves the current resolution of the primary monitor and returns it as a tuple
+    containing the width and height of the screen.
+
+    Returns:
+        tuple[int, int]: A tuple containing the width and height of the primary monitor in pixels.
+            The resolution is returned in the format (width, height).
+
+    Example:
+        # Get the current resolution of the primary monitor
+        resolution = current_monitor_resolution()
+    """
+
+    user32 = ctypes.windll.user32
+    width = user32.GetSystemMetrics(win32con.SM_CXFULLSCREEN)
+    height = user32.GetSystemMetrics(win32con.SM_CYFULLSCREEN)
+    return width, height
+
+
+def get_user_resolution() -> tuple[int, int]:
+    """
+    Return the current resolution of the primary monitor's working area(i.e monitor resolution - taskbar size).
+
+    This function retrieves the current resolution of the primary monitor and returns it as a tuple
+    containing the width and height of the screen.
+
+    Returns:
+        tuple[int, int]: A tuple containing the width and height of the primary monitor in pixels.
+            The resolution is returned in the format (width, height).
+
+    Example:
+        # Get the current resolution of the primary monitor
+        resolution = current_monitor_resolution()
+    """
+
+    user32 = ctypes.windll.user32
+    width = user32.GetSystemMetrics(win32con.SM_CXSCREEN)
+    height = user32.GetSystemMetrics(win32con.SM_CYSCREEN)
+    return width, height
 
 
 def locate(
-    needle: str, haystack: str, bound: tuple[int, int, int, int]
+    needle: str,
+    haystack: str,
+    bound: Optional[tuple[int, int, int, int]] = None,
+    noise: bool = False,
+    canny: bool = False,
+    gray: bool = False,
 ) -> tuple[float, Sequence[int]]:
     """
     Locate a image within another image and return the match score and location.
@@ -220,6 +275,18 @@ def locate(
         haystack_img = haystack_img[
             y_start : y_start + height, x_start : x_start + width
         ]
+
+    if gray:
+        needle_img = cv.cvtColor(needle_img, cv.COLOR_BGR2GRAY)
+        haystack_img = cv.cvtColor(haystack_img, cv.COLOR_BGR2GRAY)
+
+    if noise:
+        needle_img = cv.GaussianBlur(needle_img, (5, 5), sigmaX=7, sigmaY=7)
+        haystack_img = cv.GaussianBlur(haystack_img, (5, 5), sigmaX=7, sigmaY=7)
+
+    if canny:
+        needle_img = cv.Canny(needle_img, 100, 200)
+        haystack_img = cv.Canny(haystack_img, 100, 200)
 
     result = cv.matchTemplate(haystack_img, needle_img, cv.TM_CCOEFF_NORMED)
     _, max_val, __, max_loc = cv.minMaxLoc(result)
@@ -264,3 +331,28 @@ def locate_from_buffer(
     _, max_val, __, max_loc = cv.minMaxLoc(result)
 
     return max_val, max_loc
+
+
+def extract_text_from_image(image: np.ndarray, **kwargs) -> str:
+    """
+    Extract text from an image using Tesseract OCR.
+
+    This function uses the Tesseract OCR engine to extract text from the provided image.
+    Additional keyword arguments can be passed to customize the OCR process.
+
+    Parameters:
+        image (np.ndarray): The image from which to extract text, represented as a NumPy array.
+        **kwargs: Additional keyword arguments to customize the OCR process.
+
+    Returns:
+        str: The extracted text from the image.
+
+    Example:
+        # Extract text from an image
+        text = extract_text_from_image(image)
+
+    Note:
+        This function requires the Tesseract OCR engine to be installed on the system and accessible in the PATH.
+        You can download Tesseract from the official GitHub repository:
+    """
+    return pytesseract.image_to_string(image, **kwargs)

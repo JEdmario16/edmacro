@@ -1,9 +1,8 @@
-from edmacro.actions import Action
 import time
-
-from edmacro.enums import HyperCoreHealth
-
 from typing import Optional
+
+from edmacro.actions import Action
+from edmacro.enums import HyperCoreHealth
 
 
 class bossRunAction(Action):
