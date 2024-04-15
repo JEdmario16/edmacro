@@ -1,6 +1,12 @@
 import configparser
 import os
+
 from loguru import logger
+
+INSTALLED_ACTIONS = [
+    "edmacro.actions.boss_run",
+    "edmacro.actions.quest_detector",
+]
 
 
 def get_config() -> configparser.ConfigParser:

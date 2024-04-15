@@ -1,21 +1,17 @@
+import ctypes
 import time
 from typing import List, Optional, Sequence
 
-import PIL.Image
 import cv2 as cv
 import numpy as np
+import PIL.Image
+import pytesseract  # type: ignore # noqa: ignore ignore We dont have any type hints for this library. It is a wrapper for Tesseract OCR
 import win32con
 import win32gui
 import win32ui
 
-import ctypes
 
-import PIL
-
-import pytesseract
-
-
-def get_roblox_window() -> Optional[int]:
+def get_roblox_window() -> int:
     """
     Return the window handle (HWND) of the Roblox window.
 
@@ -37,7 +33,13 @@ def get_roblox_window() -> Optional[int]:
 
     windows: List[Optional[int]] = []
     win32gui.EnumWindows(callback, windows)
-    return windows[0] if windows else None
+    try:
+        hwnd = windows[0]
+        if hwnd:
+            return hwnd
+        raise IndexError
+    except IndexError:
+        raise ValueError("Roblox window not found.")
 
 
 def get_roblox_window_pos(hwnd: Optional[int] = None) -> tuple[int, int, int, int]:

@@ -1,18 +1,14 @@
-import win32api
-import win32con
-import cv2 as cv
-
-from edmacro import utils
-
+import os
+import time
 from typing import Optional, Tuple
 
-import pywintypes
-
-import time
+import cv2 as cv
 import numpy as np
+import pywintypes
+import win32api
+import win32con
 
-
-import os
+from edmacro import utils
 
 
 def change_monitor_resolution(width: int, height: int) -> None:

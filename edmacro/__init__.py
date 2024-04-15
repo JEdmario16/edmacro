@@ -1,17 +1,17 @@
-from ahk import AHK
-from loguru import logger
-
-from edmacro import config
-
-from edmacro import utils
-
-import numpy as np
-
 import os
 
 import cv2
-
+import numpy as np
+from ahk import AHK
 from ahk._sync.engine import CoordModeTargets
+from loguru import logger
+
+from edmacro import config, utils
+
+from edmacro.actions import Action
+
+import importlib
+import inspect
 
 
 class MacroController:
@@ -47,7 +47,9 @@ class MacroController:
 
         # global attributes
         # They are useful for the actions to know the current state of the game
+
         self.roblox_hwnd = utils.get_roblox_window()
+
         self.win_dimensions = utils.get_roblox_window_pos(self.roblox_hwnd)
         self.user_resolution = utils.get_user_resolution()
 
@@ -66,3 +68,12 @@ class MacroController:
             )
 
         logger.debug(f"Loaded {len(self.assets)} assets.")
+
+    def register_actions(self):
+        actions = config.INSTALLED_ACTIONS
+        for action in actions:
+            module = importlib.import_module(action)
+            for name, obj in inspect.getmembers(module):
+                if issubclass(obj, Action) and obj != Action:
+                    self.logger.debug(f"Registering action {obj}")
+                    obj(self)

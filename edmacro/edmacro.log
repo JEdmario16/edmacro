@@ -23047,3 +23047,1475 @@ Defeat 2 The krakens (Leve
 2024-04-14 19:38:40.373 | INFO     | __main__:execute:100 - Quest Detector Action Finished.
 2024-04-14 19:38:40.373 | INFO     | __main__:execute:100 - Quest Detector Action Finished.
 2024-04-14 19:38:40.373 | INFO     | __main__:execute:100 - Quest Detector Action Finished.
+2024-04-14 21:01:15.871 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:01:15.883 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:01:15.885 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:01:16.121 | INFO     | __main__:execute:96 - Starting Quest Detector Action.
+2024-04-14 21:01:16.124 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:01:27.042 | INFO     | __main__:go_to_detector_spot:32 - Arrived at detector spot
+2024-04-14 21:01:27.545 | INFO     | __main__:zoom_perspective_to_quest_detector:39 - Zoomed perspective to quest detector
+2024-04-14 21:01:27.584 | DEBUG    | __main__:detect_quest_header:56 - Locate crab_beard header with Confidence: 0.9818972945213318, Result Pos: (137, 309)
+2024-04-14 21:01:27.868 | INFO     | __main__:detect_quest:93 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 21:01:27.870 | INFO     | __main__:execute:100 - Quest Detector Action Finished.
+2024-04-14 21:02:07.757 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:02:07.761 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:02:07.761 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:02:07.775 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:02:07.775 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:02:07.777 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:02:07.777 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:02:30.796 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:02:30.808 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:02:30.809 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:04:40.224 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:04:40.229 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:04:40.229 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:04:40.239 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:04:40.239 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:04:40.241 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:04:40.241 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:04:56.901 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:04:56.912 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:04:56.914 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:07:45.000 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:07:45.013 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:07:45.015 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:07:45.272 | DEBUG    | actions:open_map:86 - Screenshot taken. Bound area: (-8, -8, 1928, 1040)
+2024-04-14 21:09:16.269 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:09:16.282 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:09:16.284 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:11:48.625 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:11:48.634 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:11:48.635 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:11:48.897 | DEBUG    | actions:open_map:86 - Screenshot taken. Bound area: (0, 0, 1920, 1080)
+2024-04-14 21:12:24.925 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:12:24.928 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:12:24.928 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:12:24.940 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:12:24.940 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:12:24.942 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:12:24.942 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:12:25.195 | DEBUG    | actions:open_map:86 - Screenshot taken. Bound area: (0, 0, 1920, 1080)
+2024-04-14 21:12:25.195 | DEBUG    | actions:open_map:86 - Screenshot taken. Bound area: (0, 0, 1920, 1080)
+2024-04-14 21:12:37.519 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:12:37.527 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:12:37.528 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:12:37.789 | DEBUG    | actions:open_map:86 - Screenshot taken. Bound area: (0, 0, 1920, 1080)
+2024-04-14 21:13:45.077 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:13:45.091 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:13:45.093 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:14:10.847 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:14:10.856 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:14:10.858 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:14:13.157 | DEBUG    | actions:open_map:98 - Map opened
+2024-04-14 21:14:20.634 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:14:20.637 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:14:20.637 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:14:20.646 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:14:20.646 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:14:20.648 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:14:20.648 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:14:22.786 | DEBUG    | actions:open_map:98 - Map opened
+2024-04-14 21:14:22.786 | DEBUG    | actions:open_map:98 - Map opened
+2024-04-14 21:15:01.859 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:15:01.859 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:15:01.863 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:15:01.863 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:15:01.863 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:15:01.876 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:15:01.876 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:15:01.876 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:15:01.878 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:15:01.878 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:15:01.878 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:15:04.088 | DEBUG    | actions:open_map:98 - Map opened
+2024-04-14 21:15:04.088 | DEBUG    | actions:open_map:98 - Map opened
+2024-04-14 21:15:04.088 | DEBUG    | actions:open_map:98 - Map opened
+2024-04-14 21:15:10.485 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:15:10.493 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:15:10.495 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:15:12.666 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:15.218 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:15.228 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:15.230 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:18.163 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:35.547 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:16:35.552 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:35.552 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:35.563 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:35.563 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:35.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:35.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:38.373 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:38.373 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:48.339 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:16:48.339 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:16:48.343 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:48.343 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:48.343 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:48.356 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:48.356 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:48.356 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:48.358 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:48.358 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:48.358 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:51.390 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:51.390 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:51.390 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:55.551 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:16:55.551 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:16:55.551 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:16:55.555 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:55.555 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:55.555 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:55.555 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:16:55.562 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:55.562 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:55.562 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:55.562 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:16:55.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:55.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:55.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:55.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:16:58.373 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:58.373 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:58.373 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:16:58.373 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:03.012 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:03.012 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:03.012 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:03.012 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:03.017 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:03.017 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:03.017 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:03.017 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:03.017 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:03.028 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:03.028 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:03.028 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:03.028 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:03.028 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:03.031 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:03.031 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:03.031 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:03.031 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:03.031 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:05.827 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:05.827 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:05.827 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:05.827 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:05.827 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:20.877 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:20.877 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:20.877 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:20.877 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:20.877 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:20.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:20.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:20.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:20.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:20.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:20.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:20.892 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:20.892 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:20.892 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:20.892 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:20.892 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:20.892 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:20.895 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:20.895 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:20.895 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:20.895 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:20.895 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:20.895 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:23.752 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:23.752 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:23.752 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:23.752 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:23.752 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:23.752 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:28.138 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:28.138 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:28.138 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:28.138 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:28.138 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:28.138 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.152 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:28.153 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:30.913 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.487 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.492 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.505 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:35.509 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:38.337 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.135 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.142 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.155 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:50.159 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:17:52.851 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.719 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.724 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.737 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:07.741 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:18:10.429 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.257 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.263 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.275 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:38.279 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:41.037 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:20:58.063 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:20:58.076 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:20:58.078 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:21:00.818 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:21:26.705 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:21:26.715 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:21:26.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:21:29.432 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:21:29.513 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:21:29.514 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:21:36.996 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:21:37.087 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:21:37.087 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:21:44.566 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:21:44.648 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:21:44.649 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:21:52.085 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:21:52.161 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:21:52.162 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:21:59.657 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:21:59.738 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:21:59.739 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:22:07.229 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:22:07.346 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:22:07.349 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:22:15.102 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:22:15.213 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:22:15.214 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:23:18.686 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:23:18.691 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:23:18.691 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:23:18.709 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:23:18.709 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:23:18.711 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:23:18.711 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:23:21.416 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:23:21.416 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:23:21.510 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:23:21.510 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:23:21.511 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:23:21.511 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:23:29.146 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:23:29.146 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:23:29.362 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:23:29.362 | ERROR    | actions:open_map:110 - Map not opened
+2024-04-14 21:23:29.364 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:23:29.364 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:23:51.856 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:23:51.865 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:23:51.866 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:23:55.377 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:23:55.469 | ERROR    | actions:open_map:110 - Map not opened, fallback confidence: 0.8078974485397339
+2024-04-14 21:23:55.470 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:24:03.653 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:24:03.751 | ERROR    | actions:open_map:110 - Map not opened, fallback confidence: 0.817134439945221
+2024-04-14 21:24:03.753 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:24:11.982 | DEBUG    | actions:open_map:99 - Map opened
+2024-04-14 21:24:12.084 | ERROR    | actions:open_map:110 - Map not opened, fallback confidence: 0.8155105710029602
+2024-04-14 21:24:12.086 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:27:31.659 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:27:31.668 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:27:31.669 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:27:33.405 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:27:36.516 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:27:36.650 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.8104488849639893
+2024-04-14 21:27:36.652 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:27:42.899 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:27:46.004 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:27:46.096 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.695250391960144
+2024-04-14 21:27:46.097 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:27:52.439 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:27:55.642 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:27:55.753 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.8007765412330627
+2024-04-14 21:27:55.756 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:28:21.773 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:28:21.785 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:28:21.787 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:28:23.321 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:28:26.480 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:28:26.563 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.6066222786903381
+2024-04-14 21:28:26.564 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:28:32.949 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:28:36.156 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:28:36.253 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.8142062425613403
+2024-04-14 21:28:36.255 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:29:20.606 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:29:20.616 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:29:20.619 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:29:22.457 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:29:25.586 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:29:25.669 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.5842107534408569
+2024-04-14 21:30:05.859 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:30:05.873 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:30:05.875 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:30:07.712 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:30:10.839 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:30:10.923 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.696869432926178
+2024-04-14 21:30:44.452 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:30:44.457 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:30:44.457 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:30:44.471 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:30:44.471 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:30:44.473 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:30:44.473 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:30:46.334 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:30:46.334 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:30:49.562 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:30:49.562 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:30:49.684 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.6707687973976135
+2024-04-14 21:30:49.684 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.6707687973976135
+2024-04-14 21:31:27.247 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:31:27.247 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:31:27.253 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:27.253 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:27.253 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:27.263 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:27.263 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:27.263 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:27.265 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:27.265 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:27.265 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:29.115 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:31:29.115 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:31:29.115 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:31:32.274 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:31:32.274 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:31:32.274 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:31:32.401 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.651914119720459
+2024-04-14 21:31:32.401 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.651914119720459
+2024-04-14 21:31:32.401 | ERROR    | actions:open_map:114 - Map not opened, fallback confidence: 0.651914119720459
+2024-04-14 21:31:57.068 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:31:57.068 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:31:57.068 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:31:57.071 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:57.071 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:57.071 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:57.071 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:31:57.085 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:57.085 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:57.085 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:57.085 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:31:57.086 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:57.086 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:57.086 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:57.086 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:31:58.925 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:31:58.925 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:31:58.925 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:31:58.925 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:32:02.199 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:02.199 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:02.199 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:02.199 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:13.928 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:32:13.928 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:32:13.928 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:32:13.928 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:32:13.934 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:32:13.934 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:32:13.934 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:32:13.934 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:32:13.934 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:32:13.945 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:32:13.945 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:32:13.945 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:32:13.945 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:32:13.945 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:32:13.947 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:32:13.947 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:32:13.947 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:32:13.947 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:32:13.947 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:32:15.779 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:32:15.779 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:32:15.779 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:32:15.779 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:32:15.779 | INFO     | actions:zoom_in_camera:128 - Zoomed in camera
+2024-04-14 21:32:19.018 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:19.018 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:19.018 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:19.018 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:32:19.018 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:33:49.389 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:33:49.398 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:33:49.399 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:33:51.233 | INFO     | actions:zoom_in_camera:114 - Zoomed in camera
+2024-04-14 21:33:54.433 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:55:31.259 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:55:31.264 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:55:31.264 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:55:31.325 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:55:31.325 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:55:31.328 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:55:31.328 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:55:33.172 | INFO     | actions:zoom_in_camera:114 - Zoomed in camera
+2024-04-14 21:55:33.172 | INFO     | actions:zoom_in_camera:114 - Zoomed in camera
+2024-04-14 21:55:36.461 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:55:36.461 | DEBUG    | actions:open_map:103 - Map opened
+2024-04-14 21:55:46.484 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:55:46.493 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:55:46.494 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:55:46.725 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:55:53.792 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:56:18.948 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:56:18.953 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:18.953 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:18.965 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:18.965 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:18.968 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:18.968 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:19.210 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:19.210 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:26.245 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:56:26.245 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:56:35.882 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:56:35.882 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:56:35.887 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:35.887 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:35.887 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:35.898 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:35.898 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:35.898 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:35.900 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:35.900 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:35.900 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:36.127 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:36.127 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:36.127 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:43.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:56:43.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:56:43.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:56:54.879 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:56:54.879 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:56:54.879 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:56:54.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:54.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:54.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:54.883 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:56:54.895 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:54.895 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:54.895 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:54.895 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:56:54.898 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:54.898 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:54.898 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:54.898 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:56:55.131 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:55.131 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:55.131 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:56:55.131 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:02.162 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:02.162 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:02.162 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:02.162 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:09.891 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:09.891 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:09.891 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:09.891 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:09.895 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:09.895 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:09.895 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:09.895 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:09.895 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:09.909 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:09.909 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:09.909 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:09.909 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:09.909 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:09.911 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:09.911 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:09.911 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:09.911 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:09.911 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:10.150 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:10.150 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:10.150 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:10.150 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:10.150 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:17.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:17.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:17.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:17.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:17.211 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:22.753 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:22.753 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:22.753 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:22.753 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:22.753 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:22.757 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:22.757 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:22.757 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:22.757 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:22.757 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:22.757 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:22.766 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:22.766 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:22.766 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:22.766 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:22.766 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:22.766 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:22.769 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:22.769 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:22.769 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:22.769 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:22.769 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:22.769 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:23.009 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:23.009 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:23.009 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:23.009 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:23.009 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:23.009 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:30.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:30.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:30.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:30.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:30.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:30.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:33.976 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:33.976 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:33.976 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:33.976 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:33.976 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:33.976 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.981 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.991 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:33.994 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:34.230 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:41.285 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.010 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.013 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.025 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.027 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:48.263 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:57:55.330 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.791 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.795 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.806 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:02.808 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:03.042 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:10.103 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.831 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.837 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.852 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:48.856 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.090 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:49.092 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:58:56.115 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.692 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.698 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.713 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.716 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:34.997 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:35.001 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:42.068 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.754 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.760 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.789 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:58.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.063 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 21:59:59.098 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:06.140 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:00:22.545 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:00:22.553 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 22:00:22.554 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:00:22.781 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 22:00:22.783 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 22:00:33.807 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:04:12.346 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 22:04:12.348 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:04:12.348 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:04:12.362 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 22:04:12.362 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 22:04:12.364 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:04:12.364 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:04:12.596 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 22:04:12.596 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 22:04:12.596 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 22:04:12.596 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 22:04:23.660 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:04:23.660 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:04:45.090 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:04:45.098 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 22:04:45.098 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:04:45.327 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 22:04:45.327 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 22:04:56.382 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:05:09.139 | INFO     | actions:brute_force_back_to_map_zero:173 - Brute forced back to map zero
+2024-04-14 22:09:55.460 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:09:55.470 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-14 22:09:55.472 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:09:55.700 | INFO     | actions:brute_force_back_to_map_zero:96 - Brute forcing back to map zero
+2024-04-14 22:09:55.701 | INFO     | actions:restart_char:25 - Restarting character
+2024-04-14 22:10:06.740 | INFO     | actions:open_map:80 - Opened map
+2024-04-14 22:10:19.976 | INFO     | actions:brute_force_back_to_map_zero:173 - Brute forced back to map zero
+2024-04-14 22:42:01.955 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:42:01.965 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:42:01.966 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:42:02.193 | INFO     | actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 22:42:02.194 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 22:42:13.220 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 22:42:25.943 | INFO     | actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 22:42:25.944 | INFO     | actions:move_to_map:196 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 22:42:29.553 | INFO     | actions:move_to_map:220 - Moved to map 7 column 1
+2024-04-14 22:44:01.277 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:44:01.287 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:44:01.289 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:44:45.547 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:44:45.555 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:44:45.557 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:44:45.787 | INFO     | actions:move_to_map:208 - Resolved path from map (0, 0) to map (7, 1
+2024-04-14 22:44:49.648 | INFO     | actions:move_to_map:223 - Moved to map 7 column 1
+2024-04-14 22:45:48.269 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:45:48.280 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:45:48.281 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:45:48.508 | INFO     | actions:move_to_map:208 - (0, 0) -> (7, 1): {'map_up': 0, 'map_down': 7, 'map_left': 0, 'map_right': 1}
+2024-04-14 22:45:52.460 | INFO     | actions:move_to_map:223 - Moved to map 7 column 1
+2024-04-14 22:52:18.781 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:52:18.791 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:52:18.793 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:52:19.029 | INFO     | actions:move_to_map:215 - (0, 0) -> (7, 1): {'map_down': 7, 'map_right': 1, 'map_up': 0, 'map_left': 0}
+2024-04-14 22:52:22.924 | INFO     | actions:move_to_map:230 - Moved to map 7 column 1
+2024-04-14 22:56:25.025 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:56:25.036 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:56:25.037 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:56:25.270 | INFO     | actions:move_to_map:215 - (0, 0) -> (7, 1): {'map_up': 7, 'map_down': 0, 'map_left': 0, 'map_right': 1}
+2024-04-14 22:56:29.176 | INFO     | actions:move_to_map:230 - Moved to map 7 column 1
+2024-04-14 22:56:42.208 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 22:56:42.212 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:56:42.212 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:56:42.224 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:56:42.224 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:56:42.226 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:56:42.226 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:56:42.457 | INFO     | actions:move_to_map:215 - (0, 0) -> (7, 1): {'map_up': 7, 'map_down': 0, 'map_left': 0, 'map_right': 1}
+2024-04-14 22:56:42.457 | INFO     | actions:move_to_map:215 - (0, 0) -> (7, 1): {'map_up': 7, 'map_down': 0, 'map_left': 0, 'map_right': 1}
+2024-04-14 22:56:46.287 | INFO     | actions:move_to_map:230 - Moved to map 7 column 1
+2024-04-14 22:56:46.287 | INFO     | actions:move_to_map:230 - Moved to map 7 column 1
+2024-04-14 22:57:03.291 | INFO     | actions:move_to_map:215 - (7, 1) -> (0, 0): {'map_up': 0, 'map_down': 7, 'map_left': 1, 'map_right': 0}
+2024-04-14 22:57:03.291 | INFO     | actions:move_to_map:215 - (7, 1) -> (0, 0): {'map_up': 0, 'map_down': 7, 'map_left': 1, 'map_right': 0}
+2024-04-14 22:57:07.145 | INFO     | actions:move_to_map:230 - Moved to map 0 column 0
+2024-04-14 22:57:07.145 | INFO     | actions:move_to_map:230 - Moved to map 0 column 0
+2024-04-14 22:57:21.160 | INFO     | actions:move_to_map:215 - (0, 0) -> (0, 0): {'map_up': 0, 'map_down': 0, 'map_left': 0, 'map_right': 0}
+2024-04-14 22:57:21.160 | INFO     | actions:move_to_map:215 - (0, 0) -> (0, 0): {'map_up': 0, 'map_down': 0, 'map_left': 0, 'map_right': 0}
+2024-04-14 22:57:22.600 | INFO     | actions:move_to_map:230 - Moved to map 0 column 0
+2024-04-14 22:57:22.600 | INFO     | actions:move_to_map:230 - Moved to map 0 column 0
+2024-04-14 22:57:29.405 | INFO     | actions:move_to_map:215 - (0, 0) -> (0, 0): {'map_up': 0, 'map_down': 0, 'map_left': 0, 'map_right': 0}
+2024-04-14 22:57:29.405 | INFO     | actions:move_to_map:215 - (0, 0) -> (0, 0): {'map_up': 0, 'map_down': 0, 'map_left': 0, 'map_right': 0}
+2024-04-14 22:57:30.167 | INFO     | actions:move_to_map:230 - Moved to map 0 column 0
+2024-04-14 22:57:30.167 | INFO     | actions:move_to_map:230 - Moved to map 0 column 0
+2024-04-14 22:57:45.550 | INFO     | actions:move_to_map:215 - (0, 0) -> (7, -1): {'map_up': 7, 'map_down': 0, 'map_left': 1, 'map_right': 0}
+2024-04-14 22:57:45.550 | INFO     | actions:move_to_map:215 - (0, 0) -> (7, -1): {'map_up': 7, 'map_down': 0, 'map_left': 1, 'map_right': 0}
+2024-04-14 22:57:49.373 | INFO     | actions:move_to_map:230 - Moved to map 7 column -1
+2024-04-14 22:57:49.373 | INFO     | actions:move_to_map:230 - Moved to map 7 column -1
+2024-04-14 22:58:04.831 | INFO     | actions:move_to_map:215 - (7, -1) -> (9, 0): {'map_up': 2, 'map_down': 0, 'map_left': 0, 'map_right': 1}
+2024-04-14 22:58:04.831 | INFO     | actions:move_to_map:215 - (7, -1) -> (9, 0): {'map_up': 2, 'map_down': 0, 'map_left': 0, 'map_right': 1}
+2024-04-14 22:58:07.174 | INFO     | actions:move_to_map:230 - Moved to map 9 column 0
+2024-04-14 22:58:07.174 | INFO     | actions:move_to_map:230 - Moved to map 9 column 0
+2024-04-14 22:59:38.742 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 22:59:38.749 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 22:59:38.750 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 22:59:38.979 | INFO     | actions:move_to_map:216 - (0, 0) -> (7, 1): {'map_left': 0, 'map_right': 1, 'map_up': 7, 'map_down': 0}
+2024-04-14 22:59:42.966 | INFO     | actions:move_to_map:231 - Moved to map 7 column 1
+2024-04-14 23:07:09.701 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:07:09.712 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:07:09.713 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:07:09.948 | INFO     | actions:move_to_map:214 - (0, 0) -> (7, 1): [('map_up', 7), ('map_right', 1)]
+2024-04-14 23:07:42.774 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:07:42.783 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:07:42.785 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:07:43.012 | INFO     | actions:move_to_map:214 - (0, 0) -> (7, 1): [('map_up', 7), ('map_right', 1)]
+2024-04-14 23:07:46.515 | INFO     | actions:move_to_map:229 - Moved to map 7 column 1
+2024-04-14 23:07:56.729 | INFO     | actions:move_to_map:214 - (7, 1) -> (9, 0): []
+2024-04-14 23:07:56.747 | INFO     | actions:move_to_map:229 - Moved to map 9 column 0
+2024-04-14 23:09:21.876 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:09:21.884 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:09:21.886 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:09:22.116 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:09:33.129 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:09:33.130 | INFO     | actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:09:33.131 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:09:44.103 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:09:56.531 | INFO     | actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:09:56.532 | INFO     | actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:09:56.534 | INFO     | actions:move_to_map:224 - (0, 0) -> (7, 1): [('map_up', 7), ('map_right', 1)]
+2024-04-14 23:09:59.964 | INFO     | actions:move_to_map:239 - Moved to map 7 column 1
+2024-04-14 23:10:26.386 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:10:37.416 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:10:37.417 | INFO     | actions:move_to_map:224 - (7, 1) -> (9, 0): [('map_left', 1), ('map_up', 2)]
+2024-04-14 23:10:39.162 | INFO     | actions:move_to_map:239 - Moved to map 9 column 0
+2024-04-14 23:10:51.690 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:11:02.710 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:11:02.711 | INFO     | actions:move_to_map:224 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-14 23:11:04.464 | INFO     | actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:12:25.955 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 23:12:25.958 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:12:25.958 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:12:25.969 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:12:25.969 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:12:25.971 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:12:25.971 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:12:26.206 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:12:26.206 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:12:37.244 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:12:37.244 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:12:37.245 | INFO     | actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:12:37.245 | INFO     | actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:12:37.246 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:12:37.246 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:12:48.209 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:12:48.209 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:13:00.646 | INFO     | actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:13:00.646 | INFO     | actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:13:00.647 | INFO     | actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:13:00.647 | INFO     | actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:13:00.647 | INFO     | actions:move_to_map:224 - (0, 0) -> (7, 1): [('map_up', 7), ('map_right', 1)]
+2024-04-14 23:13:00.647 | INFO     | actions:move_to_map:224 - (0, 0) -> (7, 1): [('map_up', 7), ('map_right', 1)]
+2024-04-14 23:13:04.024 | INFO     | actions:move_to_map:239 - Moved to map 7 column 1
+2024-04-14 23:13:04.024 | INFO     | actions:move_to_map:239 - Moved to map 7 column 1
+2024-04-14 23:14:00.398 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:14:00.409 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:14:00.411 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:14:00.650 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:14:11.679 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:14:11.680 | INFO     | actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:14:11.681 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:14:22.652 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:14:35.099 | INFO     | actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:14:35.099 | WARNING  | actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:14:35.101 | INFO     | actions:move_to_map:224 - (0, 0) -> (7, 1): [('map_up', 7), ('map_right', 1)]
+2024-04-14 23:14:38.480 | INFO     | actions:move_to_map:239 - Moved to map 7 column 1
+2024-04-14 23:14:54.140 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:15:05.181 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:15:05.182 | INFO     | actions:move_to_map:224 - (7, 1) -> (7, -1): [('map_left', 2)]
+2024-04-14 23:15:06.218 | INFO     | actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:15:18.468 | INFO     | actions:restart_char:31 - Restarting character
+2024-04-14 23:15:29.484 | INFO     | actions:open_map:86 - Opened map
+2024-04-14 23:15:29.485 | INFO     | actions:move_to_map:224 - (7, -1) -> (0, 0): [('map_right', 1), ('map_down', 7)]
+2024-04-14 23:15:32.831 | INFO     | actions:move_to_map:239 - Moved to map 0 column 0
+2024-04-14 23:20:26.975 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:20:26.986 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:20:26.988 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:20:26.992 | INFO     | actions.quest_detector:execute:140 - Starting Quest Detector Action.
+2024-04-14 23:20:26.994 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:20:32.904 | INFO     | actions.quest_detector:go_to_detector_spot:50 - Arrived at detector spot
+2024-04-14 23:20:33.407 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:57 - Zoomed perspective to quest detector
+2024-04-14 23:20:33.451 | DEBUG    | actions.quest_detector:detect_quest_header:93 - Locate crab_beard header with Confidence: 0.5125904679298401, Result Pos: (137, 309)
+2024-04-14 23:20:34.221 | INFO     | actions.quest_detector:detect_quest:137 - Quest text: ‘defeat 2\hyper cores (level\i2s)) 
+2024-04-14 23:20:34.222 | INFO     | actions.quest_detector:execute:144 - Quest Detector Action Finished.
+2024-04-14 23:20:34.448 | INFO     | actions.quest_detector:execute:140 - Starting Quest Detector Action.
+2024-04-14 23:20:34.450 | INFO     | actions.quest_detector:go_to_detector_spot:31 - Char is in the correct map. Going to detector spot
+2024-04-14 23:20:36.884 | INFO     | edmacro.actions:reset_if_needed:256 - Reset camera perspective
+2024-04-14 23:20:42.793 | INFO     | actions.quest_detector:go_to_detector_spot:50 - Arrived at detector spot
+2024-04-14 23:20:43.296 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:57 - Zoomed perspective to quest detector
+2024-04-14 23:20:43.324 | DEBUG    | actions.quest_detector:detect_quest_header:93 - Locate crab_beard header with Confidence: 0.7808268666267395, Result Pos: (137, 309)
+2024-04-14 23:20:43.647 | INFO     | actions.quest_detector:detect_quest:137 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:20:43.650 | INFO     | actions.quest_detector:execute:144 - Quest Detector Action Finished.
+2024-04-14 23:21:05.554 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:21:05.563 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:21:05.564 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:21:05.567 | INFO     | actions.quest_detector:execute:140 - Starting Quest Detector Action.
+2024-04-14 23:21:05.569 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:21:11.479 | INFO     | actions.quest_detector:go_to_detector_spot:50 - Arrived at detector spot
+2024-04-14 23:21:11.982 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:57 - Zoomed perspective to quest detector
+2024-04-14 23:21:12.024 | DEBUG    | actions.quest_detector:detect_quest_header:93 - Locate crab_beard header with Confidence: 0.7346554398536682, Result Pos: (137, 309)
+2024-04-14 23:21:12.331 | INFO     | actions.quest_detector:detect_quest:137 - Quest text: | ___ defeat 2 hyper cores (level 12+) _ 
+2024-04-14 23:21:12.332 | INFO     | actions.quest_detector:execute:144 - Quest Detector Action Finished.
+2024-04-14 23:21:12.563 | INFO     | actions.quest_detector:execute:140 - Starting Quest Detector Action.
+2024-04-14 23:21:12.565 | INFO     | actions.quest_detector:go_to_detector_spot:31 - Char is in the correct map. Going to detector spot
+2024-04-14 23:21:14.982 | INFO     | edmacro.actions:reset_if_needed:256 - Reset camera perspective
+2024-04-14 23:21:20.891 | INFO     | actions.quest_detector:go_to_detector_spot:50 - Arrived at detector spot
+2024-04-14 23:21:21.394 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:57 - Zoomed perspective to quest detector
+2024-04-14 23:21:21.428 | DEBUG    | actions.quest_detector:detect_quest_header:93 - Locate crab_beard header with Confidence: 0.7264498472213745, Result Pos: (137, 309)
+2024-04-14 23:21:21.702 | INFO     | actions.quest_detector:detect_quest:137 - Quest text: defeat 2 hyper cores (level 12+) _ 
+2024-04-14 23:21:21.704 | INFO     | actions.quest_detector:execute:144 - Quest Detector Action Finished.
+2024-04-14 23:22:30.280 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:22:30.289 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:22:30.291 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:22:30.295 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:22:30.297 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:22:59.657 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 23:22:59.661 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:22:59.661 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:22:59.673 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:22:59.673 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:22:59.675 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:22:59.675 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:22:59.679 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:22:59.679 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:22:59.682 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:22:59.682 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:05.487 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:23:05.498 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:23:05.499 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:23:05.504 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:23:05.505 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:05.508 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:23:05.510 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:23:16.492 | INFO     | edmacro.actions:open_map:86 - Opened map
+2024-04-14 23:23:31.854 | INFO     | edmacro.actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:23:31.857 | WARNING  | edmacro.actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:23:31.858 | INFO     | edmacro.actions:move_to_map:224 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-14 23:23:35.964 | INFO     | edmacro.actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:23:43.816 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 23:23:43.820 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:23:43.820 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:23:43.832 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:23:43.832 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:23:43.835 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:23:43.835 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:23:43.843 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:23:43.843 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:23:43.846 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:43.846 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:43.848 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:23:43.848 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:23:43.850 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:23:43.850 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:23:59.554 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 23:23:59.554 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-14 23:23:59.557 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:23:59.557 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:23:59.557 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:23:59.568 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:23:59.568 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:23:59.568 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:23:59.569 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:23:59.569 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:23:59.569 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:23:59.799 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:23:59.799 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:23:59.799 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:23:59.802 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:59.802 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:59.802 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:23:59.804 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:23:59.804 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:23:59.804 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:23:59.806 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:23:59.806 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:23:59.806 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:24:10.837 | INFO     | edmacro.actions:open_map:86 - Opened map
+2024-04-14 23:24:10.837 | INFO     | edmacro.actions:open_map:86 - Opened map
+2024-04-14 23:24:10.837 | INFO     | edmacro.actions:open_map:86 - Opened map
+2024-04-14 23:24:23.408 | INFO     | edmacro.actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:24:23.408 | INFO     | edmacro.actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:24:23.408 | INFO     | edmacro.actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:24:23.409 | WARNING  | edmacro.actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:24:23.409 | WARNING  | edmacro.actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:24:23.409 | WARNING  | edmacro.actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:24:23.410 | INFO     | edmacro.actions:move_to_map:224 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-14 23:24:23.410 | INFO     | edmacro.actions:move_to_map:224 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-14 23:24:23.410 | INFO     | edmacro.actions:move_to_map:224 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-14 23:24:26.815 | INFO     | edmacro.actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:24:26.815 | INFO     | edmacro.actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:24:26.815 | INFO     | edmacro.actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:24:33.530 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:24:33.530 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:24:33.530 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:24:34.034 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:24:34.034 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:24:34.034 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:24:34.068 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.9945637583732605, Result Pos: (137, 309)
+2024-04-14 23:24:34.068 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.9945637583732605, Result Pos: (137, 309)
+2024-04-14 23:24:34.068 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.9945637583732605, Result Pos: (137, 309)
+2024-04-14 23:24:34.368 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:24:34.368 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:24:34.368 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:24:34.369 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:24:34.369 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:24:34.369 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:24:34.597 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:24:34.597 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:24:34.597 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:24:34.599 | INFO     | actions.quest_detector:go_to_detector_spot:30 - Char is in the correct map. Going to detector spot
+2024-04-14 23:24:34.599 | INFO     | actions.quest_detector:go_to_detector_spot:30 - Char is in the correct map. Going to detector spot
+2024-04-14 23:24:34.599 | INFO     | actions.quest_detector:go_to_detector_spot:30 - Char is in the correct map. Going to detector spot
+2024-04-14 23:24:37.026 | INFO     | edmacro.actions:reset_if_needed:256 - Reset camera perspective
+2024-04-14 23:24:37.026 | INFO     | edmacro.actions:reset_if_needed:256 - Reset camera perspective
+2024-04-14 23:24:37.026 | INFO     | edmacro.actions:reset_if_needed:256 - Reset camera perspective
+2024-04-14 23:24:42.934 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:24:42.934 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:24:42.934 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:24:43.438 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:24:43.438 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:24:43.438 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:24:43.472 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.969720184803009, Result Pos: (137, 309)
+2024-04-14 23:24:43.472 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.969720184803009, Result Pos: (137, 309)
+2024-04-14 23:24:43.472 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.969720184803009, Result Pos: (137, 309)
+2024-04-14 23:24:43.753 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:24:43.753 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:24:43.753 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:24:43.756 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:24:43.756 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:24:43.756 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:26:42.658 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-14 23:26:42.669 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-14 23:26:42.671 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-14 23:26:42.910 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:26:42.911 | INFO     | actions.quest_detector:go_to_detector_spot:27 - Going to detector spot
+2024-04-14 23:26:42.914 | INFO     | edmacro.actions:brute_force_back_to_map_zero:102 - Brute forcing back to map zero
+2024-04-14 23:26:42.915 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:26:53.929 | INFO     | edmacro.actions:open_map:86 - Opened map
+2024-04-14 23:27:06.489 | INFO     | edmacro.actions:brute_force_back_to_map_zero:172 - Brute forced back to map zero
+2024-04-14 23:27:06.491 | WARNING  | edmacro.actions:move_to_map:212 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-14 23:27:06.493 | INFO     | edmacro.actions:move_to_map:224 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-14 23:27:09.852 | INFO     | edmacro.actions:move_to_map:239 - Moved to map 7 column -1
+2024-04-14 23:27:11.316 | INFO     | edmacro.actions:restart_char:31 - Restarting character
+2024-04-14 23:27:22.193 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:27:22.696 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:27:22.736 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.9999444484710693, Result Pos: (137, 309)
+2024-04-14 23:27:23.039 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:27:23.041 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-14 23:27:23.269 | INFO     | actions.quest_detector:execute:139 - Starting Quest Detector Action.
+2024-04-14 23:27:23.272 | INFO     | actions.quest_detector:go_to_detector_spot:30 - Char is in the correct map. Going to detector spot
+2024-04-14 23:27:25.622 | INFO     | edmacro.actions:reset_if_needed:259 - Reset camera perspective
+2024-04-14 23:27:31.529 | INFO     | actions.quest_detector:go_to_detector_spot:49 - Arrived at detector spot
+2024-04-14 23:27:32.031 | INFO     | actions.quest_detector:zoom_perspective_to_quest_detector:56 - Zoomed perspective to quest detector
+2024-04-14 23:27:32.065 | DEBUG    | actions.quest_detector:detect_quest_header:92 - Locate crab_beard header with Confidence: 0.9995484948158264, Result Pos: (137, 309)
+2024-04-14 23:27:32.348 | INFO     | actions.quest_detector:detect_quest:136 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-14 23:27:32.350 | INFO     | actions.quest_detector:execute:143 - Quest Detector Action Finished.
+2024-04-15 01:48:25.619 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-15 01:48:25.632 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-15 01:48:25.633 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-15 01:49:08.200 | DEBUG    | edmacro:register_actions:82 - Loaded 3 actions.
+2024-04-15 01:53:41.417 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-15 01:53:41.426 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-15 01:53:41.427 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-15 01:55:04.578 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-15 01:55:04.589 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-15 01:55:04.590 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-15 01:55:07.388 | DEBUG    | edmacro:register_actions:84 - Registered action bossRunAction
+2024-04-15 01:55:07.391 | DEBUG    | edmacro:register_actions:84 - Registered action QuestDetector
+2024-04-15 01:55:46.738 | INFO     | edmacro.actions.boss_run:execute:10 - Running boss
+2024-04-15 02:04:23.817 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-15 02:04:23.854 | DEBUG    | edmacro:__load_assets:68 - Loaded 26 assets.
+2024-04-15 02:04:23.855 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-15 02:13:13.497 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-15 02:13:13.507 | DEBUG    | edmacro:__load_assets:70 - Loaded 26 assets.
+2024-04-15 02:13:13.507 | INFO     | edmacro:__init__:46 - Assets loaded

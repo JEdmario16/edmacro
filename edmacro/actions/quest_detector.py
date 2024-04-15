@@ -1,11 +1,10 @@
 import time
-from typing import List, Literal, Tuple, TypeAlias, Union
+from typing import Literal, Tuple, TypeAlias, Union
 
 import cv2
 import numpy as np
 
 from edmacro import actions, utils
-
 
 targetTask: TypeAlias = Union[
     Literal["crab_beard"], Literal["bruh_bounty"], Literal["sailors_request"]
@@ -13,9 +12,25 @@ targetTask: TypeAlias = Union[
 
 
 class QuestDetector(actions.Action):
+    QUEST_DETECTOR_SPOT_MAP = (7, -1)
 
     def go_to_detector_spot(self):
-        self.restart_char()
+
+        if (
+            not (
+                self.macro_controller.current_map_index,
+                self.macro_controller.current_map_col,
+            )
+            == self.QUEST_DETECTOR_SPOT_MAP
+        ):
+            self.macro_controller.logger.debug("Going to detector spot's map")
+            self.move_to_map(*self.QUEST_DETECTOR_SPOT_MAP)
+        else:
+            self.macro_controller.logger.debug(
+                "Char is in the correct map. Going to detector spot"
+            )
+
+        self.reset_if_needed()
         time.sleep(0.3)
 
         self._ahk.key_down("w")
@@ -30,14 +45,14 @@ class QuestDetector(actions.Action):
         time.sleep(2)
         self._ahk.key_up("w")
 
-        self.macro_controller.logger.info("Arrived at detector spot")
+        self.macro_controller.logger.debug("Arrived at detector spot")
 
     def zoom_perspective_to_quest_detector(self):
         self._ahk.key_down("i")
         time.sleep(0.5)
         self._ahk.key_up("i")
         self.macro_controller.needs_restart_perspective = True
-        self.macro_controller.logger.info("Zoomed perspective to quest detector")
+        self.macro_controller.logger.debug("Zoomed perspective to quest detector")
 
     def detect_quest_header(
         self, target_task: targetTask
