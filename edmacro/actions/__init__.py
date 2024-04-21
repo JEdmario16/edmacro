@@ -2,9 +2,11 @@ from __future__ import annotations
 
 import time
 from abc import ABC, abstractmethod
-from typing import TYPE_CHECKING, Literal, TypeAlias, Union
+from typing import TYPE_CHECKING, Literal, TypeAlias, Union, Optional
 
 from edmacro import utils
+
+import numpy as np
 
 if TYPE_CHECKING:
     from edmacro import MacroController
@@ -49,7 +51,6 @@ class Action(ABC):
         """
 
         self.macro_controller.logger.info("Restarting character")
-        self.macro_controller.do_something_that_not_exists = True
         self._ahk.key_press("esc")
         time.sleep(0.3)
         self._ahk.key_press("r")
@@ -57,6 +58,13 @@ class Action(ABC):
         self._ahk.key_press("enter")
         time.sleep(2)
 
+        if not self.detect_if_in_telerporter():
+            if not self.current_map_is_known():
+                raise RuntimeError("The player wasnt respawned in the teleporter and we dont know wich map he is. Aborting.")
+            self.macro_controller.logger.debug(
+                "The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place."
+            )
+            self.move_to_map(*self.macro_controller.current_map)
         self.reset_camera()
 
     def reset_camera(self) -> None:
@@ -85,7 +93,6 @@ class Action(ABC):
         time.sleep(0.1)
         self._ahk.key_press("i")
 
-        return None
 
     def open_map(self) -> None:
 
@@ -248,9 +255,29 @@ class Action(ABC):
         # when we teleport
         self.restart_char()
 
+    def detect_if_in_telerporter(
+        self, threshold: float = 0.9, sc: Optional[np.ndarray] = None
+    ) -> bool:
+        """
+        Check if the player is near to the teleporter, by looking for the "press e" button.
+        This is particularly useful because some maps doesnt respawn the player in the same place
+        """
+        if not sc:
+            sc = utils.screenshot(
+                hwnd=self.macro_controller.roblox_hwnd,
+                region=(0, 0, *self.macro_controller.user_resolution),
+            )
+
+        needle = self.macro_controller.assets["teleporter_detector"]
+        conf, _ = utils.locate(needle, sc)
+        return conf > threshold
+
     def reset_if_needed(self):
         if self.macro_controller.needs_restart_perspective:
             self.reset_camera()
             self.macro_controller.needs_restart_perspective = False
             self.macro_controller.logger.info("Reset camera perspective")
         return None
+
+    def current_map_is_known(self) -> bool:
+        return None not in self.macro_controller.current_map

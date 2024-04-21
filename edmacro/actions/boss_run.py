@@ -49,7 +49,7 @@ class bossRunAction(Action):
         "QUEENSLIME": (9, 0),
     }
 
-    BOSS_HEALTHBAR_CONFIDENCE_THRESHOLD = 0.92
+    BOSS_HEALTHBAR_CONFIDENCE_THRESHOLD = 0.90
 
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
@@ -70,9 +70,7 @@ class bossRunAction(Action):
         self.go_to_boss(target_boss)
         for _ in range(repeat):
 
-            self._ahk.key_down("s")
-            time.sleep(1)
-            self._ahk.key_up("s")
+            self.resolve_interruns_path()
 
             sc = utils.screenshot(
                 region=bound,
@@ -117,7 +115,7 @@ class bossRunAction(Action):
             self.macro_controller.logger.info("clicked on start button")
 
             # then wait for the boss to spawn
-            time.sleep(5)
+            time.sleep(10)
             self.__freeze_game()
             times.append(time.time() - run_start)
             self.macro_controller.logger.info(
@@ -150,6 +148,41 @@ class bossRunAction(Action):
             f"Boss run finished. Total time: {round(sum(times), 2)} s, Average time: {round(sum(times) / len(times), 2)} s"
         )
 
+    def resolve_interruns_path(self):
+
+        match self.target_boss:
+            case "HYPERCORE":
+                self.__hypercore_interruns_path()
+            case "KRAKEN":
+                self.__kraken_interruns_path()
+            case _:
+                self.macro_controller.logger.error("Invalid boss name")
+
+    def __hypercore_interruns_path(self):
+        """
+        This method will move the character from the point where the character after kill
+        the boss to the point where the character can kill the boss again.
+        Note that its different from the `go_to_hypercore_boss` method, that will move the character from spawn point
+        to the boss location.
+        """
+        self._ahk.key_down("s")
+        time.sleep(1)
+        self._ahk.key_up("s")
+        return
+
+    def __kraken_interruns_path(self):
+        """
+        This method will move the character from the point where the character after kill
+        the boss to the point where the character can kill the boss again.
+        Note that its different from the `go_to_kraken_boss` method, that will move the character from spawn point
+        to the boss location.
+        """
+        self._ahk.key_down("w")
+        time.sleep(1)
+        self._ahk.key_up("w")
+        time.sleep(0.5)
+        return
+
     def go_to_boss(self, target_boss: TargetBoss):
         """
         Move to the boss location. Requires the character to already be in the boss map.
@@ -165,8 +198,8 @@ class bossRunAction(Action):
                 self.__go_to_hypercore_boss()
             case "SLIME":
                 self.__go_to_slime_boss()
-            case "KRACKEN":
-                self.__go_to_kracken_boss()
+            case "KRAKEN":
+                self.__go_to_kraken_boss()
             case _:
                 self.macro_controller.logger.error("Invalid boss name")
                 raise ValueError("Invalid boss name")
@@ -213,17 +246,25 @@ class bossRunAction(Action):
         """
         raise NotImplementedError("Method not implemented")
 
-    def __go_to_kracken_boss(self):
+    def __go_to_kraken_boss(self):
         """
         Navigate to the Kracken boss location.
-
-        This method is not implemented. To navigate to the Kracken boss location, an implementation
-        must be provided in a subclass or in this method itself.
-
-        Raises:
-            NotImplementedError: This method is not implemented.
         """
-        raise NotImplementedError("Method not implemented")
+
+        self.macro_controller.logger.info("Going to Kracken boss")
+        # Move from spawn point to boss hallway
+        self._ahk.key_down("w")
+        time.sleep(5)
+        self._ahk.key_up("w")
+        self._ahk.key_down("a")
+        time.sleep(3)
+        self._ahk.key_up("a")
+        self._ahk.key_down("w")
+        time.sleep(7)
+        self._ahk.key_up("w")
+        self._ahk.key_down("a")
+        time.sleep(1)
+        self._ahk.key_up("a")
 
     def __freeze_game(self, seconds: Optional[float | int] = None):
         """
