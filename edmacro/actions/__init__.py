@@ -2,9 +2,7 @@ from __future__ import annotations
 
 import time
 from abc import ABC, abstractmethod
-from typing import Literal, TypeAlias, Union, TYPE_CHECKING
-
-from ahk import AHK
+from typing import TYPE_CHECKING, Literal, TypeAlias, Union
 
 from edmacro import utils
 
@@ -19,12 +17,29 @@ mapButtonDirection: TypeAlias = Union[
 
 class Action(ABC):
 
+    REQUIRED_ACTIONS: list[str] = []
+
     def __init__(self, macro_controller: MacroController):
         self.macro_controller = macro_controller
         self._ahk = self.macro_controller.ahk
 
+    @property
+    def __export__name__(self):
+        """
+        Name of the action. This is used to export the action to the macro controller.
+        Then you can access the action by mc.actions.<name>
+        """
+        return self.__class__.__name__
+
     @abstractmethod
     def execute(self):
+        pass
+
+    def on_register(self):
+        """
+        This method is called when the action is registered in the macro controller.
+        This is important because actions may need other actions as dependencies.
+        """
         pass
 
     def restart_char(self):
@@ -47,7 +62,7 @@ class Action(ABC):
     def reset_camera(self) -> None:
         """
         Drag mouse to the center of the screen to set camera perspective in top-down view.
-        Then, spam  `o` to zoom out the camera to the max, and finally type `i` to zoom in a bit. (Avoids the camera flickering bug)
+        Then, spam  `o` to zoom out the camera to the max, and finally type `i` to zoom in a bit.
         """
         x_start, y_start, x_end, y_end = self.macro_controller.win_dimensions
         center = ((x_end - x_start) // 2, (y_end - y_start) // 2)
@@ -72,22 +87,28 @@ class Action(ABC):
 
         return None
 
-    # Moving through the maps
-    def go_to_map(self, map_index: int, map_column: int) -> None:
-        current_map_index = self.macro_controller.current_map_index
-        current_map_col = self.macro_controller.current_map_col
-
-        if current_map_index == None or current_map_col == None:
-            # Then current map is unknown, so lets force move map to the first one
-            pass
-
     def open_map(self) -> None:
-        # reset the char
-        self.restart_char()
-        time.sleep(1)
-        # then press e
-        # it works because the player always respwan in teleporter from current map
-        self._ahk.key_press("e")
+
+        has_map_keybind = self.macro_controller.configs.getboolean(
+            "PLAYER_STATS", "HAS_MAP_KEYBIND", fallback=False
+        )
+
+        # KNOWN ISSUE: The player respawn is set to the nearest spawnpoint in each map
+        # if the player is in the beginning of the map, then the respawn will be set to the beginning
+        # If the player is in nearest to the teleport, then the respawn will be set to the teleport
+        # The major problem occurs when the player between two maps, so the game dont know where to respawn
+        # and throws the player to Pet Park.
+        # Dont worth fix this, because the player can just buy MAP_KEYBIND and the problem is solved
+        # But doesnt worth remove this functionlaity, because there is some actions that dont will have this issue.
+        if not has_map_keybind:
+            # reset the char
+            self.restart_char()
+            time.sleep(1)
+            self._ahk.key_press("e")
+            time.sleep(5)
+            self.macro_controller.logger.info("Opened map")
+            return
+        self._ahk.key_press("g")
         time.sleep(5)
         self.macro_controller.logger.info("Opened map")
 
@@ -106,20 +127,7 @@ class Action(ABC):
     def brute_force_back_to_map_zero(self):
 
         self.macro_controller.logger.info("Brute forcing back to map zero")
-        assert (
-            self.macro_controller.current_map_index is None
-        ), "Only use this method when the current map is unknown"
 
-        # open map
-        self.open_map()
-
-        # we have two possible scenarios here:
-        # first: we are in a map in column 0, then we can spam map_down until we reach the first map
-        # second: we are in a map in column 1, then press map_left one time, and then spam map_down until we reach the first map
-        # third: we are in a map in column 2, then press map_right two times, and then spam map_down until we reach the first map
-        # we can brute force all cenarios, because if we are in a map in column 0, then map_left will do nothing, and the same for map_right
-        # and if we are in a map in column 2, then map_right will do nothing, and the same for map_left
-        # lets get the map buttons
         bound = 0, 0, *self.macro_controller.user_resolution
         map_left = self.macro_controller.assets["map_left"]
         map_right = self.macro_controller.assets["map_right"]
@@ -127,54 +135,43 @@ class Action(ABC):
 
         # lets spam map_down until we reach the first map
         needle = map_down
-        haystack = utils.screenshot(
-            hwnd=self.macro_controller.roblox_hwnd, region=bound
-        )
-        _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
+        haystack = utils.screenshot(hwnd=self.macro_controller.roblox_hwnd, region=bound)
+        _, pos = utils.locate(needle, haystack, bound=bound)
         for __ in range(10):
-            self._ahk.click(pos[0], pos[1])
+            self._ahk.click(pos.left, pos.top)
             time.sleep(0.3)
 
         # do the same for the other scenarios
         needle = map_left
-        haystack = utils.screenshot(
-            hwnd=self.macro_controller.roblox_hwnd, region=bound
-        )
-        _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
+        haystack = utils.screenshot(hwnd=self.macro_controller.roblox_hwnd, region=bound)
+        _, pos = utils.locate(needle, haystack, bound=bound)
         self._ahk.click(pos[0], pos[1])
         time.sleep(0.3)
 
         # then spam map_down
         needle = map_down
-        haystack = utils.screenshot(
-            hwnd=self.macro_controller.roblox_hwnd, region=bound
-        )
-        _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
+        haystack = utils.screenshot(hwnd=self.macro_controller.roblox_hwnd, region=bound)
+        _, pos = utils.locate(needle, haystack, bound=bound)
         for __ in range(10):
             self._ahk.click(pos[0], pos[1])
             time.sleep(0.3)
 
         # finally for the last scenario
         needle = map_right
-        haystack = utils.screenshot(
-            hwnd=self.macro_controller.roblox_hwnd, region=bound
-        )
-        _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
+        haystack = utils.screenshot(hwnd=self.macro_controller.roblox_hwnd, region=bound)
+        _, pos = utils.locate(needle, haystack, bound=bound)
         self._ahk.click(pos[0], pos[1])
         time.sleep(0.3)
 
         # then spam map_down
         needle = map_down
-        haystack = utils.screenshot(
-            hwnd=self.macro_controller.roblox_hwnd, region=bound
-        )
-        _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
+        haystack = utils.screenshot(hwnd=self.macro_controller.roblox_hwnd, region=bound)
+        _, pos = utils.locate(needle, haystack, bound=bound)
         for __ in range(10):
             self._ahk.click(pos[0], pos[1])
             time.sleep(0.3)
 
-        self.macro_controller.current_map_col = 0
-        self.macro_controller.current_map_index = 0
+        self.macro_controller.current_map = (0, 0)
         self.macro_controller.logger.info("Brute forced back to map zero")
 
     def resolve_map_path(
@@ -213,47 +210,40 @@ class Action(ABC):
         return path
 
     def move_to_map(self, map_index: int, map_column: int):
-        if self.macro_controller.current_map_index is None:
-            self.brute_force_back_to_map_zero()
+        self.open_map()
+        if None in self.macro_controller.current_map:
             self.macro_controller.logger.warning(
-                f"Warning! Current map is unknown. Brute forced back to map zero"
+                "Warning! Current map is unknown. Brute forced back to map zero"
             )
+            self.brute_force_back_to_map_zero()
 
-        bound = 0, 0, *self.macro_controller.user_resolution
+        bound = utils.Rect(0, 0, *self.macro_controller.user_resolution)
         path = self.resolve_map_path(
-            _from=(
-                self.macro_controller.current_map_index,
-                self.macro_controller.current_map_col,
-            ),  # type: ignore # noqa cause we forced the current map to be not None
+            _from=self.macro_controller.current_map,  # type: ignore
             to=(map_index, map_column),
         )
         self.macro_controller.logger.info(
-            f"({self.macro_controller.current_map_index}, {self.macro_controller.current_map_col}) -> ({map_index}, {map_column}): {path}"
+            f"({self.macro_controller.current_map[0]}, {self.macro_controller.current_map[1]}) -> ({map_index}, {map_column}): {path}"
         )
         haystack = utils.screenshot(
             hwnd=self.macro_controller.roblox_hwnd, region=bound
         )  # we only need to take the screenshot once
         for direction, times in path:
             needle = self.macro_controller.assets[direction]
-            _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
+            _, pos = utils.locate(needle, haystack, bound=bound)
             for __ in range(times):
-                self._ahk.click(pos[0], pos[1])
+                self._ahk.click(pos.left, pos.top)
                 time.sleep(0.3)
-                self.macro_controller.current_map_index = map_index
-                self.macro_controller.current_map_col = map_column
+                self.macro_controller.current_map = (map_index, map_column)
 
-        self.macro_controller.logger.info(
-            f"Moved to map {map_index} column {map_column}"
-        )
+        self.macro_controller.logger.info(f"Moved to map {map_index} column {map_column}")
 
         # then press the teleport button
         needle = self.macro_controller.assets["teleport_button"]
-        haystack = utils.screenshot(
-            hwnd=self.macro_controller.roblox_hwnd, region=bound
-        )
-        _, pos = utils.locate_from_buffer(needle, haystack, bound=bound)
-        self._ahk.click(pos[0], pos[1])
-        time.sleep(1)
+        haystack = utils.screenshot(hwnd=self.macro_controller.roblox_hwnd, region=bound)
+        _, pos = utils.locate(needle, haystack, bound=bound)
+        self._ahk.click(pos.left, pos.top)
+        time.sleep(1.5)
         # then reset the char. We need this because the camera perspective changes
         # when we teleport
         self.restart_char()

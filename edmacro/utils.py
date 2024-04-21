@@ -1,14 +1,74 @@
 import ctypes
 import time
-from typing import List, Optional, Sequence
+from typing import Generator, List, NamedTuple, Optional, Union, overload
 
 import cv2 as cv
 import numpy as np
-import PIL.Image
-import pytesseract  # type: ignore # noqa: ignore ignore We dont have any type hints for this library. It is a wrapper for Tesseract OCR
+import pytesseract  # type: ignore # noqa: ignore ignore We dont have any type hints for this library.
 import win32con
 import win32gui
 import win32ui
+
+
+class Point(NamedTuple):
+    x: int
+    y: int
+
+    def __iter__(self) -> Generator[int, None, None]:
+        yield self.x
+        yield self.y
+
+
+class Size(NamedTuple):
+    width: int
+    height: int
+
+    def __iter__(self) -> Generator[int, None, None]:
+        yield self.width
+        yield self.height
+
+
+class Rect:
+
+    def __init__(self, left: int, top: int, width: int, height: int):
+        self.left: int = left
+        self.top: int = top
+        self.width: int = width
+        self.height: int = height
+
+    @property
+    def center(self) -> Point:
+        return Point(self.left + self.width // 2, self.top + self.height // 2)
+
+    @property
+    def right(self) -> int:
+        return self.left + self.width
+
+    @property
+    def bottom(self) -> int:
+        return self.top + self.height
+
+    def __iter__(self) -> Generator[int, None, None]:
+        yield self.left
+        yield self.top
+        yield self.width
+        yield self.height
+
+    def __getitem__(self, index: int) -> int:
+        match index:
+            case 0:
+                return self.left
+            case 1:
+                return self.top
+            case 2:
+                return self.width
+            case 3:
+                return self.height
+            case _:
+                raise IndexError("Index out of range")
+
+    def __repr__(self) -> str:
+        return f"Rect(left={self.left}, top={self.top}, width={self.width}, height={self.height})"
 
 
 def get_roblox_window() -> int:
@@ -39,10 +99,10 @@ def get_roblox_window() -> int:
             return hwnd
         raise IndexError
     except IndexError:
-        raise ValueError("Roblox window not found.")
+        raise RuntimeError("Roblox window not found.")
 
 
-def get_roblox_window_pos(hwnd: Optional[int] = None) -> tuple[int, int, int, int]:
+def get_roblox_window_pos(hwnd: Optional[int] = None) -> Rect:
     """
     Return the position of the Roblox window in screen coordinates.
 
@@ -56,7 +116,7 @@ def get_roblox_window_pos(hwnd: Optional[int] = None) -> tuple[int, int, int, in
             If not provided (default None), the function will attempt to find the window automatically.
 
     Returns:
-        tuple[int, int, int, int]: A tuple containing the position of the Roblox window.
+        Rect: A named tuple containing the position of the Roblox window.
             The position is returned in the format (left, top, right, bottom), where:
             - left: The X-coordinate of the left edge of the window.
             - top: The Y-coordinate of the top edge of the window.
@@ -75,8 +135,8 @@ def get_roblox_window_pos(hwnd: Optional[int] = None) -> tuple[int, int, int, in
     if not hwnd:
         hwnd = get_roblox_window()
     if hwnd:
-        return win32gui.GetWindowRect(hwnd)
-    return 0, 0, 0, 0
+        return Rect(*win32gui.GetWindowRect(hwnd))
+    return Rect(0, 0, 0, 0)
 
 
 def activate_roblox(hwnd: Optional[int] = None) -> bool:
@@ -118,7 +178,7 @@ def activate_roblox(hwnd: Optional[int] = None) -> bool:
     return True
 
 
-def get_window_center(hwnd: Optional[int] = None) -> tuple[int, int]:
+def get_window_center(hwnd: Optional[int] = None) -> Point:
     """
     Return the coordinates of the center point of the specified window.
 
@@ -141,11 +201,20 @@ def get_window_center(hwnd: Optional[int] = None) -> tuple[int, int]:
         If no window handle (HWND) is provided, this function calculates the center point of the primary screen.
     """
 
-    left, top, right, bottom = get_roblox_window_pos(hwnd)
-    return (left + right) // 2, (top + bottom) // 2
+    return Rect(*win32gui.GetWindowRect(hwnd or win32gui.GetDesktopWindow())).center
 
 
-def screenshot(region: tuple[int, int, int, int], hwnd: int) -> np.ndarray:
+@overload
+def screenshot(region: Rect, hwnd: Optional[int] = None) -> np.ndarray: ...
+
+
+@overload
+def screenshot(
+    region: tuple[int, int, int, int], hwnd: Optional[int] = None
+) -> np.ndarray: ...
+
+
+def screenshot(region, hwnd = None):
     """
     Take a screenshot of a specified region from the given window.
 
@@ -153,13 +222,13 @@ def screenshot(region: tuple[int, int, int, int], hwnd: int) -> np.ndarray:
     the specified region from the window identified by its handle (HWND).
 
     Parameters:
-        region (tuple[int, int, int, int]): A tuple representing the coordinates of the region to capture.
+        region (Rect): The region of the window to capture as a screenshot.
             It should be in the format (x_top, y_top, width, height), where:
             - x_top: The X-coordinate of the top-left corner of the region.
             - y_top: The Y-coordinate of the top-left corner of the region.
             - width: The width of the region.
             - height: The height of the region.
-        hwnd (int): The window handle (HWND) of the desired window from which to capture the screenshot.
+        hwnd (int): The window handle (HWND) of the desired window from which to capture the screenshot. If None, then the screen shot will be taken from the primary monitor.
 
     Returns:
         np.ndarray: A NumPy array representing the captured screenshot, with shape (height, width, 3).
@@ -175,6 +244,9 @@ def screenshot(region: tuple[int, int, int, int], hwnd: int) -> np.ndarray:
         screenshot_region = screenshot((100, 100, 200, 150), hwnd)
     """
     x, y, w, h = region
+
+    if not hwnd:
+        hwnd = win32gui.GetDesktopWindow()
 
     wDC = win32gui.GetWindowDC(hwnd)
     dcObj = win32ui.CreateDCFromHandle(wDC)
@@ -196,7 +268,7 @@ def screenshot(region: tuple[int, int, int, int], hwnd: int) -> np.ndarray:
     return cv.cvtColor(img, cv.COLOR_RGBA2RGB)
 
 
-def primary_monitor_working_area() -> tuple[int, int]:
+def primary_monitor_working_area() -> Size:
     """
     Return the current resolution of the primary monitor's working area(i.e monitor resolution - taskbar size).
 
@@ -204,8 +276,7 @@ def primary_monitor_working_area() -> tuple[int, int]:
     containing the width and height of the screen.
 
     Returns:
-        tuple[int, int]: A tuple containing the width and height of the primary monitor in pixels.
-            The resolution is returned in the format (width, height).
+        Size: A named tuple containing the width and height of the primary monitor's working area.
 
     Example:
         # Get the current resolution of the primary monitor
@@ -215,10 +286,10 @@ def primary_monitor_working_area() -> tuple[int, int]:
     user32 = ctypes.windll.user32
     width = user32.GetSystemMetrics(win32con.SM_CXFULLSCREEN)
     height = user32.GetSystemMetrics(win32con.SM_CYFULLSCREEN)
-    return width, height
+    return Size(width, height)
 
 
-def get_user_resolution() -> tuple[int, int]:
+def get_user_resolution() -> Size:
     """
     Return the current resolution of the primary monitor's working area(i.e monitor resolution - taskbar size).
 
@@ -226,8 +297,7 @@ def get_user_resolution() -> tuple[int, int]:
     containing the width and height of the screen.
 
     Returns:
-        tuple[int, int]: A tuple containing the width and height of the primary monitor in pixels.
-            The resolution is returned in the format (width, height).
+    Size: A named tuple containing the width and height of the primary monitor's working area.
 
     Example:
         # Get the current resolution of the primary monitor
@@ -237,17 +307,26 @@ def get_user_resolution() -> tuple[int, int]:
     user32 = ctypes.windll.user32
     width = user32.GetSystemMetrics(win32con.SM_CXSCREEN)
     height = user32.GetSystemMetrics(win32con.SM_CYSCREEN)
-    return width, height
+    return Size(width, height)
 
 
+@overload
 def locate(
     needle: str,
     haystack: str,
-    bound: Optional[tuple[int, int, int, int]] = None,
-    noise: bool = False,
-    canny: bool = False,
-    gray: bool = False,
-) -> tuple[float, Sequence[int]]:
+    bound: Optional[Union[Rect, tuple[int, int, int, int]]] = None,
+) -> tuple[float, Rect]: ...
+
+
+@overload
+def locate(
+    needle: np.ndarray,
+    haystack: np.ndarray,
+    bound: Optional[Union[Rect, tuple[int, int, int, int]]] = None,
+) -> tuple[float, Rect]: ...
+
+
+def locate(needle, haystack, bound = None):
     """
     Locate a image within another image and return the match score and location.
     This function uses the Template Matching method to locate the needle image within the haystack image.
@@ -255,84 +334,30 @@ def locate(
     It is slower than the `locate_fast` function but more accurate.
 
     Parameters:
-        needle (str): The path to the needle image to search for.
+        needle Union[str, np.ndarray]: The path to the needle image to search for or the needle image represented as a NumPy array.
         haystack (str): The path to the haystack image in which to search for the needle.
-        bound (tuple[int, int, int, int]): A tuple representing the bounding box of the region to search within.
-            It should be in the format (x_start, y_start, width, height), where:
-            - x_start: The X-coordinate of the top-left corner of the bounding box.
-            - y_start: The Y-coordinate of the top-left corner of the bounding box.
-            - width: The width of the bounding box.
-            - height: The height of the bounding box.
+        bound (Rect): A bounding box of the region to search within.
 
     Returns:
-        tuple[float, Sequence[int]]: A tuple containing the match score and location of the best match.
+        tuple[float, Rect]: A tuple containing the match score and location of the best match.
             The match score is a float value indicating the similarity between the needle and the haystack.
-            The location is a tuple (x, y) representing the coordinates of the top-left corner of the match.
+            The location is a Rect object representing the bounding box of the match.
     """
-    needle_img = cv.imread(needle)
-    haystack_img = cv.imread(haystack)
+    if isinstance(needle, str) and isinstance(haystack, str):
+        needle_img = cv.imread(needle)
+        haystack_img = cv.imread(haystack)
+    else:
+        needle_img = needle
+        haystack_img = haystack
 
     if bound:
         x_start, y_start, width, height = bound
-        haystack_img = haystack_img[
-            y_start : y_start + height, x_start : x_start + width
-        ]
-
-    if gray:
-        needle_img = cv.cvtColor(needle_img, cv.COLOR_BGR2GRAY)
-        haystack_img = cv.cvtColor(haystack_img, cv.COLOR_BGR2GRAY)
-
-    if noise:
-        needle_img = cv.GaussianBlur(needle_img, (5, 5), sigmaX=7, sigmaY=7)
-        haystack_img = cv.GaussianBlur(haystack_img, (5, 5), sigmaX=7, sigmaY=7)
-
-    if canny:
-        needle_img = cv.Canny(needle_img, 100, 200)
-        haystack_img = cv.Canny(haystack_img, 100, 200)
+        haystack_img = haystack_img[y_start : y_start + height, x_start : x_start + width]
 
     result = cv.matchTemplate(haystack_img, needle_img, cv.TM_CCOEFF_NORMED)
     _, max_val, __, max_loc = cv.minMaxLoc(result)
-
-    return max_val, max_loc
-
-
-def locate_from_buffer(
-    needle: np.ndarray, haystack: np.ndarray, bound: tuple[int, int, int, int]
-) -> tuple[float, Sequence[int]]:
-    """
-    Locate a image within another image and return the match score and location.
-    This function uses the Template Matching method to locate the needle image within the haystack image.
-    The match score and location of the best match are returned.
-    It is slower than the `locate_fast` function but more accurate.
-
-    Parameters:
-        needle (np.ndarray): The needle image to search for, represented as a NumPy array.
-        haystack (np.ndarray): The haystack image in which to search for the needle, represented as a NumPy array.
-        bound (tuple[int, int, int, int]): A tuple representing the bounding box of the region to search within.
-            It should be in the format (x_start, y_start, width, height), where:
-            - x_start: The X-coordinate of the top-left corner of the bounding box.
-            - y_start: The Y-coordinate of the top-left corner of the bounding box.
-            - width: The width of the bounding box.
-            - height: The height of the bounding box.
-
-    Returns:
-        tuple[float, Sequence[int]]: A tuple containing the match score and location of the best match.
-            The match score is a float value indicating the similarity between the needle and the haystack.
-            The location is a tuple (x, y) representing the coordinates of the top-left corner of the match.
-    """
-    needle_img = needle
-    haystack_img = haystack
-
-    if bound:
-        x_start, y_start, width, height = bound
-        haystack_img = haystack_img[
-            y_start : y_start + height, x_start : x_start + width
-        ]
-
-    result = cv.matchTemplate(haystack_img, needle_img, cv.TM_CCOEFF_NORMED)
-    _, max_val, __, max_loc = cv.minMaxLoc(result)
-
-    return max_val, max_loc
+    result_rect = Rect(*(*max_loc, needle_img.shape[1], needle_img.shape[0]))
+    return max_val, result_rect
 
 
 def extract_text_from_image(image: np.ndarray, **kwargs) -> str:

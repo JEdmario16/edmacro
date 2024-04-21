@@ -3,9 +3,18 @@ import os
 
 from loguru import logger
 
+# List of actions that will be loaded when the program starts
+# all listed actions must be in dot notation, e.g. "edmacro.actions.boss_run"
+# stands for the file edmacro/actions/boss_run.py
+# if you want to add a new action, add it to this list, like
+# yourproject.actions.your_action (yourproject is in sys.path or current directory)
+# Then it will be avaible in macro_controller instance as a method to call
+# e.g. macro_controller.actions.__your_action_name__
+# See: Extending the macro guide (TODO: Create this guide)
 INSTALLED_ACTIONS = [
     "edmacro.actions.boss_run",
     "edmacro.actions.quest_detector",
+    "edmacro.actions.crab_beard_bounty",
 ]
 
 

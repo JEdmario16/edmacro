@@ -12,17 +12,14 @@ targetTask: TypeAlias = Union[
 
 
 class QuestDetector(actions.Action):
+
+    __export__name__ = "quest_detector"
+
     QUEST_DETECTOR_SPOT_MAP = (7, -1)
 
     def go_to_detector_spot(self):
 
-        if (
-            not (
-                self.macro_controller.current_map_index,
-                self.macro_controller.current_map_col,
-            )
-            == self.QUEST_DETECTOR_SPOT_MAP
-        ):
+        if self.QUEST_DETECTOR_SPOT_MAP != self.macro_controller.current_map:
             self.macro_controller.logger.debug("Going to detector spot's map")
             self.move_to_map(*self.QUEST_DETECTOR_SPOT_MAP)
         else:
@@ -64,12 +61,12 @@ class QuestDetector(actions.Action):
         x_start = 8 * (w // 10) - 10
         y_start = int(h * 0.2)
 
-        bound_region = (
+        bound_region = utils.Rect(
             x_start,
             y_start,
             w - x_start,
             int(h * 0.75),
-        )  # (x, y, width, height)
+        )
 
         if not self.macro_controller.roblox_hwnd:
             self.macro_controller.roblox_hwnd = utils.get_roblox_window()
@@ -83,7 +80,7 @@ class QuestDetector(actions.Action):
         # detect the quest title
         needle = self.macro_controller.assets[target_task + "_header"]
 
-        conf, result_pos = utils.locate_from_buffer(
+        conf, result_pos = utils.locate(
             needle=needle,
             haystack=region,
             bound=(0, 0, region.shape[0], region.shape[0]),

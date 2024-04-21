@@ -1,6 +1,6 @@
 import os
 import time
-from typing import Optional, Tuple
+from typing import List, Optional, Tuple
 
 import cv2 as cv
 import numpy as np
@@ -37,21 +37,33 @@ def collect_screenshots(
     output_folder: str,
     resolutions: list[tuple[int, int]],
     images_prefix: str,
-    bound_area: Optional[Tuple[int, int, int, int]] = None,
+    bound_areas: Optional[List[Tuple[int, int, int, int]]] = None,
+    only_game_area: bool = True,
 ) -> None:
     """
     Collect screenshots of the specified resolutions and save them in the output folder.
 
+    Parameters:
+    - output_folder: The folder where the screenshots will be saved.
+    - resolutions: A list of tuples with the width and height of the resolution.
+    - images_prefix: The prefix of the images.
+    - bound_areas: A list of tuples with the bound areas of the screenshots.
+    - only_game_area: If True, only the game area will be captured. Otherwise, the entire screen will be captured.
+
     """
-    game_hwnd = utils.get_roblox_window()
+    game_hwnd = utils.get_roblox_window() if only_game_area else None
 
-    if game_hwnd is None:
-        raise ValueError("Roblox window not found.")
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
 
-    for resolution in resolutions:
+    for index, resolution in enumerate(resolutions):
+        bound_area = (
+            bound_areas.pop(0)
+            if bound_areas
+            else (0, 0, *utils.primary_monitor_working_area())
+        )
         change_monitor_resolution(resolution[0], resolution[1])
         time.sleep(4)
-        bound_area = (0, 0, *utils.primary_monitor_working_area())
         # Take a screenshot
         # Save the screenshot in the output folder
         sc = utils.screenshot(hwnd=game_hwnd, region=bound_area)
