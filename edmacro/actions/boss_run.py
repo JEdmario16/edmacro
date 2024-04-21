@@ -50,6 +50,7 @@ class bossRunAction(Action):
     }
 
     BOSS_HEALTHBAR_CONFIDENCE_THRESHOLD = 0.90
+    RESPAWN_TRASHOLD = 0.90
 
     def __init__(self, *args, **kwargs) -> None:
         super().__init__(*args, **kwargs)
@@ -79,11 +80,13 @@ class bossRunAction(Action):
 
             # Click on respawn tome
             needle = self.macro_controller.assets["respawn_tome"]
-            _, pos = utils.locate(needle, sc, bound=bound)
+            conf, pos = utils.locate(needle, sc, bound=bound)
             x, y = pos.center
 
-            self._ahk.mouse_move(x, y, speed=5)
-            self._ahk.click()
+            if conf >= self.RESPAWN_TRASHOLD:
+                self.macro_controller.logger.info("Clicking on respawn tome")
+                self._ahk.mouse_move(x, y, speed=5)
+                self._ahk.click()
 
             time.sleep(0.5)
             sc = utils.screenshot(
@@ -92,15 +95,16 @@ class bossRunAction(Action):
             )
             needle = self.macro_controller.assets["respawn_button"]
 
-            _, pos = utils.locate(needle, sc, bound=bound)
+            conf, pos = utils.locate(needle, sc, bound=bound)
             x, y = pos.center
 
-            self._ahk.mouse_move(x, y, speed=5)
-            self._ahk.click()
-            time.sleep(0.5)
+            if conf >= self.RESPAWN_TRASHOLD:
+                self.macro_controller.logger.info("Clicking on respawn button")
+                self._ahk.mouse_move(x, y, speed=5)
+                self._ahk.click()
+                time.sleep(0.5)
 
             # finally click on start button
-
             needle = self.macro_controller.assets["start"]
             sc = utils.screenshot(
                 region=(0, 0, *self.macro_controller.user_resolution),

@@ -3590,3 +3590,464 @@
 2024-04-21 19:23:46.681 | INFO     | edmacro.actions.boss_run:execute:147 - Boss run finished. Total time: 30.73 s, Average time: 30.73 s
 2024-04-21 19:23:46.681 | INFO     | edmacro.actions.boss_run:execute:147 - Boss run finished. Total time: 30.73 s, Average time: 30.73 s
 2024-04-21 19:23:46.681 | INFO     | edmacro.actions.boss_run:execute:147 - Boss run finished. Total time: 30.73 s, Average time: 30.73 s
+2024-04-21 19:49:31.234 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:49:31.245 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:49:31.247 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:49:39.483 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:49:39.488 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:49:39.488 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:49:39.503 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:49:39.503 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:49:39.506 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:49:39.506 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:49:39.512 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:49:39.512 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:49:44.726 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:49:44.726 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:49:44.941 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:49:44.941 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:49:55.436 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:49:55.436 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:49:56.892 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:49:56.892 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:50:06.894 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:50:06.894 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:50:14.138 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9071738123893738 of confidence, freezing game again
+2024-04-21 19:50:14.138 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9071738123893738 of confidence, freezing game again
+2024-04-21 19:50:15.271 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9071342945098877 of confidence, freezing game again
+2024-04-21 19:50:15.271 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9071342945098877 of confidence, freezing game again
+2024-04-21 19:50:16.403 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9068846106529236 of confidence, freezing game again
+2024-04-21 19:50:16.403 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9068846106529236 of confidence, freezing game again
+2024-04-21 19:50:17.522 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9069018959999084 of confidence, freezing game again
+2024-04-21 19:50:17.522 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9069018959999084 of confidence, freezing game again
+2024-04-21 19:50:18.656 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9068418741226196 of confidence, freezing game again
+2024-04-21 19:50:18.656 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9068418741226196 of confidence, freezing game again
+2024-04-21 19:50:19.788 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.906803548336029 of confidence, freezing game again
+2024-04-21 19:50:19.788 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.906803548336029 of confidence, freezing game again
+2024-04-21 19:50:20.918 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9066643714904785 of confidence, freezing game again
+2024-04-21 19:50:20.918 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9066643714904785 of confidence, freezing game again
+2024-04-21 19:50:22.049 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9068084359169006 of confidence, freezing game again
+2024-04-21 19:50:22.049 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9068084359169006 of confidence, freezing game again
+2024-04-21 19:50:23.386 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 38.6580867767334 seconds
+2024-04-21 19:50:23.386 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 38.6580867767334 seconds
+2024-04-21 19:50:39.331 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 38.66 s, Average time: 38.66 s
+2024-04-21 19:50:39.331 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 38.66 s, Average time: 38.66 s
+2024-04-21 19:50:45.703 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:50:45.703 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:50:45.710 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:50:45.710 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:50:45.710 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:50:45.774 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:50:45.774 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:50:45.774 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:50:45.779 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:50:45.779 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:50:45.779 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:50:45.789 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:50:45.789 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:50:45.789 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:50:48.519 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:50:48.519 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:50:48.519 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:50:53.525 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:50:53.525 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:50:53.525 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:50:53.526 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:50:53.526 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:50:53.526 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:50:53.531 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:50:53.531 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:50:53.531 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:50:55.353 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:50:55.353 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:50:55.353 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:51:02.973 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:51:02.973 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:51:02.973 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:51:03.213 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:51:03.213 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:51:03.213 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:51:13.118 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:51:13.118 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:51:13.118 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:51:14.143 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:51:14.143 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:51:14.143 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:51:15.489 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:51:15.489 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:51:15.489 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:51:25.492 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:51:25.492 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:51:25.492 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:51:32.729 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9276512861251831 of confidence, freezing game again
+2024-04-21 19:51:32.729 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9276512861251831 of confidence, freezing game again
+2024-04-21 19:51:32.729 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9276512861251831 of confidence, freezing game again
+2024-04-21 19:51:33.878 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9272237420082092 of confidence, freezing game again
+2024-04-21 19:51:33.878 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9272237420082092 of confidence, freezing game again
+2024-04-21 19:51:33.878 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9272237420082092 of confidence, freezing game again
+2024-04-21 19:51:35.012 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9271852374076843 of confidence, freezing game again
+2024-04-21 19:51:35.012 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9271852374076843 of confidence, freezing game again
+2024-04-21 19:51:35.012 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9271852374076843 of confidence, freezing game again
+2024-04-21 19:51:36.146 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9270488023757935 of confidence, freezing game again
+2024-04-21 19:51:36.146 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9270488023757935 of confidence, freezing game again
+2024-04-21 19:51:36.146 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9270488023757935 of confidence, freezing game again
+2024-04-21 19:51:37.264 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.926907479763031 of confidence, freezing game again
+2024-04-21 19:51:37.264 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.926907479763031 of confidence, freezing game again
+2024-04-21 19:51:37.264 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.926907479763031 of confidence, freezing game again
+2024-04-21 19:51:38.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9267372488975525 of confidence, freezing game again
+2024-04-21 19:51:38.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9267372488975525 of confidence, freezing game again
+2024-04-21 19:51:38.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9267372488975525 of confidence, freezing game again
+2024-04-21 19:51:39.529 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9269022345542908 of confidence, freezing game again
+2024-04-21 19:51:39.529 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9269022345542908 of confidence, freezing game again
+2024-04-21 19:51:39.529 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9269022345542908 of confidence, freezing game again
+2024-04-21 19:51:40.867 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 37.891852617263794 seconds
+2024-04-21 19:51:40.867 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 37.891852617263794 seconds
+2024-04-21 19:51:40.867 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 37.891852617263794 seconds
+2024-04-21 19:51:56.789 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 37.89 s, Average time: 37.89 s
+2024-04-21 19:51:56.789 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 37.89 s, Average time: 37.89 s
+2024-04-21 19:51:56.789 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 37.89 s, Average time: 37.89 s
+2024-04-21 19:52:03.215 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:52:03.215 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:52:03.215 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:52:03.220 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:52:03.220 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:52:03.220 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:52:03.220 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:52:03.237 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:52:03.237 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:52:03.237 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:52:03.237 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:52:03.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:52:03.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:52:03.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:52:03.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:52:03.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:03.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:03.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:03.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:05.994 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:52:05.994 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:52:05.994 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:52:05.994 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:52:10.998 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:52:10.998 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:52:10.998 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:52:10.998 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:52:11.000 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:52:11.000 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:52:11.000 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:52:11.000 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:52:11.009 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:52:11.009 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:52:11.009 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:52:11.009 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:52:12.908 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:12.908 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:12.908 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:12.908 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:52:20.570 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:52:20.570 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:52:20.570 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:52:20.570 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:52:20.804 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:52:20.804 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:52:20.804 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:52:20.804 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:52:30.729 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:52:30.729 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:52:30.729 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:52:30.729 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:52:31.787 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:52:31.787 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:52:31.787 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:52:31.787 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:52:33.127 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:52:33.127 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:52:33.127 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:52:33.127 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:52:43.129 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:52:43.129 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:52:43.129 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:52:43.129 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:52:50.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9259365200996399 of confidence, freezing game again
+2024-04-21 19:52:50.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9259365200996399 of confidence, freezing game again
+2024-04-21 19:52:50.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9259365200996399 of confidence, freezing game again
+2024-04-21 19:52:50.395 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9259365200996399 of confidence, freezing game again
+2024-04-21 19:52:51.547 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9254039525985718 of confidence, freezing game again
+2024-04-21 19:52:51.547 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9254039525985718 of confidence, freezing game again
+2024-04-21 19:52:51.547 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9254039525985718 of confidence, freezing game again
+2024-04-21 19:52:51.547 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9254039525985718 of confidence, freezing game again
+2024-04-21 19:52:52.685 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9253647923469543 of confidence, freezing game again
+2024-04-21 19:52:52.685 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9253647923469543 of confidence, freezing game again
+2024-04-21 19:52:52.685 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9253647923469543 of confidence, freezing game again
+2024-04-21 19:52:52.685 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9253647923469543 of confidence, freezing game again
+2024-04-21 19:52:53.833 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.925268828868866 of confidence, freezing game again
+2024-04-21 19:52:53.833 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.925268828868866 of confidence, freezing game again
+2024-04-21 19:52:53.833 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.925268828868866 of confidence, freezing game again
+2024-04-21 19:52:53.833 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.925268828868866 of confidence, freezing game again
+2024-04-21 19:52:54.973 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251328110694885 of confidence, freezing game again
+2024-04-21 19:52:54.973 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251328110694885 of confidence, freezing game again
+2024-04-21 19:52:54.973 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251328110694885 of confidence, freezing game again
+2024-04-21 19:52:54.973 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251328110694885 of confidence, freezing game again
+2024-04-21 19:52:56.123 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249461889266968 of confidence, freezing game again
+2024-04-21 19:52:56.123 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249461889266968 of confidence, freezing game again
+2024-04-21 19:52:56.123 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249461889266968 of confidence, freezing game again
+2024-04-21 19:52:56.123 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249461889266968 of confidence, freezing game again
+2024-04-21 19:52:57.257 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251784086227417 of confidence, freezing game again
+2024-04-21 19:52:57.257 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251784086227417 of confidence, freezing game again
+2024-04-21 19:52:57.257 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251784086227417 of confidence, freezing game again
+2024-04-21 19:52:57.257 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251784086227417 of confidence, freezing game again
+2024-04-21 19:52:58.401 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251062273979187 of confidence, freezing game again
+2024-04-21 19:52:58.401 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251062273979187 of confidence, freezing game again
+2024-04-21 19:52:58.401 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251062273979187 of confidence, freezing game again
+2024-04-21 19:52:58.401 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9251062273979187 of confidence, freezing game again
+2024-04-21 19:52:59.567 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249531030654907 of confidence, freezing game again
+2024-04-21 19:52:59.567 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249531030654907 of confidence, freezing game again
+2024-04-21 19:52:59.567 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249531030654907 of confidence, freezing game again
+2024-04-21 19:52:59.567 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9249531030654907 of confidence, freezing game again
+2024-04-21 19:53:00.931 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.35956168174744 seconds
+2024-04-21 19:53:00.931 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.35956168174744 seconds
+2024-04-21 19:53:00.931 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.35956168174744 seconds
+2024-04-21 19:53:00.931 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.35956168174744 seconds
+2024-04-21 19:53:16.877 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.36 s, Average time: 40.36 s
+2024-04-21 19:53:16.877 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.36 s, Average time: 40.36 s
+2024-04-21 19:53:16.877 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.36 s, Average time: 40.36 s
+2024-04-21 19:53:16.877 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.36 s, Average time: 40.36 s
+2024-04-21 19:53:23.165 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:53:23.165 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:53:23.165 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:53:23.165 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:53:23.172 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:53:23.172 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:53:23.172 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:53:23.172 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:53:23.172 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:53:23.192 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:53:23.192 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:53:23.192 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:53:23.192 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:53:23.192 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:53:23.195 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:53:23.195 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:53:23.195 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:53:23.195 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:53:23.195 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:53:23.203 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:23.203 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:23.203 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:23.203 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:23.203 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:25.962 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:53:25.962 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:53:25.962 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:53:25.962 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:53:25.962 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:53:30.966 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:53:30.966 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:53:30.966 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:53:30.966 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:53:30.966 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:53:30.967 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:53:30.967 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:53:30.967 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:53:30.967 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:53:30.967 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:53:30.980 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:53:30.980 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:53:30.980 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:53:30.980 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:53:30.980 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:53:32.916 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:32.916 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:32.916 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:32.916 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:32.916 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:53:40.530 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:53:40.530 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:53:40.530 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:53:40.530 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:53:40.530 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:53:40.770 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:53:40.770 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:53:40.770 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:53:40.770 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:53:40.770 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:53:50.730 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:53:50.730 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:53:50.730 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:53:50.730 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:53:50.730 | INFO     | edmacro.actions.boss_run:execute:87 - Clicking on respawn tome
+2024-04-21 19:53:51.791 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:53:51.791 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:53:51.791 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:53:51.791 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:53:51.791 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:53:53.221 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:53:53.221 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:53:53.221 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:53:53.221 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:53:53.221 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:54:03.223 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:54:03.223 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:54:03.223 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:54:03.223 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:54:03.223 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:54:10.776 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 30.24377179145813 seconds
+2024-04-21 19:54:10.776 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 30.24377179145813 seconds
+2024-04-21 19:54:10.776 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 30.24377179145813 seconds
+2024-04-21 19:54:10.776 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 30.24377179145813 seconds
+2024-04-21 19:54:10.776 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 30.24377179145813 seconds
+2024-04-21 19:54:26.784 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 30.24 s, Average time: 30.24 s
+2024-04-21 19:54:26.784 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 30.24 s, Average time: 30.24 s
+2024-04-21 19:54:26.784 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 30.24 s, Average time: 30.24 s
+2024-04-21 19:54:26.784 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 30.24 s, Average time: 30.24 s
+2024-04-21 19:54:26.784 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 30.24 s, Average time: 30.24 s
+2024-04-21 19:54:33.210 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:54:33.210 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:54:33.210 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:54:33.210 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:54:33.210 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 19:54:33.216 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:54:33.216 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:54:33.216 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:54:33.216 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:54:33.216 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:54:33.216 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:54:33.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:54:33.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:54:33.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:54:33.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:54:33.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:54:33.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 19:54:33.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:54:33.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:54:33.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:54:33.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:54:33.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:54:33.240 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 19:54:33.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:33.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:33.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:33.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:33.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:33.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:36.094 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:54:36.094 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:54:36.094 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:54:36.094 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:54:36.094 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:54:36.094 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 19:54:41.100 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:54:41.100 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:54:41.100 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:54:41.100 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:54:41.100 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:54:41.100 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 19:54:41.101 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:54:41.101 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:54:41.101 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:54:41.101 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:54:41.101 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:54:41.101 | INFO     | edmacro.actions:move_to_map:232 - (2, 0) -> (2, 0): []
+2024-04-21 19:54:41.117 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:54:41.117 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:54:41.117 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:54:41.117 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:54:41.117 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:54:41.117 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 2 column 0
+2024-04-21 19:54:43.153 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:43.153 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:43.153 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:43.153 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:43.153 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:43.153 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 19:54:50.762 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:54:50.762 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:54:50.762 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:54:50.762 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:54:50.762 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:54:50.762 | INFO     | edmacro.actions.boss_run:execute:66 - Running boss 1 times
+2024-04-21 19:54:51.007 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:54:51.007 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:54:51.007 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:54:51.007 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:54:51.007 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:54:51.007 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:262 - Going to Slime boss
+2024-04-21 19:55:01.739 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:55:01.739 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:55:01.739 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:55:01.739 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:55:01.739 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:55:01.739 | INFO     | edmacro.actions.boss_run:execute:102 - Clicking on respawn button
+2024-04-21 19:55:03.227 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:55:03.227 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:55:03.227 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:55:03.227 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:55:03.227 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:55:03.227 | INFO     | edmacro.actions.boss_run:execute:119 - clicked on start button
+2024-04-21 19:55:13.228 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:55:13.228 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:55:13.228 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:55:13.228 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:55:13.228 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:55:13.228 | INFO     | edmacro.actions.boss_run:__freeze_game:324 - Freezing game for 6.405833333333334
+2024-04-21 19:55:20.726 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:20.726 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:20.726 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:20.726 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:20.726 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:20.726 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:21.955 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:21.955 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:21.955 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:21.955 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:21.955 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:21.955 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:23.200 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:23.200 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:23.200 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:23.200 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:23.200 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:23.200 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:24.430 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:24.430 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:24.430 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:24.430 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:24.430 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:24.430 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:25.671 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:25.671 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:25.671 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:25.671 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:25.671 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:25.671 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:26.900 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:26.900 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:26.900 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:26.900 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:26.900 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:26.900 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:28.129 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:28.129 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:28.129 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:28.129 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:28.129 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:28.129 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 19:55:29.384 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:29.384 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:29.384 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:29.384 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:29.384 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:29.384 | WARNING  | edmacro.actions.boss_run:__freeze_game:357 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 19:55:30.844 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.08009934425354 seconds
+2024-04-21 19:55:30.844 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.08009934425354 seconds
+2024-04-21 19:55:30.844 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.08009934425354 seconds
+2024-04-21 19:55:30.844 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.08009934425354 seconds
+2024-04-21 19:55:30.844 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.08009934425354 seconds
+2024-04-21 19:55:30.844 | INFO     | edmacro.actions.boss_run:execute:125 - Boss run 1 finished. Took 40.08009934425354 seconds
+2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
+2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
+2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
+2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
+2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
+2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
