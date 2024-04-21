@@ -155,8 +155,11 @@ class bossRunAction(Action):
                 self.__hypercore_interruns_path()
             case "KRAKEN":
                 self.__kraken_interruns_path()
+            case "KINGSLIME":
+                self.__kingslime_interruns_path()
             case _:
                 self.macro_controller.logger.error("Invalid boss name")
+                raise ValueError("Invalid boss name")
 
     def __hypercore_interruns_path(self):
         """
@@ -183,6 +186,20 @@ class bossRunAction(Action):
         time.sleep(0.5)
         return
 
+    def __kingslime_interruns_path(self):
+        """
+        This method will move the character from the point where the character after kill
+        the boss to the point where the character can kill the boss again.
+        Note that its different from the `go_to_kingslime_boss` method, that will move the character from spawn point
+        to the boss location.
+        """
+        self._ahk.key_down("w")
+        self._ahk.key_down("d")
+        time.sleep(1)
+        self._ahk.key_up("w")
+        self._ahk.key_up("d")
+        time.sleep(0.5)
+
     def go_to_boss(self, target_boss: TargetBoss):
         """
         Move to the boss location. Requires the character to already be in the boss map.
@@ -196,8 +213,8 @@ class bossRunAction(Action):
         match target_boss:
             case "HYPERCORE":
                 self.__go_to_hypercore_boss()
-            case "SLIME":
-                self.__go_to_slime_boss()
+            case "KINGSLIME":
+                self.__go_to_kingslime_boss()
             case "KRAKEN":
                 self.__go_to_kraken_boss()
             case _:
@@ -234,17 +251,24 @@ class bossRunAction(Action):
 
         time.sleep(0.3)
 
-    def __go_to_slime_boss(self):
+    def __go_to_kingslime_boss(self):
         """
         Navigate to the Slime boss location.
-
-        This method is not implemented. To navigate to the Slime boss location, an implementation
-        must be provided in a subclass or in this method itself.
-
-        Raises:
-            NotImplementedError: This method is not implemented.
         """
-        raise NotImplementedError("Method not implemented")
+        self.macro_controller.logger.info("Going to Slime boss")
+        # Move from spawn point to boss hallway
+        self._ahk.key_down("s")
+        time.sleep(2.5)
+        self._ahk.key_up("s")
+        self._ahk.key_down("a")
+        time.sleep(1)
+        self._ahk.key_up("a")
+        self._ahk.key_down("s")
+        time.sleep(1.3)
+        self._ahk.key_up("s")
+        self._ahk.key_down("a")
+        time.sleep(3.5)
+        self._ahk.key_up("a")
 
     def __go_to_kraken_boss(self):
         """

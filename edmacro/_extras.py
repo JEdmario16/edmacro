@@ -74,7 +74,11 @@ def collect_screenshots(
 
 
 def test_needles_in_different_haystacks(
-    needle: str, haystack_images_folder: str, save_result: bool = False, **kwargs
+    needle: str,
+    haystack_images_folder: str,
+    save_result: bool = False,
+    verbose: bool = False,
+    **kwargs,
 ) -> float:
     """
     Test the needle image in different haystack images.
@@ -90,7 +94,7 @@ def test_needles_in_different_haystacks(
         max_conf, pos = utils.locate(
             needle, f"{haystack_images_folder}/{image}", **kwargs
         )
-        # print(f"{image}: {max_conf} at {pos}")
+        print(f"{image}: {max_conf} at {pos}") if verbose else None
         confidences.append(max_conf)
         if save_result:
             if not os.path.exists(f"{haystack_images_folder}/results"):
