@@ -71,10 +71,10 @@ class crabBeardBounty(Action):
             )
 
         elif not ({"defeat", "anglerfish"} - tokenized_text):
-            self.current_quest = "anglefish"
+            self.current_quest = "anglerfish"
             return partial(
                 self.macro_controller.mob_hunt.execute,
-                target_mob="ANGLEFISH",
+                target_mob="ANGLERFISH",
                 seconds=80,
             )
 
@@ -113,7 +113,7 @@ class crabBeardBounty(Action):
             # again, the smartest way is to do another quest, but for now lets just kill anglefish
             return partial(
                 self.macro_controller.mob_hunt.execute,
-                target_mob="ANGLEFISH",
+                target_mob="ANGLERFISH",
                 seconds=120,
             )
 

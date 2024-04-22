@@ -44,7 +44,7 @@ class ShrineAndShops(Action):
         ):
             self.macro_controller.logger.debug(f"Prizes counter is {"ready to buy" if self.last_prize_counter is not None else "Unkown"}")
             self.go_to_prizes_counter()
-            self.prize_counter_buy_all
+            self.prize_counter_buy_all()
 
         if (
             self.last_tomes_shrine is None
@@ -85,11 +85,12 @@ class ShrineAndShops(Action):
             conf, pos = utils.locate(sc, needle, bound=bound)
 
             if conf <= self.PRIZE_COUNTER_THRESHOLD:
+                self.macro_controller.logger.debug("Oops! Nothing to buy!")
                 break
 
             for _ in range(20):
                 self._ahk.click(pos[0], pos[1])
-                time.sleep(0.1)
+                time.sleep(0.15)
             time.sleep(0.5)
 
         # after buy all move to left to close the shop dialog

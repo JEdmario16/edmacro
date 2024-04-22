@@ -159,6 +159,7 @@ class MobHunt(Action):
         self._ahk.key_down("a")
         time.sleep(0.5)
         self._ahk.key_up("a")
+        self.macro_controller.current_map = (3, 0)
 
     def __go_to_crab(self):
 
