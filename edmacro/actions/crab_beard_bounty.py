@@ -12,7 +12,7 @@ class crabBeardBounty(Action):
 
     __export__name__ = "crab_beard_bounty"
 
-    REQUIRED_ACTIONS = ["quest_detector", "boss_run"]
+    REQUIRED_ACTIONS = ["quest_detector", "boss_run", "mob_hunt", "shrines_and_shops"]
 
     def __init__(self, macro_controller: MacroController):
         super().__init__(macro_controller)
@@ -30,6 +30,7 @@ class crabBeardBounty(Action):
             current_task = self.macro_controller.quest_detector.execute()
             task = self.resolve_quest(current_task)
             task()
+            self.shrine_and_shops.execute()
 
     def resolve_quest(self, text: str):
         tokenized_text = set(text.split())

@@ -67,13 +67,7 @@ class bossRunAction(Action):
     def execute(self, repeat: int = 1, target_boss: TargetBoss = "HYPERCORE"):
         bound = utils.Rect(0, 0, *self.macro_controller.user_resolution)
         target_boss_map = self.BOSS_MAP[target_boss]
-        if self.macro_controller.current_map != target_boss_map:
-            self.move_to_map(*target_boss_map)
-        else:
-            self.macro_controller.logger.debug(
-                "Char is in the correct map. Going to boss spot"
-            )
-            self.restart_char()
+        self.move_to_map(*target_boss_map)
 
         self.target_boss = target_boss
 

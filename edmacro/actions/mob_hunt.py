@@ -72,8 +72,7 @@ class MobHunt(Action):
 
     def __go_to_anglefish(self):
 
-        if self.macro_controller.current_map != self.mob_maps["ANGLEFISH"]:
-            self.move_to_map(*self.mob_maps["ANGLEFISH"])
+        self.move_to_map(*self.mob_maps["ANGLEFISH"])
 
         self._ahk.key_down("w")
         time.sleep(4)
@@ -86,8 +85,7 @@ class MobHunt(Action):
         self._ahk.key_up("s")
 
     def __go_to_molten_crab(self):
-        if self.macro_controller.current_map != self.mob_maps["MOLTEN_CRAB"]:
-            self.move_to_map(*self.mob_maps["MOLTEN_CRAB"])
+        self.move_to_map(*self.mob_maps["MOLTEN_CRAB"])
 
         self._ahk.key_down("a")
         time.sleep(1.5)
@@ -97,8 +95,7 @@ class MobHunt(Action):
         self._ahk.key_up("w")
 
     def __go_to_slimes(self):
-        if self.macro_controller.current_map != self.mob_maps["SLIMES"]:
-            self.move_to_map(*self.mob_maps["SLIMES"])
+        self.move_to_map(*self.mob_maps["SLIMES"])
 
         self._ahk.key_down("s")
         time.sleep(3)
@@ -114,8 +111,7 @@ class MobHunt(Action):
         self._ahk.key_up("a")
 
     def __go_to_mutant_slimes(self):
-        if self.macro_controller.current_map != self.mob_maps["MUTANT_SLIMES"]:
-            self.move_to_map(*self.mob_maps["MUTANT_SLIMES"])
+        self.move_to_map(*self.mob_maps["MUTANT_SLIMES"])
 
         self._ahk.key_down("s")
         time.sleep(6)
@@ -131,16 +127,14 @@ class MobHunt(Action):
         self._ahk.key_up("d")
 
     def __go_to_armored_snowman(self):
-        if self.macro_controller.current_map != self.mob_maps["ARMORED_SNOWMAN"]:
-            self.move_to_map(*self.mob_maps["ARMORED_SNOWMAN"])
+        self.move_to_map(*self.mob_maps["ARMORED_SNOWMAN"])
 
         self._ahk.key_down("a")
         time.sleep(6)
         self._ahk.key_up("a")
 
     def __go_to_snowman(self):
-        if self.macro_controller.current_map != self.mob_maps["SNOWMAN"]:
-            self.move_to_map(*self.mob_maps["SNOWMAN"])
+        self.move_to_map(*self.mob_maps["SNOWMAN"])
 
         self._ahk.key_down("w")
         time.sleep(3.5)

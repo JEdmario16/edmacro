@@ -5684,3 +5684,205 @@
 2024-04-21 23:59:56.671 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
 2024-04-21 23:59:57.732 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
 2024-04-21 23:59:59.883 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:35:48.902 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:35:48.916 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:35:48.917 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:36:17.900 | DEBUG    | edmacro.actions.shrines_and_shops:__go_to_prizes_counter:24 - Going to prizes counter map
+2024-04-22 00:36:22.905 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:36:22.905 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:36:22.906 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:36:35.561 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:36:35.562 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:36:38.648 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:36:40.762 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:37:46.693 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:37:46.703 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:37:46.703 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:38:11.627 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-22 00:38:11.629 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:38:11.629 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:38:11.641 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:38:11.641 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:38:11.642 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:38:11.642 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:38:11.895 | DEBUG    | edmacro.actions.shrines_and_shops:__go_to_prizes_counter:24 - Going to prizes counter map
+2024-04-22 00:38:11.895 | DEBUG    | edmacro.actions.shrines_and_shops:__go_to_prizes_counter:24 - Going to prizes counter map
+2024-04-22 00:38:16.902 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:38:16.902 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:38:16.902 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:38:16.902 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:38:16.902 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:38:16.902 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:38:29.584 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:38:29.584 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:38:29.585 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:38:29.585 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:38:32.654 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:38:32.654 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:38:34.763 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:38:34.763 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:40:22.906 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:40:22.915 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:40:22.916 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:40:23.225 | DEBUG    | edmacro.actions.shrines_and_shops:__go_to_prizes_counter:24 - Going to prizes counter map
+2024-04-22 00:40:28.230 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:40:28.230 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:40:28.230 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:40:40.845 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:40:40.847 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:40:43.930 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:40:46.052 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:41:15.594 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:41:15.605 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:41:15.606 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:41:15.857 | DEBUG    | edmacro.actions.shrines_and_shops:__go_to_prizes_counter:24 - Going to prizes counter map
+2024-04-22 00:41:20.861 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:41:20.861 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:41:20.863 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:41:33.468 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:41:33.469 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:41:36.527 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:41:38.670 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:43:53.814 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:43:53.823 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:43:53.823 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:43:54.094 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:53 - Going to tomes shrine map
+2024-04-22 00:43:59.100 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:43:59.104 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:43:59.105 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:44:11.723 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:44:11.724 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:44:14.780 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:44:16.896 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:44:43.931 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:44:43.942 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:44:43.942 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:44:44.201 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:53 - Going to tomes shrine map
+2024-04-22 00:44:49.206 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:44:49.206 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:44:49.207 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:45:01.767 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:45:01.768 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:45:04.848 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:45:06.976 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:45:34.625 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:45:34.636 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:45:34.636 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:45:34.885 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:53 - Going to tomes shrine map
+2024-04-22 00:45:39.888 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:45:39.888 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:45:39.888 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:45:52.499 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:45:52.499 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 00:45:55.580 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 00:45:57.713 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:52:43.192 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:52:43.202 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:52:43.202 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:52:43.477 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:80 - Going to hardcore tomes shrine map
+2024-04-22 00:52:48.481 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:52:48.481 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:52:48.481 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:53:01.111 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:53:01.111 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (9, 0): [('map_up', 9)]
+2024-04-22 00:53:04.536 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 00:53:06.639 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:53:23.123 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:91 - Pick up hardcore tomes
+2024-04-22 00:53:33.767 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 00:53:33.778 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 00:53:33.779 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 00:53:34.032 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:80 - Going to hardcore tomes shrine map
+2024-04-22 00:53:39.037 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 00:53:39.037 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 00:53:39.038 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 00:53:51.693 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 00:53:51.694 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (9, 0): [('map_up', 9)]
+2024-04-22 00:53:55.123 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 00:53:57.286 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 00:54:12.836 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:91 - Pick up hardcore tomes
+2024-04-22 01:00:30.560 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:00:30.570 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:00:30.570 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:00:30.815 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:00:30.842 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:00:35.848 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:00:35.848 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:00:35.849 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:00:48.443 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:00:48.444 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 01:00:51.526 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:00:53.660 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:01:28.908 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:88 - Bought all prizes
+2024-04-22 01:01:39.225 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:104 - Pick up tomes
+2024-04-22 01:01:39.225 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:109 - Going to hardcore tomes shrine map
+2024-04-22 01:01:44.228 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:01:44.228 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:01:44.907 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:01:47.004 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:02:02.522 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:120 - Pick up hardcore tomes
+2024-04-22 01:02:06.177 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-22 01:02:06.180 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:02:06.180 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:02:06.193 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:02:06.193 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:02:06.194 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:02:06.194 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:02:06.427 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:02:06.427 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:02:06.428 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:02:06.428 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:05:49.957 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:05:49.965 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:05:49.966 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:05:50.238 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:05:50.240 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:05:55.248 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:05:55.248 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:05:55.249 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:06:08.686 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:06:08.687 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 01:06:11.773 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:06:13.881 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:06:22.728 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:88 - Bought all prizes
+2024-04-22 01:06:22.729 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:93 - Going to tomes shrine map
+2024-04-22 01:06:27.732 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:06:27.732 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:06:27.748 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:06:29.880 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:06:32.695 | DEBUG    | edmacro.actions:restart_char:66 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-22 01:06:37.698 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:06:37.698 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:06:37.714 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:06:39.808 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:06:57.676 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:104 - Pick up tomes
+2024-04-22 01:06:57.676 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:108 - Going to hardcore tomes shrine map
+2024-04-22 01:07:02.679 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:07:02.680 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:07:03.372 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:07:05.504 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:07:21.041 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:119 - Pick up hardcore tomes
+2024-04-22 01:08:30.054 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:08:30.065 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:08:30.066 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:08:30.324 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:08:30.329 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:08:35.336 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:08:35.336 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:08:35.337 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:08:48.050 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:08:48.051 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 01:08:51.187 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:08:53.307 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:09:04.201 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:93 - Bought all prizes
+2024-04-22 01:09:04.202 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:98 - Going to tomes shrine map
+2024-04-22 01:09:09.204 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:09:09.204 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:09:09.220 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:09:11.359 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:09:26.895 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:109 - Pick up tomes
+2024-04-22 01:09:26.895 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:113 - Going to hardcore tomes shrine map
+2024-04-22 01:09:31.898 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:09:31.898 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:09:32.593 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:09:34.695 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:09:50.287 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:124 - Pick up hardcore tomes
