@@ -6,6 +6,8 @@ import numpy as np
 
 from edmacro import actions, utils
 
+import re
+
 targetTask: TypeAlias = Union[
     Literal["crab_beard"], Literal["bruh_bounty"], Literal["sailors_request"]
 ]
@@ -139,4 +141,7 @@ class QuestDetector(actions.Action):
         self.zoom_perspective_to_quest_detector()
         quest_text = self.detect_quest(target_task)
         self.macro_controller.logger.info("Quest Detector Action Finished.")
+
+        REGEX_EXPR = r"[^a-zA-Z0-9|\s{1,}]"
+        quest_text = re.sub(REGEX_EXPR, "", quest_text)
         return quest_text
