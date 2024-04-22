@@ -70,11 +70,19 @@ class crabBeardBounty(Action):
                 seconds=80,
             )
 
-        elif not ({"defeat", "anglefish"} - tokenized_text):
+        elif not ({"defeat", "anglerfish"} - tokenized_text):
             self.current_quest = "anglefish"
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="ANGLEFISH",
+                seconds=80,
+            )
+
+        elif not ({"defeat", "armored", "snowmen"} - tokenized_text):
+            self.current_quest = "armored_snowman"
+            return partial(
+                self.macro_controller.mob_hunt.execute,
+                target_mob="ARMORED_SNOWMAN",
                 seconds=80,
             )
 
@@ -84,6 +92,22 @@ class crabBeardBounty(Action):
                 self.macro_controller.mob_hunt.execute, target_mob="SLIMES", seconds=80
             )
 
+        elif not ({"defeat", "crabs"} - tokenized_text):
+            self.current_quest = "crab"
+            return partial(
+                self.macro_controller.mob_hunt.execute,
+                target_mob="CRAB",
+                seconds=80,
+            )
+
+        elif not ({"defeat", "snowmen"} - tokenized_text):
+            self.current_quest = "snowman"
+            return partial(
+                self.macro_controller.mob_hunt.execute,
+                target_mob="SNOWMAN",
+                seconds=80,
+            )
+
         elif not ({"defeat", "enemies"} - tokenized_text):
             self.current_quest = "enemies"
             # again, the smartest way is to do another quest, but for now lets just kill anglefish
@@ -91,14 +115,6 @@ class crabBeardBounty(Action):
                 self.macro_controller.mob_hunt.execute,
                 target_mob="ANGLEFISH",
                 seconds=120,
-            )
-
-        elif not ({"defeat", "armored", "snowmen"} - tokenized_text):
-            self.current_quest = "armored_snowman"
-            return partial(
-                self.macro_controller.mob_hunt.execute,
-                target_mob="ARMORED_SNOWMAN",
-                seconds=80,
             )
 
         elif not ({"deal", "damage"} - tokenized_text):

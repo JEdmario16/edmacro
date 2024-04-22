@@ -4,7 +4,7 @@ from typing import TypeAlias, Union, Literal
 import time
 
 TargetMob: TypeAlias = Literal[
-    "ANGLEFISH",
+    "ANGLERFISH",
     "MOLTEN_CRAB",
     "MUTANT_SLIMES",
     "SLIMES",
@@ -21,7 +21,7 @@ class MobHunt(Action):
     __export__name__ = "mob_hunt"
 
     mob_maps = {
-        "ANGLEFISH": (9, 0),
+        "ANGLERFISH": (9, 0),
         "MOLTEN_CRAB": (7, 0),
         "MUTANT_SLIMES": (6, 0),
         "ARMORED_SNOWMAN": (3, 0),
@@ -31,7 +31,7 @@ class MobHunt(Action):
     }
 
     pattern_map = {
-        "ANGLEFISH": ("row", "W"),
+        "ANGLERFISH": ("row", "W"),
         "MOLTEN_CRAB": ("row", "W"),
         "SLIMES": ("row", "A"),
         "MUTANT_SLIMES": ("t_pattern", "S"),
@@ -53,8 +53,8 @@ class MobHunt(Action):
 
     def go_to_mob_spot(self, target_mob: TargetMob):
         match target_mob:
-            case "ANGLEFISH":
-                self.__go_to_anglefish()
+            case "ANGLERFISH":
+                self.__go_to_anglerfish()
             case "MOLTEN_CRAB":
                 self.__go_to_molten_crab()
             case "MUTANT_SLIMES":
@@ -81,9 +81,9 @@ class MobHunt(Action):
             case _:
                 raise ValueError("Invalid pattern")
 
-    def __go_to_anglefish(self):
+    def __go_to_anglerfish(self):
 
-        self.move_to_map(*self.mob_maps["ANGLEFISH"])
+        self.move_to_map(*self.mob_maps["ANGLERFISH"])
 
         self._ahk.key_down("w")
         time.sleep(4)

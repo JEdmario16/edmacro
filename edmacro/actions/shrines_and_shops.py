@@ -17,7 +17,7 @@ class ShrineAndShops(Action):
     }
 
     SHRINES_AND_SHOPS_COOLDOWNS = {
-        "prizes_counter": 60 * 20,
+        "prizes_counter": 60 * 50,
         "tomes_shrine": 60 * 40,
         "hardcore_tomes_shrine": 60 * 40,
     }
@@ -36,26 +36,30 @@ class ShrineAndShops(Action):
         self.check_shrine_and_shops()
 
     def check_shrine_and_shops(self):
+
         if (
             self.last_prize_counter is None
-            or (self.last_prize_counter - datetime.now()).seconds
+            or (datetime.now() - self.last_prize_counter).seconds
             > self.SHRINES_AND_SHOPS_COOLDOWNS["prizes_counter"]
         ):
+            self.macro_controller.logger.debug(f"Prizes counter is {"ready to buy" if self.last_prize_counter is not None else "Unkown"}")
             self.go_to_prizes_counter()
-            self.prize_counter_buy_all()
+            self.prize_counter_buy_all
 
         if (
             self.last_tomes_shrine is None
-            or (self.last_tomes_shrine - datetime.now()).seconds
+            or (datetime.now() - self.last_tomes_shrine).seconds
             > self.SHRINES_AND_SHOPS_COOLDOWNS["tomes_shrine"]
         ):
+            self.macro_controller.logger.debug(f"Tomes shrienes are {"ready to pick up" if self.last_tomes_shrine is not None else "Unkown"}")
             self.go_to_tomes_shrine()
 
         if (
             self.last_hardcore_tomes_shrine is None
-            or (self.last_hardcore_tomes_shrine - datetime.now()).seconds
+            or (datetime.now() - self.last_hardcore_tomes_shrine).seconds
             > self.SHRINES_AND_SHOPS_COOLDOWNS["hardcore_tomes_shrine"]
         ):
+            self.macro_controller.logger.debug(f"Hardcore tomes shrines are {"ready to pick up" if self.last_hardcore_tomes_shrine is not None else "Unkown"}")
             self.go_to_hardcore_tomes_shrine()
 
     def go_to_prizes_counter(self):
