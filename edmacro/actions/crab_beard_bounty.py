@@ -27,10 +27,10 @@ class crabBeardBounty(Action):
         self.macro_controller.logger.info("Running crab beard bounty")
 
         while True:
+            self.macro_controller.shrine_and_shops.execute()
             current_task = self.macro_controller.quest_detector.execute()
             task = self.resolve_quest(current_task)
             task()
-            self.shrine_and_shops.execute()
 
     def resolve_quest(self, text: str):
         tokenized_text = set(text.split())

@@ -83,7 +83,9 @@ class ShrineAndShops(Action):
             if conf <= self.PRIZE_COUNTER_THRESHOLD:
                 break
 
-            self._ahk.click(pos[0], pos[1], click_count=20)
+            for _ in range(20):
+                self._ahk.click(pos[0], pos[1])
+                time.sleep(0.1)
             time.sleep(0.5)
 
         # after buy all move to left to close the shop dialog

@@ -5886,3 +5886,208 @@
 2024-04-22 01:09:32.593 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
 2024-04-22 01:09:34.695 | INFO     | edmacro.actions:restart_char:53 - Restarting character
 2024-04-22 01:09:50.287 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:124 - Pick up hardcore tomes
+2024-04-22 01:12:22.556 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:12:22.566 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:12:22.566 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:12:22.809 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-22 01:12:22.810 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-22 01:12:22.810 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-22 01:12:27.815 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:12:27.815 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:12:27.816 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:12:40.485 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:12:40.487 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-22 01:12:43.932 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-22 01:12:46.063 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:12:57.170 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-22 01:12:57.672 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-22 01:12:57.704 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9994194507598877, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-22 01:12:57.995 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 42.8m+ damage 
+2024-04-22 01:12:57.996 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-22 01:13:02.999 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:13:02.999 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-22 01:13:04.367 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:13:06.479 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:13:11.959 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-22 01:13:14.339 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-22 01:13:25.830 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-22 01:13:27.308 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-22 01:13:32.310 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-22 01:14:54.697 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-22 01:15:04.092 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 112.40986752510071 seconds
+2024-04-22 01:15:20.149 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 112.41 s, Average time: 112.41 s
+2024-04-22 01:17:22.479 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:17:22.489 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:17:22.490 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:17:22.772 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-22 01:18:51.548 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:18:51.559 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:18:51.560 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:18:51.800 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-22 01:19:46.157 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:19:46.167 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:19:46.168 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:19:46.431 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-22 01:19:46.432 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:19:46.433 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:19:51.438 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:19:51.438 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:19:51.439 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:20:04.073 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:20:04.074 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 01:20:07.128 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:20:09.241 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:20:23.851 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:95 - Bought all prizes
+2024-04-22 01:20:23.853 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:100 - Going to tomes shrine map
+2024-04-22 01:20:28.855 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:20:28.855 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:20:28.868 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:20:30.954 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:20:46.464 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:111 - Pick up tomes
+2024-04-22 01:20:46.464 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:115 - Going to hardcore tomes shrine map
+2024-04-22 01:20:51.467 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:20:51.467 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:20:52.151 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:20:54.266 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:21:09.762 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:126 - Pick up hardcore tomes
+2024-04-22 01:21:09.762 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-22 01:21:09.763 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-22 01:21:14.765 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:21:14.765 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-22 01:21:16.453 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-22 01:21:18.552 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:21:29.672 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-22 01:21:30.176 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-22 01:21:30.213 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997000694274902, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-22 01:21:30.513 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 42.8m+ damage 
+2024-04-22 01:21:30.514 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-22 01:21:35.517 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:21:35.517 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-22 01:21:36.890 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:21:38.986 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:21:44.388 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-22 01:21:46.762 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-22 01:21:57.610 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-22 01:21:58.656 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-22 01:22:00.029 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-22 01:22:05.030 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-22 01:23:27.403 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-22 01:23:36.777 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 112.60278630256653 seconds
+2024-04-22 01:23:52.821 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 112.6 s, Average time: 112.6 s
+2024-04-22 01:23:52.821 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:23:52.822 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:23:57.825 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:23:57.825 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:23:57.837 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:23:59.898 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:24:14.458 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:95 - Bought all prizes
+2024-04-22 01:24:14.459 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:100 - Going to tomes shrine map
+2024-04-22 01:24:19.464 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:24:19.464 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:24:19.477 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:24:21.548 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:24:37.060 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:111 - Pick up tomes
+2024-04-22 01:24:37.060 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:115 - Going to hardcore tomes shrine map
+2024-04-22 01:24:42.063 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:24:42.065 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:24:42.800 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:24:44.924 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:25:00.417 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:126 - Pick up hardcore tomes
+2024-04-22 01:25:00.417 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-22 01:25:00.418 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-22 01:25:05.421 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:25:05.421 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-22 01:25:07.086 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-22 01:25:09.196 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:25:20.285 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-22 01:25:20.787 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-22 01:25:20.818 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9995858073234558, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-22 01:25:21.092 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 42.8m+ damage 
+2024-04-22 01:25:21.093 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-22 01:25:26.096 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:25:26.096 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-22 01:25:27.511 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:25:29.645 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:25:35.065 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-22 01:25:37.446 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-22 01:25:48.270 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-22 01:25:49.315 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-22 01:25:50.705 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-22 01:25:55.706 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-22 01:27:18.090 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-22 01:27:27.458 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 112.60669541358948 seconds
+2024-04-22 01:27:43.501 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 112.61 s, Average time: 112.61 s
+2024-04-22 01:27:43.502 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:27:43.503 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:27:48.507 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:27:48.507 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:27:48.519 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:27:50.602 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:28:05.136 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:95 - Bought all prizes
+2024-04-22 01:28:05.138 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:100 - Going to tomes shrine map
+2024-04-22 01:28:10.141 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:28:10.141 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:28:10.153 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:28:12.239 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:28:27.744 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:111 - Pick up tomes
+2024-04-22 01:28:27.745 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:115 - Going to hardcore tomes shrine map
+2024-04-22 01:28:32.748 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:28:32.748 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:28:33.434 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:28:35.535 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:28:51.025 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:126 - Pick up hardcore tomes
+2024-04-22 01:28:51.025 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-22 01:28:51.026 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-22 01:28:56.028 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:28:56.029 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-22 01:28:57.701 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-22 01:28:59.775 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:29:10.879 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-22 01:29:11.382 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-22 01:29:11.411 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997051954269409, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-22 01:29:11.678 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 the krakens (level 13+) 
+2024-04-22 01:29:11.679 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-22 01:29:16.682 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:29:16.683 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (4, 0): [('map_right', 1), ('map_down', 3)]
+2024-04-22 01:29:18.727 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:29:20.844 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:29:26.283 | INFO     | edmacro.actions.boss_run:__go_to_kraken_boss:289 - Going to Kracken boss
+2024-04-22 01:29:44.685 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-22 01:29:46.200 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-22 01:29:56.201 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 15.77685220244857
+2024-04-22 01:30:13.669 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 47.59997010231018 seconds
+2024-04-22 01:30:31.442 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-22 01:30:32.532 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-22 01:30:33.889 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-22 01:30:43.890 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 15.77685220244857
+2024-04-22 01:31:01.192 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-22 01:31:03.865 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-22 01:31:06.528 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-22 01:31:09.175 | WARNING  | edmacro.actions.boss_run:__freeze_game:365 - Boss still alive with 0.9999986290931702 of confidence, freezing game again
+2024-04-22 01:31:12.033 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 105.96356439590454 seconds
+2024-04-22 01:31:28.101 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 153.56 s, Average time: 76.78 s
+2024-04-22 01:31:28.102 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:31:28.102 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:31:33.106 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:31:33.106 | INFO     | edmacro.actions:move_to_map:233 - (4, 0) -> (8, 0): [('map_up', 4)]
+2024-04-22 01:31:34.840 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:31:36.961 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:31:47.863 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:95 - Bought all prizes
+2024-04-22 01:31:47.864 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:100 - Going to tomes shrine map
+2024-04-22 01:31:52.867 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:31:52.867 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:31:52.879 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:31:54.978 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:32:10.492 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:111 - Pick up tomes
+2024-04-22 01:32:10.492 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:115 - Going to hardcore tomes shrine map
+2024-04-22 01:32:15.494 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:32:15.495 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:32:16.173 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:32:18.290 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:32:33.813 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:126 - Pick up hardcore tomes
+2024-04-22 01:32:33.813 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-22 01:32:33.813 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-22 01:32:38.817 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:32:38.817 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-22 01:32:40.509 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-22 01:32:42.626 | INFO     | edmacro.actions:restart_char:53 - Restarting character
