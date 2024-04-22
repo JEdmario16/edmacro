@@ -1,3 +1,6 @@
 from edmacro import MacroController
 
-mc = MacroController()
+
+if __name__ == "__main__":
+    mc = MacroController()
+    mc.crab_beard_bounty.execute()
