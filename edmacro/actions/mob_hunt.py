@@ -4,7 +4,13 @@ from typing import TypeAlias, Union, Literal
 import time
 
 TargetMob: TypeAlias = Literal[
-    "ANGLEFISH", "MOLTEN_CRAB", "MUTANT_SLIMES", "SLIMES", "ARMORED_SNOWMAN", "SNOWMAN"
+    "ANGLEFISH",
+    "MOLTEN_CRAB",
+    "MUTANT_SLIMES",
+    "SLIMES",
+    "ARMORED_SNOWMAN",
+    "SNOWMAN",
+    "CRAB",
 ]
 Direction: TypeAlias = Literal["W", "A", "S", "D"]
 Pattern: TypeAlias = Literal["row", "T"]
@@ -21,6 +27,7 @@ class MobHunt(Action):
         "ARMORED_SNOWMAN": (3, 0),
         "SNOWMAN": (2, 0),
         "SLIMES": (2, 0),
+        "CRAB": (4, 0),
     }
 
     pattern_map = {
@@ -30,6 +37,7 @@ class MobHunt(Action):
         "MUTANT_SLIMES": ("t_pattern", "S"),
         "ARMORED_SNOWMAN": ("row", "W"),
         "SNOWMAN": ("row", "S"),
+        "CRAB": ("row", "D"),
     }  # mob: (pattern, direction)
 
     def execute(self, target_mob: TargetMob, seconds: int = 60):
@@ -58,6 +66,9 @@ class MobHunt(Action):
 
             case "SNOWMAN":
                 self.__go_to_snowman()
+
+            case "CRAB":
+                self.__go_to_crab()
             case _:
                 raise ValueError("Invalid target mob")
 
@@ -148,6 +159,19 @@ class MobHunt(Action):
         self._ahk.key_down("a")
         time.sleep(0.5)
         self._ahk.key_up("a")
+
+    def __go_to_crab(self):
+
+        self.move_to_map(*self.mob_maps["CRAB"])
+        self._ahk.key_down("w")
+        time.sleep(5)
+        self._ahk.key_up("w")
+        self._ahk.key_down("d")
+        time.sleep(1)
+        self._ahk.key_up("d")
+        self._ahk.key_down("w")
+        time.sleep(6.5)
+        self._ahk.key_up("w")
 
     def __row_pattern(self, direction: str):
         directions = ["w", "a", "s", "d"]

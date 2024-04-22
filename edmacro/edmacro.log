@@ -6091,3 +6091,105 @@
 2024-04-22 01:32:38.817 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
 2024-04-22 01:32:40.509 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
 2024-04-22 01:32:42.626 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:44:59.000 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:44:59.046 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:44:59.046 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:44:59.057 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-22 01:44:59.058 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:44:59.058 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:46:01.588 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:46:01.599 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:46:01.600 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:46:01.868 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-22 01:46:01.876 | INFO     | edmacro.actions.shrines_and_shops:execute:35 - Running shrine and shops
+2024-04-22 01:46:01.876 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_prizes_counter:63 - Going to prizes counter map
+2024-04-22 01:46:06.884 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:46:06.887 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:46:06.888 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:46:19.663 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:46:19.663 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (8, 0): [('map_up', 8)]
+2024-04-22 01:46:22.752 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:46:24.875 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:46:57.708 | INFO     | edmacro.actions.shrines_and_shops:prize_counter_buy_all:95 - Bought all prizes
+2024-04-22 01:46:57.709 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:100 - Going to tomes shrine map
+2024-04-22 01:47:02.714 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:47:02.714 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-22 01:47:02.727 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-22 01:47:04.861 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:47:20.376 | INFO     | edmacro.actions.shrines_and_shops:go_to_tomes_shrine:111 - Pick up tomes
+2024-04-22 01:47:20.376 | DEBUG    | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:115 - Going to hardcore tomes shrine map
+2024-04-22 01:47:25.379 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:47:25.379 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (9, 0): [('map_up', 1)]
+2024-04-22 01:47:26.060 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-22 01:47:28.187 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:47:43.706 | INFO     | edmacro.actions.shrines_and_shops:go_to_hardcore_tomes_shrine:126 - Pick up hardcore tomes
+2024-04-22 01:47:43.706 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-22 01:47:43.707 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-22 01:47:48.710 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:47:48.710 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-22 01:47:50.396 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-22 01:47:52.490 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:48:03.618 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-22 01:48:04.121 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-22 01:48:04.154 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9999122023582458, Result Pos: Rect(left=137, top=146, width=42, height=36)
+2024-04-22 01:48:04.950 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 69 crabs 7 
+2024-04-22 01:48:04.951 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-22 01:48:04.951 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:112 - Unknown quest: {'69', 'crabs', '7', 'defeat'}, 
+2024-04-22 01:52:06.402 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:52:06.412 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:52:06.413 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:52:06.673 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:52:21.486 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:52:21.497 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:52:21.497 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:52:21.755 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:52:26.759 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:52:26.759 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:52:26.759 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:52:39.448 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:52:39.449 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (4, 0): [('map_up', 4)]
+2024-04-22 01:52:41.184 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:52:43.290 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:53:34.695 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:53:39.699 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:53:39.699 | INFO     | edmacro.actions:move_to_map:233 - (4, 0) -> (4, 0): []
+2024-04-22 01:53:39.712 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:53:41.882 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:55:22.721 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:55:22.732 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:55:22.733 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:55:23.003 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:55:28.009 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:55:28.009 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:55:28.009 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:55:40.705 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:55:40.706 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (4, 0): [('map_up', 4)]
+2024-04-22 01:55:42.447 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:55:44.577 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:56:29.556 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:56:34.559 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:56:34.559 | INFO     | edmacro.actions:move_to_map:233 - (4, 0) -> (4, 0): []
+2024-04-22 01:56:34.575 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:56:36.770 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:57:20.756 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:57:20.772 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:57:20.773 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:57:21.040 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:57:26.044 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:57:26.044 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:57:26.045 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:57:38.740 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:57:38.741 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (4, 0): [('map_up', 4)]
+2024-04-22 01:57:40.456 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:57:42.579 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-22 01:58:38.746 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-22 01:58:38.757 | DEBUG    | edmacro:__load_assets:69 - Loaded 30 assets.
+2024-04-22 01:58:38.757 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-22 01:58:39.017 | INFO     | edmacro.actions.mob_hunt:execute:44 - Starting mob hunt CRAB for 10 seconds
+2024-04-22 01:58:44.021 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-22 01:58:44.022 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-22 01:58:44.023 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-22 01:58:56.700 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-22 01:58:56.701 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (4, 0): [('map_up', 4)]
+2024-04-22 01:58:58.441 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-22 01:59:00.558 | INFO     | edmacro.actions:restart_char:53 - Restarting character
