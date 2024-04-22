@@ -4051,3 +4051,1636 @@
 2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
 2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
 2024-04-21 19:55:46.944 | INFO     | edmacro.actions.boss_run:execute:151 - Boss run finished. Total time: 40.08 s, Average time: 40.08 s
+2024-04-21 20:13:46.295 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:13:46.332 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:13:46.333 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:13:46.649 | INFO     | edmacro.actions.crab_beard_bounty:execute:23 - Running crab beard bounty
+2024-04-21 20:13:46.650 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:13:46.651 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:13:51.656 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:13:51.656 | WARNING  | edmacro.actions:move_to_map:222 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:13:51.657 | INFO     | edmacro.actions:brute_force_back_to_map_zero:136 - Brute forcing back to map zero
+2024-04-21 20:14:04.466 | INFO     | edmacro.actions:brute_force_back_to_map_zero:182 - Brute forced back to map zero
+2024-04-21 20:14:04.467 | INFO     | edmacro.actions:move_to_map:232 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:14:07.883 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:14:09.878 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:14:20.980 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:14:21.483 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:14:21.517 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998582601547241, Result Pos: Rect(left=137, top=86, width=42, height=36)
+2024-04-21 20:14:21.998 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 20:14:21.999 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:29:46.125 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:29:46.135 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:29:46.135 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:29:46.382 | INFO     | edmacro.actions.crab_beard_bounty:execute:25 - Running crab beard bounty
+2024-04-21 20:29:46.383 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:29:46.383 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:29:51.386 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:29:51.386 | WARNING  | edmacro.actions:move_to_map:222 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:29:51.387 | INFO     | edmacro.actions:brute_force_back_to_map_zero:136 - Brute forcing back to map zero
+2024-04-21 20:30:04.089 | INFO     | edmacro.actions:brute_force_back_to_map_zero:182 - Brute forced back to map zero
+2024-04-21 20:30:04.090 | INFO     | edmacro.actions:move_to_map:232 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:30:07.540 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:30:09.523 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:30:20.617 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:30:21.120 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:30:21.154 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.7125421166419983, Result Pos: Rect(left=160, top=345, width=42, height=36)
+2024-04-21 20:30:21.490 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: ‘catch 330 fish in sunset shores 
+2024-04-21 20:30:21.491 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:31:55.365 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:31:55.375 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:31:55.376 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:31:55.633 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 20:31:55.648 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:31:55.665 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:32:00.672 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:32:00.673 | WARNING  | edmacro.actions:move_to_map:222 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:32:00.673 | INFO     | edmacro.actions:brute_force_back_to_map_zero:136 - Brute forcing back to map zero
+2024-04-21 20:32:13.322 | INFO     | edmacro.actions:brute_force_back_to_map_zero:182 - Brute forced back to map zero
+2024-04-21 20:32:13.323 | INFO     | edmacro.actions:move_to_map:232 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:32:16.749 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:32:18.731 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:32:29.840 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:32:30.342 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:32:30.376 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.7125663757324219, Result Pos: Rect(left=160, top=345, width=42, height=36)
+2024-04-21 20:32:30.700 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: ‘catch 330 fish in sunset shores 
+2024-04-21 20:32:30.702 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:32:49.002 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 20:32:49.005 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:32:49.005 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:32:49.017 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:32:49.017 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:32:49.017 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:32:49.017 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:32:49.285 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 20:32:49.285 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 20:32:49.286 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:32:49.286 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:32:49.286 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:32:49.286 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:32:54.290 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:32:54.290 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:32:54.290 | WARNING  | edmacro.actions:move_to_map:222 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:32:54.290 | WARNING  | edmacro.actions:move_to_map:222 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:32:54.291 | INFO     | edmacro.actions:brute_force_back_to_map_zero:136 - Brute forcing back to map zero
+2024-04-21 20:32:54.291 | INFO     | edmacro.actions:brute_force_back_to_map_zero:136 - Brute forcing back to map zero
+2024-04-21 20:33:06.961 | INFO     | edmacro.actions:brute_force_back_to_map_zero:182 - Brute forced back to map zero
+2024-04-21 20:33:06.961 | INFO     | edmacro.actions:brute_force_back_to_map_zero:182 - Brute forced back to map zero
+2024-04-21 20:33:06.962 | INFO     | edmacro.actions:move_to_map:232 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:33:06.962 | INFO     | edmacro.actions:move_to_map:232 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:33:10.384 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:33:10.384 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:33:12.393 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:33:12.393 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:33:23.504 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:33:23.504 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:33:24.006 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:33:24.006 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:33:24.040 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9999679327011108, Result Pos: Rect(left=137, top=86, width=42, height=36)
+2024-04-21 20:33:24.040 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9999679327011108, Result Pos: Rect(left=137, top=86, width=42, height=36)
+2024-04-21 20:33:24.807 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 20:33:24.807 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 20:33:24.808 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:33:24.808 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:33:29.811 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:33:29.811 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:33:29.811 | INFO     | edmacro.actions:move_to_map:232 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 20:33:29.811 | INFO     | edmacro.actions:move_to_map:232 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 20:33:31.191 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 8 column 0
+2024-04-21 20:33:31.191 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 8 column 0
+2024-04-21 20:33:33.214 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:33:33.214 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:33:38.682 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:246 - Going to Hypercore boss
+2024-04-21 20:33:38.682 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:246 - Going to Hypercore boss
+2024-04-21 20:33:41.064 | INFO     | edmacro.actions:reset_if_needed:279 - Reset camera perspective
+2024-04-21 20:33:41.064 | INFO     | edmacro.actions:reset_if_needed:279 - Reset camera perspective
+2024-04-21 20:33:53.247 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:33:53.247 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:34:03.249 | INFO     | edmacro.actions.boss_run:__freeze_game:328 - Freezing game for 6.405833333333334
+2024-04-21 20:34:03.249 | INFO     | edmacro.actions.boss_run:__freeze_game:328 - Freezing game for 6.405833333333334
+2024-04-21 20:34:10.714 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:34:10.714 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:34:12.129 | INFO     | edmacro.actions.boss_run:execute:129 - Boss run 2 finished. Took 33.71352958679199 seconds
+2024-04-21 20:34:12.129 | INFO     | edmacro.actions.boss_run:execute:129 - Boss run 2 finished. Took 33.71352958679199 seconds
+2024-04-21 20:34:29.415 | INFO     | edmacro.actions.boss_run:execute:91 - Clicking on respawn tome
+2024-04-21 20:34:29.415 | INFO     | edmacro.actions.boss_run:execute:91 - Clicking on respawn tome
+2024-04-21 20:34:30.485 | INFO     | edmacro.actions.boss_run:execute:106 - Clicking on respawn button
+2024-04-21 20:34:30.485 | INFO     | edmacro.actions.boss_run:execute:106 - Clicking on respawn button
+2024-04-21 20:34:32.005 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:34:32.005 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:34:42.006 | INFO     | edmacro.actions.boss_run:__freeze_game:328 - Freezing game for 6.405833333333334
+2024-04-21 20:34:42.006 | INFO     | edmacro.actions.boss_run:__freeze_game:328 - Freezing game for 6.405833333333334
+2024-04-21 20:34:49.594 | INFO     | edmacro.actions.boss_run:execute:129 - Boss run 2 finished. Took 71.17826700210571 seconds
+2024-04-21 20:34:49.594 | INFO     | edmacro.actions.boss_run:execute:129 - Boss run 2 finished. Took 71.17826700210571 seconds
+2024-04-21 20:35:05.652 | INFO     | edmacro.actions.boss_run:execute:155 - Boss run finished. Total time: 104.89 s, Average time: 52.45 s
+2024-04-21 20:35:05.652 | INFO     | edmacro.actions.boss_run:execute:155 - Boss run finished. Total time: 104.89 s, Average time: 52.45 s
+2024-04-21 20:35:05.653 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:35:05.653 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:35:05.654 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:35:05.654 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:35:10.657 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:35:10.657 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:35:10.657 | INFO     | edmacro.actions:move_to_map:232 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 20:35:10.657 | INFO     | edmacro.actions:move_to_map:232 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 20:35:12.045 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:35:12.045 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:35:14.104 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:35:14.104 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:35:16.925 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 20:35:16.925 | DEBUG    | edmacro.actions:restart_char:64 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 20:35:21.929 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:35:21.929 | INFO     | edmacro.actions:open_map:120 - Opened map
+2024-04-21 20:35:21.929 | INFO     | edmacro.actions:move_to_map:232 - (7, -1) -> (7, -1): []
+2024-04-21 20:35:21.929 | INFO     | edmacro.actions:move_to_map:232 - (7, -1) -> (7, -1): []
+2024-04-21 20:35:21.942 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:35:21.942 | INFO     | edmacro.actions:move_to_map:246 - Moved to map 7 column -1
+2024-04-21 20:35:23.914 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:35:23.914 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:35:37.352 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:35:37.352 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:35:37.856 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:35:37.856 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:35:37.888 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.7134338021278381, Result Pos: Rect(left=160, top=345, width=42, height=36)
+2024-04-21 20:35:37.888 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.7134338021278381, Result Pos: Rect(left=160, top=345, width=42, height=36)
+2024-04-21 20:35:38.188 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: catch 330 fish in sunset shores 
+2024-04-21 20:35:38.188 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: catch 330 fish in sunset shores 
+2024-04-21 20:35:38.189 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:35:38.189 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:40:57.396 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:40:57.423 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:40:57.424 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:40:57.670 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 20:40:57.677 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:40:57.690 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:41:02.698 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:41:02.698 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:41:02.698 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 20:41:15.459 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 20:41:15.460 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:41:18.870 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 20:41:20.996 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:41:32.103 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:41:32.606 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:41:32.649 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9999245405197144, Result Pos: Rect(left=137, top=296, width=42, height=36)
+2024-04-21 20:41:33.182 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 20:41:33.183 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:41:38.185 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:41:38.185 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 20:41:39.573 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 20:41:41.733 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:41:47.175 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:246 - Going to Hypercore boss
+2024-04-21 20:41:49.545 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 20:42:01.713 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:42:11.714 | INFO     | edmacro.actions.boss_run:__freeze_game:328 - Freezing game for 6.405833333333334
+2024-04-21 20:42:19.187 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:42:20.417 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:42:21.648 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:42:22.891 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 0.9005162715911865 of confidence, freezing game again
+2024-04-21 20:42:24.320 | INFO     | edmacro.actions.boss_run:execute:129 - Boss run 2 finished. Took 37.3613657951355 seconds
+2024-04-21 20:42:41.606 | INFO     | edmacro.actions.boss_run:execute:91 - Clicking on respawn tome
+2024-04-21 20:42:42.629 | INFO     | edmacro.actions.boss_run:execute:106 - Clicking on respawn button
+2024-04-21 20:42:44.141 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:46:34.352 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:46:34.364 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:46:34.364 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:46:34.646 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 20:46:34.651 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:46:34.652 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:46:39.657 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:46:39.657 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:46:39.657 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 20:46:52.288 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 20:46:52.289 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:46:55.706 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 20:46:57.810 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:47:08.933 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:47:09.436 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:47:09.469 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998777508735657, Result Pos: Rect(left=137, top=146, width=42, height=36)
+2024-04-21 20:47:09.806 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 20:47:09.806 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:47:14.810 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:47:14.810 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 20:47:16.191 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 20:47:18.352 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:47:23.783 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:246 - Going to Hypercore boss
+2024-04-21 20:47:26.187 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 20:47:37.001 | INFO     | edmacro.actions.boss_run:execute:91 - Clicking on respawn tome
+2024-04-21 20:47:38.070 | INFO     | edmacro.actions.boss_run:execute:106 - Clicking on respawn button
+2024-04-21 20:47:39.457 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:47:49.458 | INFO     | edmacro.actions.boss_run:__freeze_game:328 - Freezing game for 6.405833333333334
+2024-04-21 20:47:56.939 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:47:58.217 | WARNING  | edmacro.actions.boss_run:__freeze_game:361 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:47:59.833 | INFO     | edmacro.actions.boss_run:execute:129 - Boss run 2 finished. Took 36.29678201675415 seconds
+2024-04-21 20:53:51.750 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 20:53:51.761 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 20:53:51.761 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 20:53:52.035 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 20:53:52.084 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:53:52.089 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:53:57.108 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:53:57.108 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 20:53:57.109 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 20:54:09.703 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 20:54:09.704 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 20:54:13.140 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 20:54:15.275 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:54:26.397 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:54:26.900 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:54:26.937 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9999129772186279, Result Pos: Rect(left=137, top=146, width=42, height=36)
+2024-04-21 20:54:27.316 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 20:54:27.318 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 20:54:32.321 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:54:32.321 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 20:54:33.704 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 20:54:35.863 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:54:38.690 | DEBUG    | edmacro.actions:restart_char:66 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 20:54:43.692 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:54:43.693 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-21 20:54:43.708 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 20:54:45.676 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:54:53.434 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:247 - Going to Hypercore boss
+2024-04-21 20:54:55.784 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 20:55:07.308 | INFO     | edmacro.actions.boss_run:execute:106 - Clicking on respawn button
+2024-04-21 20:55:08.785 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:55:13.786 | INFO     | edmacro.actions.boss_run:__freeze_game:329 - Freezing game for 80.85110858681477
+2024-04-21 20:56:35.747 | WARNING  | edmacro.actions.boss_run:__freeze_game:362 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:56:44.609 | INFO     | edmacro.actions.boss_run:execute:130 - Boss run 2 finished. Took 111.41063928604126 seconds
+2024-04-21 20:57:01.852 | INFO     | edmacro.actions.boss_run:execute:91 - Clicking on respawn tome
+2024-04-21 20:57:02.934 | INFO     | edmacro.actions.boss_run:execute:106 - Clicking on respawn button
+2024-04-21 20:57:04.302 | INFO     | edmacro.actions.boss_run:execute:123 - clicked on start button
+2024-04-21 20:57:09.304 | INFO     | edmacro.actions.boss_run:__freeze_game:329 - Freezing game for 80.85110858681477
+2024-04-21 20:58:31.155 | WARNING  | edmacro.actions.boss_run:__freeze_game:362 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 20:58:40.024 | INFO     | edmacro.actions.boss_run:execute:130 - Boss run 2 finished. Took 226.82557702064514 seconds
+2024-04-21 20:58:56.071 | INFO     | edmacro.actions.boss_run:execute:156 - Boss run finished. Total time: 338.24 s, Average time: 169.12 s
+2024-04-21 20:58:56.071 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 20:58:56.072 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 20:59:01.074 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 20:59:01.075 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 20:59:02.372 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 20:59:04.511 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 20:59:15.615 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 20:59:16.118 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 20:59:16.151 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998840093612671, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 20:59:16.421 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 15.3m+ damage 
+2024-04-21 20:59:16.422 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 21:03:28.780 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:03:28.793 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:03:28.793 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:03:29.069 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 21:03:29.069 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 21:03:29.070 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 21:03:34.076 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:03:34.076 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:03:34.077 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:03:46.845 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:03:46.845 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 21:03:50.307 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 21:03:52.497 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:04:03.642 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 21:04:04.145 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 21:04:04.179 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.999828577041626, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 21:04:04.520 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 the krakens (level 12+) 
+2024-04-21 21:04:04.521 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 21:04:09.525 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:04:09.525 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (4, 0): [('map_right', 1), ('map_down', 3)]
+2024-04-21 21:04:11.603 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-21 21:04:13.708 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:04:19.168 | INFO     | edmacro.actions.boss_run:__go_to_kraken_boss:289 - Going to Kracken boss
+2024-04-21 21:04:36.887 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 21:04:38.003 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 21:04:39.389 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 21:04:49.390 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 21:06:11.375 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 21:06:20.248 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 121.31916308403015 seconds
+2024-04-21 21:06:37.991 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 21:06:39.075 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 21:06:40.433 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 21:06:50.434 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 21:08:12.301 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 21:08:21.157 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 242.22814512252808 seconds
+2024-04-21 21:08:37.218 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 363.55 s, Average time: 181.77 s
+2024-04-21 21:08:37.218 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 21:08:37.219 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 21:08:42.222 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:08:42.222 | INFO     | edmacro.actions:move_to_map:233 - (4, 0) -> (7, -1): [('map_up', 3), ('map_left', 1)]
+2024-04-21 21:08:44.261 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 21:08:46.350 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:08:53.859 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 21:08:59.768 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 21:09:00.271 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 21:09:00.309 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998197555541992, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 21:09:00.601 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 hyper cores (level 12+) 
+2024-04-21 21:09:00.602 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 21:09:05.604 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:09:05.604 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 21:09:06.972 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 21:09:09.092 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:09:11.889 | DEBUG    | edmacro.actions:restart_char:66 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 21:09:16.892 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:09:16.892 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (8, 0): []
+2024-04-21 21:09:16.908 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 21:09:18.847 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:09:26.607 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-21 21:09:28.938 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 21:09:39.731 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 21:09:40.815 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 21:09:42.206 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 21:09:47.208 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 21:11:09.080 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 21:11:17.724 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 21:11:26.587 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 120.21263527870178 seconds
+2024-04-21 21:11:43.821 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 21:11:44.893 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 21:11:46.250 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 21:11:51.251 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 21:13:13.118 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 21:13:21.978 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 235.6043655872345 seconds
+2024-04-21 21:13:38.036 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 355.82 s, Average time: 177.91 s
+2024-04-21 21:13:38.037 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 21:13:38.037 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 21:13:43.041 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:13:43.041 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 21:13:44.331 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 21:13:46.459 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:13:57.558 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 21:13:58.062 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 21:13:58.096 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998762011528015, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 21:13:58.370 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 100 anglerfish 
+2024-04-21 21:13:58.371 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 21:20:38.003 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:20:38.014 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:20:38.015 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:21:33.784 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:21:33.793 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:21:33.794 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:22:16.600 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:22:16.608 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:22:16.608 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:23:16.066 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:23:26.988 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:24:32.445 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:24:32.455 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:24:32.456 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:24:32.479 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:24:39.198 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:24:39.201 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:24:39.201 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:24:39.211 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:24:39.211 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:24:39.212 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:24:39.212 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:24:39.215 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:24:39.215 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:25:25.750 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:25:25.761 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:25:25.763 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:25:25.788 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:25:32.442 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:25:32.444 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:25:32.444 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:25:32.453 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:25:32.453 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:25:32.454 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:25:32.454 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:25:32.457 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:25:32.457 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:33:41.816 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:33:41.824 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:33:41.824 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:33:57.655 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:33:57.665 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:33:57.665 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:33:57.684 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:34:16.496 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:34:16.499 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:34:16.499 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:34:16.510 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:34:16.510 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:34:16.510 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:34:16.510 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:34:36.625 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:34:36.625 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:34:36.628 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:34:36.628 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:34:36.628 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:34:36.637 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:34:36.637 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:34:36.637 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:34:36.638 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:34:36.638 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:34:36.638 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:34:41.645 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:34:41.645 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:34:41.645 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:34:41.645 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:34:41.645 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:34:41.645 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:34:41.646 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:34:41.646 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:34:41.646 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:34:54.368 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:34:54.368 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:34:54.368 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:34:54.369 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (9, 0): [('map_up', 9)]
+2024-04-21 21:34:54.369 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (9, 0): [('map_up', 9)]
+2024-04-21 21:34:54.369 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (9, 0): [('map_up', 9)]
+2024-04-21 21:34:57.794 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 21:34:57.794 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 21:34:57.794 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 21:34:59.939 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:34:59.939 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:34:59.939 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:37:51.521 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:37:51.530 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:37:51.530 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:38:13.892 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:38:13.902 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:38:13.903 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:38:13.929 | INFO     | edmacro.actions.mob_hunt:execute:24 - Starting mob hunt MOLTEN_CRAB for 10 seconds
+2024-04-21 21:38:18.932 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:38:18.932 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:38:18.934 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:38:31.623 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:38:31.624 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, 0): [('map_up', 7)]
+2024-04-21 21:38:34.364 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column 0
+2024-04-21 21:38:36.501 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:39:56.858 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:39:56.870 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:39:56.871 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:40:10.246 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:40:10.257 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:40:10.257 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:40:10.279 | INFO     | edmacro.actions.mob_hunt:execute:27 - Starting mob hunt MOLTEN_CRAB for 10 seconds
+2024-04-21 21:40:15.284 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:40:15.284 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:40:15.284 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:40:27.841 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:40:27.842 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, 0): [('map_up', 7)]
+2024-04-21 21:40:30.575 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column 0
+2024-04-21 21:40:32.709 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:41:10.064 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:41:10.075 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:41:10.075 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:41:10.100 | INFO     | edmacro.actions.mob_hunt:execute:27 - Starting mob hunt MOLTEN_CRAB for 10 seconds
+2024-04-21 21:41:15.106 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:41:15.106 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:41:15.106 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:41:27.718 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:41:27.719 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, 0): [('map_up', 7)]
+2024-04-21 21:41:30.461 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column 0
+2024-04-21 21:41:32.590 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:46:11.102 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:46:11.110 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:46:11.110 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:46:11.143 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:46:25.954 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:46:25.958 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:46:25.958 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:46:25.970 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:46:25.970 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:46:25.971 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:46:25.971 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:46:25.975 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:46:25.975 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:46:36.238 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:46:36.238 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:46:36.238 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:46:36.238 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:46:36.238 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:46:36.238 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:46:48.820 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:46:48.820 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:46:48.820 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:46:48.820 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:46:49.880 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:46:49.880 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:46:51.994 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:46:51.994 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:48:20.220 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:48:20.229 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:48:20.230 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:48:20.256 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:48:30.469 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:48:30.472 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:48:30.472 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:48:30.480 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:48:30.480 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:48:30.481 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:48:30.481 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:48:30.485 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:48:30.485 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:48:40.763 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:48:40.763 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:48:40.763 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:48:40.763 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:48:40.764 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:48:40.764 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:48:53.317 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:48:53.317 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:48:53.318 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:48:53.318 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:48:54.364 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:48:54.364 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:48:56.485 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:48:56.485 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:49:43.699 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:49:43.708 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:49:43.709 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:49:48.739 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:49:48.739 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:49:48.740 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:50:01.470 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:50:01.471 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:50:02.549 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:50:04.716 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:51:22.641 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:51:22.651 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:51:22.651 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:51:30.394 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 21:51:30.396 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:51:30.396 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:51:30.405 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:51:30.405 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:51:30.406 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:51:30.406 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:51:30.409 | INFO     | edmacro.actions.mob_hunt:execute:28 - Starting mob hunt SLIMES for 10 seconds
+2024-04-21 21:51:30.409 | INFO     | edmacro.actions.mob_hunt:execute:28 - Starting mob hunt SLIMES for 10 seconds
+2024-04-21 21:51:35.413 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:51:35.413 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:51:35.413 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:51:35.413 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:51:35.413 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:51:35.413 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:51:48.129 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:51:48.129 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:51:48.129 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:51:48.129 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 21:51:49.203 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:51:49.203 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 21:51:51.357 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:51:51.357 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:54:32.428 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:54:32.439 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:54:32.440 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:54:32.461 | INFO     | edmacro.actions.mob_hunt:execute:28 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 21:54:37.471 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:54:37.471 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:54:37.471 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:54:50.149 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:54:50.150 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 21:54:52.524 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 21:54:54.655 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 21:55:32.152 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:55:32.163 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 21:55:32.163 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 21:55:32.186 | INFO     | edmacro.actions.mob_hunt:execute:29 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 21:55:37.191 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 21:55:37.191 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 21:55:37.191 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 21:55:49.801 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 21:55:49.802 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 21:55:52.224 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 21:55:54.361 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:00:49.126 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:00:49.135 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:00:49.136 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:00:49.161 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:00:54.166 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:00:54.166 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:00:54.167 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:01:06.780 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:01:06.780 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:01:09.203 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:01:11.346 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:02:21.907 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:02:21.917 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:02:21.917 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:02:21.937 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:02:26.942 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:02:26.942 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:02:26.942 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:02:39.588 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:02:39.589 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:02:41.992 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:02:44.099 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:03:48.898 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:03:48.908 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:03:48.909 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:03:48.930 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:03:53.935 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:03:53.935 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:03:53.935 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:04:06.769 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:04:06.770 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:04:09.186 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:04:11.300 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:05:15.604 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:05:15.615 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:05:15.616 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:05:15.642 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:05:20.646 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:05:20.646 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:05:20.647 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:05:33.355 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:05:33.356 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:05:35.819 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:05:37.953 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:06:33.252 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:06:33.261 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:06:33.262 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:06:33.288 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:06:38.291 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:06:38.291 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:06:38.292 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:06:50.912 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:06:50.913 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:06:53.312 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:06:55.462 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:07:44.127 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:07:44.140 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:07:44.141 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:07:44.171 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:07:49.175 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:07:49.175 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:07:49.175 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:08:01.801 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:08:01.802 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:08:04.195 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:08:06.309 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:10:17.518 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:10:17.526 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:10:17.527 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:10:17.554 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:10:22.558 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:10:22.558 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:10:22.559 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:10:35.355 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:10:35.356 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:10:37.745 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:10:39.910 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:12:15.684 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:12:15.694 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:12:15.695 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:12:15.716 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MUTANT_SLIMES for 10 seconds
+2024-04-21 22:12:20.724 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:12:20.724 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:12:20.724 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:12:33.422 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:12:33.422 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (6, 0): [('map_up', 6)]
+2024-04-21 22:12:35.826 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:12:37.958 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:14:34.699 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:14:34.707 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:14:34.708 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:14:34.963 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:14:34.964 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:14:34.964 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:14:39.969 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:14:39.970 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:14:39.970 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:14:52.747 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:14:52.748 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:14:56.147 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:14:58.250 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:15:09.361 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:15:09.863 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:15:09.895 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997233748435974, Result Pos: Rect(left=137, top=129, width=42, height=36)
+2024-04-21 22:15:10.214 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 60 molten crabs . 
+2024-04-21 22:15:10.215 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:15:57.227 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:15:57.236 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:15:57.236 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:15:57.491 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:15:57.492 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:15:57.492 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:16:02.496 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:16:02.496 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:16:02.497 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:16:15.173 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:16:15.174 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:16:18.586 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:16:20.731 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:16:31.857 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:16:32.360 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:16:32.393 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.99986332654953, Result Pos: Rect(left=137, top=129, width=42, height=36)
+2024-04-21 22:16:32.709 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 60 molten crabs : 
+2024-04-21 22:16:32.711 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:17:37.094 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:17:37.102 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:17:37.103 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:17:37.372 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:17:37.372 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:17:37.373 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:17:42.377 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:17:42.377 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:17:42.378 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:17:55.076 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:17:55.077 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:17:58.503 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:18:00.637 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:18:11.813 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:18:12.316 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:18:12.350 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997767210006714, Result Pos: Rect(left=137, top=129, width=42, height=36)
+2024-04-21 22:18:12.658 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 60 molten crabs 7 
+2024-04-21 22:18:12.659 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:18:12.659 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:83 - Unknown quest: defeat 60 molten crabs 7 , 
+2024-04-21 22:23:04.264 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:23:04.276 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:23:04.277 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:23:04.609 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:23:04.613 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:23:04.625 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:23:09.635 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:23:09.635 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:23:09.636 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:23:22.592 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:23:22.592 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:23:26.090 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:23:28.281 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:23:39.419 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:23:39.922 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:23:39.965 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9995318055152893, Result Pos: Rect(left=137, top=129, width=42, height=36)
+2024-04-21 22:23:40.443 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 60 molten crabs: - 
+2024-04-21 22:23:40.443 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:23:40.445 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:85 - Unknown quest: defeat 60 molten crabs: - , 
+2024-04-21 22:24:10.987 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:24:10.996 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:24:10.997 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:24:11.286 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:24:11.289 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:24:11.290 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:24:16.295 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:24:16.295 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:24:16.296 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:24:29.088 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:24:29.088 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:24:32.593 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:24:34.736 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:24:45.881 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:24:46.384 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:24:46.434 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9986119866371155, Result Pos: Rect(left=137, top=129, width=42, height=36)
+2024-04-21 22:24:46.911 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 60 molten crabs 
+2024-04-21 22:24:46.912 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:24:46.913 | INFO     | edmacro.actions.mob_hunt:execute:30 - Starting mob hunt MOLTEN_CRAB for 80 seconds
+2024-04-21 22:24:51.918 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:24:51.918 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (7, 0): [('map_right', 1)]
+2024-04-21 22:24:52.664 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column 0
+2024-04-21 22:24:54.909 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:26:25.742 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:26:25.743 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:26:30.746 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:26:30.746 | INFO     | edmacro.actions:move_to_map:233 - (7, 0) -> (7, -1): [('map_left', 1)]
+2024-04-21 22:26:31.468 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:26:33.621 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:26:41.173 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:26:47.082 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:26:47.585 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:26:47.623 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9995788335800171, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:26:47.998 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 126 enemies : 
+2024-04-21 22:26:48.000 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:26:48.000 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:85 - Unknown quest: defeat 126 enemies : , 
+2024-04-21 22:28:21.563 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 22:28:21.565 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:28:21.565 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:28:21.573 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:28:21.573 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:28:21.574 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:28:21.574 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:28:21.808 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:28:21.808 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:28:21.808 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:28:21.808 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:28:21.809 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:28:21.809 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:28:26.813 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:28:26.813 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:28:26.814 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:28:26.814 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:28:26.814 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:28:26.814 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:28:39.608 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:28:39.608 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:28:39.609 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:28:39.609 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:28:43.034 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:28:43.034 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:28:45.146 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:28:45.146 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:28:56.249 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:28:56.249 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:28:56.751 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:28:56.751 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:28:56.784 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997113943099976, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:28:56.784 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997113943099976, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:28:57.089 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 126 enemies : 
+2024-04-21 22:28:57.089 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 126 enemies : 
+2024-04-21 22:28:57.090 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:28:57.090 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:28:57.091 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:85 - Unknown quest: defeat 126 enemies : , 
+2024-04-21 22:28:57.091 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:85 - Unknown quest: defeat 126 enemies : , 
+2024-04-21 22:32:11.233 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:32:11.250 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:32:11.250 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:32:11.284 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ARMORED_SNOWMAN for 10 seconds
+2024-04-21 22:32:33.458 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:32:33.466 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:32:33.467 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:32:33.488 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ARMORED_SNOWMAN for 10 seconds
+2024-04-21 22:32:38.492 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:32:38.492 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:32:38.492 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:32:51.214 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:32:51.215 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (3, 0): [('map_up', 3)]
+2024-04-21 22:32:52.599 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 3 column 0
+2024-04-21 22:32:54.741 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:33:58.897 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:33:58.908 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:33:58.909 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:33:59.151 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:33:59.151 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:33:59.152 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:34:04.156 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:34:04.156 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:34:04.157 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:34:16.923 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:34:16.923 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:34:20.324 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:34:22.440 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:34:33.584 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:34:34.087 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:34:34.128 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997619390487671, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:34:34.473 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 126 enemies 7 
+2024-04-21 22:34:34.474 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:34:34.474 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 80 seconds
+2024-04-21 22:34:39.477 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:34:39.477 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 22:34:41.159 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 22:34:43.321 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:36:22.629 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:36:22.630 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:36:27.633 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:36:27.634 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 22:36:29.325 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:36:31.437 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:36:38.994 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:36:44.901 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:36:45.405 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:36:45.437 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997097253799438, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:36:45.719 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 126 enemies : 
+2024-04-21 22:36:45.720 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:36:45.720 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 80 seconds
+2024-04-21 22:36:50.724 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:36:50.725 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 22:36:52.459 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 22:36:54.622 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:38:33.841 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:38:33.842 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:38:38.845 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:38:38.846 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 22:38:40.586 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:38:42.690 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:38:50.208 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:38:56.116 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:38:56.619 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:38:56.651 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.999546468257904, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 22:38:56.941 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 80 armored snowmen 
+2024-04-21 22:38:56.942 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:38:56.942 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:92 - Unknown quest: {'armored', '80', 'defeat', 'snowmen'}, 
+2024-04-21 22:39:59.723 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:39:59.733 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:39:59.733 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:40:00.005 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:40:00.006 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:40:00.006 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:40:05.011 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:40:05.011 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:40:05.012 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:40:17.693 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:40:17.693 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:40:21.091 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:40:23.222 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:40:34.322 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:40:34.826 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:40:34.861 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996557831764221, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 22:40:35.168 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 80 armored snowmen 
+2024-04-21 22:40:35.169 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:40:35.169 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:102 - Unknown quest: {'80', 'defeat', 'snowmen', 'armored'}, 
+2024-04-21 22:41:18.961 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:41:18.971 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:41:18.971 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:41:19.236 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:41:19.237 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:41:19.237 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:41:24.242 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:41:24.242 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:41:24.243 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:41:37.040 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:41:37.040 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:41:40.460 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:41:42.581 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:41:53.697 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:41:54.198 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:41:54.239 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997091293334961, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 22:41:54.563 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 80 armored snowmen 
+2024-04-21 22:41:54.564 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:41:54.565 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ARMORED_SNOWMAN for 80 seconds
+2024-04-21 22:41:59.568 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:41:59.568 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (3, 0): [('map_right', 1), ('map_down', 4)]
+2024-04-21 22:42:01.960 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 3 column 0
+2024-04-21 22:42:04.043 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:43:35.291 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:43:35.291 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:43:40.294 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:43:40.294 | INFO     | edmacro.actions:move_to_map:233 - (3, 0) -> (7, -1): [('map_up', 4), ('map_left', 1)]
+2024-04-21 22:43:42.651 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:43:44.751 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:43:52.279 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:43:58.186 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:43:58.689 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:43:58.725 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997063279151917, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 22:43:59.016 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 80 armored snowmen 
+2024-04-21 22:43:59.018 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:43:59.018 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ARMORED_SNOWMAN for 80 seconds
+2024-04-21 22:44:04.021 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:44:04.021 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (3, 0): [('map_right', 1), ('map_down', 4)]
+2024-04-21 22:44:06.380 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 3 column 0
+2024-04-21 22:44:08.480 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:45:39.730 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:45:39.731 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:45:44.733 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:45:44.734 | INFO     | edmacro.actions:move_to_map:233 - (3, 0) -> (7, -1): [('map_up', 4), ('map_left', 1)]
+2024-04-21 22:45:47.174 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:45:49.309 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:45:56.837 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:46:02.746 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:46:03.249 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:46:03.281 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997061491012573, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:46:03.569 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes 7 
+2024-04-21 22:46:03.570 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:46:03.570 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt SLIMES for 80 seconds
+2024-04-21 22:46:08.575 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:46:08.575 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 22:46:11.264 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 22:46:13.397 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:48:03.547 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:48:03.557 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:48:03.558 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:48:03.815 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:48:03.815 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:48:03.816 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:48:08.820 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:48:08.821 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:48:08.821 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:48:21.598 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:48:21.599 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:48:25.010 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:48:27.096 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:48:38.194 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:48:38.698 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:48:38.731 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.6216223239898682, Result Pos: Rect(left=330, top=541, width=42, height=36)
+2024-04-21 22:48:39.002 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: 
+2024-04-21 22:48:39.003 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:48:39.004 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:104 - Unknown quest: set(), 
+2024-04-21 22:49:20.377 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 22:49:20.380 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:49:20.380 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:49:20.388 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:49:20.388 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:49:20.389 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:49:20.389 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:49:20.644 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:49:20.644 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:49:20.644 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:49:20.644 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:49:20.645 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:49:20.645 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:49:25.650 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:49:25.650 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:49:25.650 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:49:25.650 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:49:25.650 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:49:25.650 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:49:38.266 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:49:38.266 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:49:38.267 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:49:38.267 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:49:41.703 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:49:41.703 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:49:43.805 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:49:43.805 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:49:54.972 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:49:54.972 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:49:55.474 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:49:55.474 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:49:55.506 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996618628501892, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:49:55.506 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996618628501892, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:49:55.840 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes. 7 
+2024-04-21 22:49:55.840 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes. 7 
+2024-04-21 22:49:55.841 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:49:55.841 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:49:55.841 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt SLIMES for 80 seconds
+2024-04-21 22:49:55.841 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt SLIMES for 80 seconds
+2024-04-21 22:50:00.844 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:50:00.844 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:50:00.844 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 22:50:00.844 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 22:50:03.542 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 22:50:03.542 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 22:50:05.624 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:50:05.624 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:53:19.256 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:53:19.264 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:53:19.265 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:53:19.521 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:53:19.544 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:53:19.546 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:53:24.550 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:53:24.551 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:53:24.551 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:53:37.141 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:53:37.142 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:53:40.561 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:53:42.694 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:53:53.865 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:53:54.368 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:53:54.402 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.6229971647262573, Result Pos: Rect(left=330, top=541, width=42, height=36)
+2024-04-21 22:53:54.679 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: 
+2024-04-21 22:53:54.680 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:53:54.680 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:104 - Unknown quest: set(), 
+2024-04-21 22:54:00.093 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 22:54:00.095 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:54:00.095 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:54:00.104 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:54:00.104 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:54:00.105 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:54:00.105 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:54:00.348 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:54:00.348 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:54:00.348 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:54:00.348 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:54:00.350 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:54:00.350 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:54:05.355 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:54:05.355 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:54:05.356 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:54:05.356 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 22:54:05.356 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:54:05.356 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 22:54:17.993 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:54:17.993 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 22:54:17.994 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:54:17.994 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 22:54:21.416 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:54:21.416 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:54:23.512 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:54:23.512 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:54:34.609 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:54:34.609 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:54:35.112 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:54:35.112 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:54:35.145 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998213648796082, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:54:35.145 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998213648796082, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:54:35.435 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes - 
+2024-04-21 22:54:35.435 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes - 
+2024-04-21 22:54:35.436 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:54:35.436 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:54:35.437 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt MUTANT_SLIMES for 80 seconds
+2024-04-21 22:54:35.437 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt MUTANT_SLIMES for 80 seconds
+2024-04-21 22:54:40.440 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:54:40.440 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:54:40.440 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (6, 0): [('map_right', 1), ('map_down', 1)]
+2024-04-21 22:54:40.440 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (6, 0): [('map_right', 1), ('map_down', 1)]
+2024-04-21 22:54:41.802 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:54:41.802 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:54:43.897 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:54:43.897 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:56:16.957 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:56:16.957 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:56:16.958 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:56:16.958 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:56:21.961 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:56:21.961 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:56:21.962 | INFO     | edmacro.actions:move_to_map:233 - (6, 0) -> (7, -1): [('map_up', 1), ('map_left', 1)]
+2024-04-21 22:56:21.962 | INFO     | edmacro.actions:move_to_map:233 - (6, 0) -> (7, -1): [('map_up', 1), ('map_left', 1)]
+2024-04-21 22:56:23.341 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:56:23.341 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:56:25.500 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:56:25.500 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:56:33.077 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:56:33.077 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:56:38.986 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:56:38.986 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:56:39.488 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:56:39.488 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:56:39.519 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997813701629639, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:56:39.519 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997813701629639, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:56:39.820 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes - 
+2024-04-21 22:56:39.820 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 40 mutant slimes - 
+2024-04-21 22:56:39.820 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:56:39.820 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:56:39.821 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt MUTANT_SLIMES for 80 seconds
+2024-04-21 22:56:39.821 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt MUTANT_SLIMES for 80 seconds
+2024-04-21 22:56:44.824 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:56:44.824 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:56:44.824 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (6, 0): [('map_right', 1), ('map_down', 1)]
+2024-04-21 22:56:44.824 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (6, 0): [('map_right', 1), ('map_down', 1)]
+2024-04-21 22:56:46.212 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:56:46.212 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 6 column 0
+2024-04-21 22:56:48.285 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:56:48.285 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:58:21.295 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:58:21.295 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:58:21.296 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:58:21.296 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:58:26.299 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:58:26.299 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 22:58:26.299 | INFO     | edmacro.actions:move_to_map:233 - (6, 0) -> (7, -1): [('map_up', 1), ('map_left', 1)]
+2024-04-21 22:58:26.299 | INFO     | edmacro.actions:move_to_map:233 - (6, 0) -> (7, -1): [('map_up', 1), ('map_left', 1)]
+2024-04-21 22:58:27.673 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:58:27.673 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 22:58:29.771 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:58:29.771 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 22:58:37.321 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:58:37.321 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 22:58:43.229 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:58:43.229 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 22:58:43.732 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:58:43.732 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 22:58:43.767 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997872114181519, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:58:43.767 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997872114181519, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 22:58:44.042 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 28.7m+ damage 
+2024-04-21 22:58:44.042 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 28.7m+ damage 
+2024-04-21 22:58:44.042 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:58:44.042 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 22:58:44.043 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:104 - Unknown quest: {'damage', '28.7m+', 'deal'}, 
+2024-04-21 22:58:44.043 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:104 - Unknown quest: {'damage', '28.7m+', 'deal'}, 
+2024-04-21 22:59:39.912 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 22:59:39.912 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 22:59:39.914 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:59:39.914 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:59:39.914 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 22:59:39.925 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:59:39.925 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:59:39.925 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 22:59:39.926 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:59:39.926 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:59:39.926 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 22:59:40.157 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:59:40.157 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:59:40.157 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 22:59:40.158 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:59:40.158 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:59:40.158 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 22:59:40.159 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:59:40.159 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 22:59:40.159 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:00:05.058 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:00:05.068 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:00:05.069 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:00:05.322 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 23:00:05.323 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:00:05.324 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:00:10.328 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:00:10.328 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:00:10.329 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:00:23.070 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:00:23.071 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 23:00:26.520 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:00:28.660 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:00:39.830 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:00:40.333 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:00:40.365 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9998298287391663, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:00:40.686 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 28.7m+ damage 
+2024-04-21 23:00:40.687 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:00:45.690 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:00:45.690 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 23:00:47.132 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 23:00:49.247 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:00:54.697 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-21 23:00:57.056 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:01:08.587 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:01:10.046 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:01:15.048 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:02:36.959 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:02:45.817 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 111.36808276176453 seconds
+2024-04-21 23:03:01.903 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 111.37 s, Average time: 111.37 s
+2024-04-21 23:03:01.904 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:03:01.904 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:03:06.907 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:03:06.907 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 23:03:08.237 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:03:10.343 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:03:21.457 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:03:21.974 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:03:22.004 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9995779991149902, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:03:22.436 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 28.7m+ damage 
+2024-04-21 23:03:22.437 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:03:27.441 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:03:27.441 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 23:03:28.828 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 23:03:30.952 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:03:36.397 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-21 23:03:38.767 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:03:49.590 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 23:03:50.652 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:03:52.016 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:03:57.017 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:05:18.883 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:05:27.738 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 111.57476854324341 seconds
+2024-04-21 23:05:43.846 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 111.57 s, Average time: 111.57 s
+2024-04-21 23:05:43.848 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:05:43.848 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:05:48.851 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:05:48.852 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 23:05:50.197 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:05:52.278 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:06:03.357 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:06:03.859 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:06:03.892 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996809363365173, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:06:04.200 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 king slimes (level 13+) 
+2024-04-21 23:06:04.201 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:06:04.201 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt SLIMES for 80 seconds
+2024-04-21 23:06:09.205 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:06:09.205 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 23:06:11.935 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:06:14.038 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:10:07.321 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:10:07.330 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:10:07.331 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:10:07.622 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 23:10:07.623 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:10:07.624 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:10:12.629 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:10:12.629 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:10:12.630 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:10:25.280 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:10:25.281 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 23:10:28.695 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:10:30.802 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:10:41.914 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:10:42.417 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:10:42.449 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.999553382396698, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:10:42.758 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 king slimes (level 13+) 
+2024-04-21 23:10:42.759 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:11:09.090 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:11:09.100 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:11:09.100 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:11:09.363 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 23:11:09.365 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:11:09.365 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:11:14.369 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:11:14.370 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:11:14.371 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:11:27.021 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:11:27.021 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 23:11:30.457 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:11:32.559 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:11:43.672 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:11:44.175 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:11:44.212 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997658133506775, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:11:44.526 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 king slimes (level 13+) 
+2024-04-21 23:11:44.526 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:11:49.530 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:11:49.530 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 23:11:52.247 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:11:54.336 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:11:59.766 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:269 - Going to Slime boss
+2024-04-21 23:12:11.167 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:12:24.072 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:12:24.081 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:12:24.082 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:12:24.332 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 23:12:24.332 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:12:24.333 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:12:29.338 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:12:29.338 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:12:29.338 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:12:41.935 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:12:41.936 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 23:12:45.357 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:12:47.477 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:12:58.576 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:12:59.079 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:12:59.111 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996722936630249, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:12:59.416 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 king slimes (level 13+) 
+2024-04-21 23:12:59.416 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:13:04.419 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:13:04.420 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 23:13:07.136 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:13:09.212 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:13:14.631 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:269 - Going to Slime boss
+2024-04-21 23:13:25.356 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:13:26.889 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:13:36.890 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:14:58.778 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 23:15:07.641 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 113.24366474151611 seconds
+2024-04-21 23:15:25.378 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 23:15:26.427 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:15:27.788 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:15:37.790 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:16:59.631 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 0.9999995827674866 of confidence, freezing game again
+2024-04-21 23:17:08.489 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 234.09112811088562 seconds
+2024-04-21 23:17:24.543 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 347.33 s, Average time: 173.67 s
+2024-04-21 23:17:24.544 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:17:24.544 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:17:29.547 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:17:29.547 | INFO     | edmacro.actions:move_to_map:233 - (2, 0) -> (7, -1): [('map_up', 5), ('map_left', 1)]
+2024-04-21 23:17:32.227 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:17:34.311 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:17:41.866 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:17:47.773 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:17:48.276 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:17:48.311 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.999732255935669, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:17:48.572 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 13.1m+ damage 
+2024-04-21 23:17:48.573 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:17:53.576 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:17:53.576 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 23:17:54.914 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 23:17:57.018 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:18:02.455 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-21 23:18:04.836 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:18:15.628 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 23:18:16.698 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:18:18.055 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:18:23.057 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:19:44.931 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:19:53.586 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:20:02.441 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 120.24381685256958 seconds
+2024-04-21 23:20:18.498 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 120.24 s, Average time: 120.24 s
+2024-04-21 23:20:18.499 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:20:18.499 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:20:23.502 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:20:23.502 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 23:20:24.773 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:20:26.847 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:20:37.943 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:20:38.446 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:20:38.480 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.999562680721283, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:20:38.752 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: deal 13.14m+ damage 
+2024-04-21 23:20:38.753 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:20:43.756 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:20:43.756 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (8, 0): [('map_right', 1), ('map_up', 1)]
+2024-04-21 23:20:45.102 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 8 column 0
+2024-04-21 23:20:47.216 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:20:52.597 | INFO     | edmacro.actions.boss_run:__go_to_hypercore_boss:249 - Going to Hypercore boss
+2024-04-21 23:20:54.964 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:21:05.771 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 23:21:06.812 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:21:08.187 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:21:13.188 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:22:35.053 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:22:43.899 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 1 finished. Took 111.5173819065094 seconds
+2024-04-21 23:22:59.916 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 111.52 s, Average time: 111.52 s
+2024-04-21 23:22:59.916 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:22:59.917 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:23:04.920 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:23:04.920 | INFO     | edmacro.actions:move_to_map:233 - (8, 0) -> (7, -1): [('map_down', 1), ('map_left', 1)]
+2024-04-21 23:23:06.214 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:23:08.291 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:23:19.359 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:23:19.861 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:23:19.893 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996416568756104, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:23:20.155 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 king slimes (level 13+) 
+2024-04-21 23:23:20.157 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:23:25.159 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:23:25.159 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (2, 0): [('map_right', 1), ('map_down', 5)]
+2024-04-21 23:23:27.856 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:23:29.934 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:23:35.355 | INFO     | edmacro.actions.boss_run:__go_to_kingslime_boss:269 - Going to Slime boss
+2024-04-21 23:23:45.359 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 23:23:46.489 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:23:47.866 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:23:57.867 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:25:19.749 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:25:28.606 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 113.49618983268738 seconds
+2024-04-21 23:25:46.379 | INFO     | edmacro.actions.boss_run:execute:93 - Clicking on respawn tome
+2024-04-21 23:25:47.444 | INFO     | edmacro.actions.boss_run:execute:108 - Clicking on respawn button
+2024-04-21 23:25:48.786 | INFO     | edmacro.actions.boss_run:execute:125 - clicked on start button
+2024-04-21 23:25:58.788 | INFO     | edmacro.actions.boss_run:__freeze_game:331 - Freezing game for 80.85110858681477
+2024-04-21 23:27:20.690 | WARNING  | edmacro.actions.boss_run:__freeze_game:364 - Boss still alive with 1.0 of confidence, freezing game again
+2024-04-21 23:27:29.537 | INFO     | edmacro.actions.boss_run:execute:132 - Boss run 2 finished. Took 234.42707633972168 seconds
+2024-04-21 23:27:45.583 | INFO     | edmacro.actions.boss_run:execute:158 - Boss run finished. Total time: 347.92 s, Average time: 173.96 s
+2024-04-21 23:27:45.584 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:27:45.584 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:27:50.588 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:27:50.588 | INFO     | edmacro.actions:move_to_map:233 - (2, 0) -> (7, -1): [('map_up', 5), ('map_left', 1)]
+2024-04-21 23:27:53.280 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:27:55.373 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:28:02.894 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:28:08.802 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:28:09.305 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:28:09.336 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996636509895325, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:28:09.605 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 the krakens (level 13+) 
+2024-04-21 23:28:09.606 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:28:09.607 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:111 - Unknown quest: {'defeat', 'krakens', '2', '(level', '13+)', 'the'}, 
+2024-04-21 23:31:36.130 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:31:36.139 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:31:36.140 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:31:36.411 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 23:31:36.431 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:31:36.439 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:31:41.454 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:31:41.454 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:31:41.455 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:31:54.127 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:31:54.127 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 23:31:57.566 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:31:59.696 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:32:10.779 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:32:11.281 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:32:11.319 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997483491897583, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:32:11.643 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 the krakens (level 13+) 
+2024-04-21 23:32:11.644 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:32:11.645 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:111 - Unknown quest: {'(level', '2', 'defeat', 'krakens', 'the', '13+)'}, 
+2024-04-21 23:32:47.083 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:32:47.092 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:32:47.093 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:32:47.347 | INFO     | edmacro.actions.crab_beard_bounty:execute:27 - Running crab beard bounty
+2024-04-21 23:32:47.348 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:32:47.349 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:32:52.354 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:32:52.354 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:32:52.355 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:33:04.945 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:33:04.945 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (7, -1): [('map_up', 7), ('map_left', 1)]
+2024-04-21 23:33:08.403 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:33:10.494 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:33:21.599 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:33:22.103 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:33:22.136 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9997627139091492, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:33:22.470 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 2 the krakens (level 13+) 
+2024-04-21 23:33:22.471 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:33:27.474 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:33:27.475 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (4, 0): [('map_right', 1), ('map_down', 3)]
+2024-04-21 23:33:29.527 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-21 23:33:31.665 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:33:34.471 | DEBUG    | edmacro.actions:restart_char:66 - The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place.
+2024-04-21 23:33:39.475 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:33:39.475 | INFO     | edmacro.actions:move_to_map:233 - (4, 0) -> (4, 0): []
+2024-04-21 23:33:39.489 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 4 column 0
+2024-04-21 23:33:41.505 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:33:49.296 | INFO     | edmacro.actions.boss_run:__go_to_kraken_boss:295 - Going to Kracken boss
+2024-04-21 23:34:07.705 | INFO     | edmacro.actions.boss_run:execute:114 - Clicking on respawn button
+2024-04-21 23:34:09.245 | INFO     | edmacro.actions.boss_run:execute:131 - clicked on start button
+2024-04-21 23:34:19.246 | INFO     | edmacro.actions.boss_run:__freeze_game:337 - Freezing game for 15.77685220244857
+2024-04-21 23:34:36.769 | INFO     | edmacro.actions.boss_run:execute:138 - Boss run 2 finished. Took 47.71341681480408 seconds
+2024-04-21 23:34:54.547 | INFO     | edmacro.actions.boss_run:execute:99 - Clicking on respawn tome
+2024-04-21 23:34:55.625 | INFO     | edmacro.actions.boss_run:execute:114 - Clicking on respawn button
+2024-04-21 23:34:56.980 | INFO     | edmacro.actions.boss_run:execute:131 - clicked on start button
+2024-04-21 23:35:06.981 | INFO     | edmacro.actions.boss_run:__freeze_game:337 - Freezing game for 15.77685220244857
+2024-04-21 23:35:24.471 | INFO     | edmacro.actions.boss_run:execute:138 - Boss run 2 finished. Took 95.41591310501099 seconds
+2024-04-21 23:35:40.572 | INFO     | edmacro.actions.boss_run:execute:164 - Boss run finished. Total time: 143.13 s, Average time: 71.56 s
+2024-04-21 23:35:40.572 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:35:40.574 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:35:45.577 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:35:45.577 | INFO     | edmacro.actions:move_to_map:233 - (4, 0) -> (7, -1): [('map_up', 3), ('map_left', 1)]
+2024-04-21 23:35:47.608 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:35:49.716 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:35:57.277 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:36:03.185 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:36:03.688 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:36:03.722 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9990652799606323, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:36:04.033 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 210 enemies 
+2024-04-21 23:36:04.034 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:36:04.035 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 120 seconds
+2024-04-21 23:36:09.038 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:36:09.038 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 23:36:10.755 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 23:36:13.012 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:38:32.263 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:38:32.264 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:38:37.267 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:38:37.267 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 23:38:38.965 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:38:41.079 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:38:48.633 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:38:54.541 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:38:55.045 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:38:55.077 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.999569833278656, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:38:55.358 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 210 enemies 
+2024-04-21 23:38:55.359 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:38:55.360 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 120 seconds
+2024-04-21 23:39:00.363 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:39:00.363 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 23:39:02.083 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 23:39:04.231 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:41:23.509 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:41:23.510 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:41:28.513 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:41:28.513 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 23:41:30.256 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:41:32.377 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:41:39.913 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:41:45.820 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:41:46.323 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:41:46.354 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9994136095046997, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:41:46.630 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 210 enemies 
+2024-04-21 23:41:46.630 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:41:46.631 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 120 seconds
+2024-04-21 23:41:51.633 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:41:51.633 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 23:41:53.346 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 23:41:55.498 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:44:14.769 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:44:14.770 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:44:19.773 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:44:19.773 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 23:44:21.475 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:44:23.580 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:44:31.118 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:44:37.026 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:44:37.529 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:44:37.564 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9996938705444336, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:44:37.853 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 210 enemies 
+2024-04-21 23:44:37.854 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:44:37.855 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 120 seconds
+2024-04-21 23:44:42.858 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:44:42.858 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 23:44:44.575 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 23:44:46.705 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:47:05.983 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:47:05.984 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:47:10.987 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:47:10.987 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 23:47:12.719 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:47:14.815 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:47:22.356 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:47:28.266 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:47:28.770 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:47:28.802 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9994968175888062, Result Pos: Rect(left=137, top=165, width=42, height=36)
+2024-04-21 23:47:29.081 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 210 enemies 
+2024-04-21 23:47:29.083 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:47:29.084 | INFO     | edmacro.actions.mob_hunt:execute:32 - Starting mob hunt ANGLEFISH for 120 seconds
+2024-04-21 23:47:34.087 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:47:34.087 | INFO     | edmacro.actions:move_to_map:233 - (7, -1) -> (9, 0): [('map_right', 1), ('map_up', 2)]
+2024-04-21 23:47:35.787 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 9 column 0
+2024-04-21 23:47:37.913 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:49:57.194 | INFO     | edmacro.actions.quest_detector:execute:137 - Starting Quest Detector Action.
+2024-04-21 23:49:57.195 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:23 - Going to detector spot's map
+2024-04-21 23:50:02.198 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:50:02.198 | INFO     | edmacro.actions:move_to_map:233 - (9, 0) -> (7, -1): [('map_down', 2), ('map_left', 1)]
+2024-04-21 23:50:03.904 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 7 column -1
+2024-04-21 23:50:06.036 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:50:13.611 | INFO     | edmacro.actions:reset_if_needed:286 - Reset camera perspective
+2024-04-21 23:50:19.518 | DEBUG    | edmacro.actions.quest_detector:go_to_detector_spot:45 - Arrived at detector spot
+2024-04-21 23:50:20.022 | DEBUG    | edmacro.actions.quest_detector:zoom_perspective_to_quest_detector:52 - Zoomed perspective to quest detector
+2024-04-21 23:50:20.053 | DEBUG    | edmacro.actions.quest_detector:detect_quest_header:88 - Locate crab_beard header with Confidence: 0.9994816184043884, Result Pos: Rect(left=137, top=166, width=42, height=36)
+2024-04-21 23:50:20.322 | INFO     | edmacro.actions.quest_detector:detect_quest:132 - Quest text: defeat 21 snowmen 
+2024-04-21 23:50:20.323 | INFO     | edmacro.actions.quest_detector:execute:141 - Quest Detector Action Finished.
+2024-04-21 23:50:20.323 | ERROR    | edmacro.actions.crab_beard_bounty:resolve_quest:111 - Unknown quest: {'21', 'snowmen', 'defeat'}, 
+2024-04-21 23:55:16.732 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:55:16.743 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:55:16.743 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:55:16.769 | INFO     | edmacro.actions.mob_hunt:execute:36 - Starting mob hunt SNOWMAN for 10 seconds
+2024-04-21 23:55:21.774 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:55:21.775 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:55:21.776 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:55:34.460 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:55:34.460 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 23:55:35.565 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:55:37.655 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:56:33.926 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:56:33.936 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:56:33.936 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:56:33.960 | INFO     | edmacro.actions.mob_hunt:execute:36 - Starting mob hunt SNOWMAN for 10 seconds
+2024-04-21 23:56:38.965 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:56:38.966 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:56:38.966 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:56:51.698 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:56:51.698 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 23:56:52.772 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:56:54.873 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:57:48.495 | DEBUG    | edmacro:__init__:32 - Config loaded
+2024-04-21 23:57:48.498 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:57:48.498 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:57:48.507 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:57:48.507 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:57:48.508 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:57:48.508 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:57:48.511 | INFO     | edmacro.actions.mob_hunt:execute:36 - Starting mob hunt SNOWMAN for 10 seconds
+2024-04-21 23:57:48.511 | INFO     | edmacro.actions.mob_hunt:execute:36 - Starting mob hunt SNOWMAN for 10 seconds
+2024-04-21 23:57:53.515 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:57:53.515 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:57:53.515 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:57:53.515 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:57:53.515 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:57:53.515 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:58:06.230 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:58:06.230 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:58:06.231 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 23:58:06.231 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 23:58:07.300 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:58:07.300 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:58:09.480 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:58:09.480 | INFO     | edmacro.actions:restart_char:53 - Restarting character
+2024-04-21 23:59:38.952 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 23:59:38.962 | DEBUG    | edmacro:__load_assets:69 - Loaded 28 assets.
+2024-04-21 23:59:38.963 | INFO     | edmacro:__init__:45 - Assets loaded
+2024-04-21 23:59:38.988 | INFO     | edmacro.actions.mob_hunt:execute:36 - Starting mob hunt SNOWMAN for 10 seconds
+2024-04-21 23:59:43.993 | INFO     | edmacro.actions:open_map:121 - Opened map
+2024-04-21 23:59:43.993 | WARNING  | edmacro.actions:move_to_map:223 - Warning! Current map is unknown. Brute forced back to map zero
+2024-04-21 23:59:43.994 | INFO     | edmacro.actions:brute_force_back_to_map_zero:137 - Brute forcing back to map zero
+2024-04-21 23:59:56.670 | INFO     | edmacro.actions:brute_force_back_to_map_zero:183 - Brute forced back to map zero
+2024-04-21 23:59:56.671 | INFO     | edmacro.actions:move_to_map:233 - (0, 0) -> (2, 0): [('map_up', 2)]
+2024-04-21 23:59:57.732 | INFO     | edmacro.actions:move_to_map:247 - Moved to map 2 column 0
+2024-04-21 23:59:59.883 | INFO     | edmacro.actions:restart_char:53 - Restarting character

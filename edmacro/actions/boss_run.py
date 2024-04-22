@@ -41,6 +41,14 @@ class bossRunAction(Action):
         15_374_000,
     ]
 
+    KRAKEN_HEALTHS: List[int] = [3_000_000] * 25  # TODO: get the real kraken healths
+    SLIME_HEALTHS: List[int] = [400_000] * 25  # TODO: get the real slime healths
+
+    BOSS_HEALTH_MAP = {
+        "HYPERCORE": HYPERCORE_HEALTHS,
+        "KRAKEN": KRAKEN_HEALTHS,
+        "KINGSLIME": SLIME_HEALTHS,
+    }
     BOSS_MAP: Dict[TargetBoss, Tuple[int, int]] = {
         "KINGSLIME": (2, 0),
         "KRAKEN": (4, 0),
@@ -61,9 +69,13 @@ class bossRunAction(Action):
         target_boss_map = self.BOSS_MAP[target_boss]
         if self.macro_controller.current_map != target_boss_map:
             self.move_to_map(*target_boss_map)
+        else:
+            self.macro_controller.logger.debug(
+                "Char is in the correct map. Going to boss spot"
+            )
+            self.restart_char()
 
         self.target_boss = target_boss
-        self.macro_controller.logger.info(f"Running boss {repeat} times")
 
         run_start = time.time()
         times: list[float] = []
@@ -100,7 +112,7 @@ class bossRunAction(Action):
 
             if conf >= self.RESPAWN_TRASHOLD:
                 self.macro_controller.logger.info("Clicking on respawn button")
-                self._ahk.mouse_move(x, y, speed=5)
+                self._ahk.mouse_move(x + 20, y + 20, speed=5)
                 self._ahk.click()
                 time.sleep(0.5)
 
@@ -119,7 +131,8 @@ class bossRunAction(Action):
             self.macro_controller.logger.info("clicked on start button")
 
             # then wait for the boss to spawn
-            time.sleep(10)
+            boss_spawn_delay = 5 if target_boss == "HYPERCORE" else 10
+            time.sleep(boss_spawn_delay)
             self.__freeze_game()
             times.append(time.time() - run_start)
             self.macro_controller.logger.info(
@@ -337,6 +350,7 @@ class bossRunAction(Action):
         self._ahk.send("{RButton up}")
 
         while True:
+            time.sleep(0.5)
             # this block will check if the boss still alive
             sc = utils.screenshot(
                 region=bound_region, hwnd=self.macro_controller.roblox_hwnd
@@ -386,7 +400,7 @@ class bossRunAction(Action):
         )
 
         # Get boss health
-        boss_health = self.HYPERCORE_HEALTHS[-1]
+        boss_health = self.BOSS_HEALTH_MAP[self.target_boss][-1]
 
         # Calculate expected damage per hit
         expected_damage = (

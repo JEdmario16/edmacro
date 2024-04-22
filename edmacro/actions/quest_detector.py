@@ -98,7 +98,7 @@ class QuestDetector(actions.Action):
             (result_pos[0], result_pos[1], width, height),
         )  # (cutted region, (x, y, width, height))
 
-    def detect_quest(self, target_task: targetTask = "crab_beard"):
+    def detect_quest(self, target_task: targetTask = "crab_beard") -> str:
         """
         This method will detect the crab beard quest header
         The idea here is detect where is the quest header(or title) in the screen
@@ -131,9 +131,12 @@ class QuestDetector(actions.Action):
         text = text.lower().replace("\n", " ")
         self.macro_controller.logger.info(f"Quest text: {text}")
 
-    def execute(self, target_task: targetTask = "crab_beard"):
+        return text
+
+    def execute(self, target_task: targetTask = "crab_beard") -> str:
         self.macro_controller.logger.info("Starting Quest Detector Action.")
         self.go_to_detector_spot()
         self.zoom_perspective_to_quest_detector()
-        self.detect_quest(target_task)
+        quest_text = self.detect_quest(target_task)
         self.macro_controller.logger.info("Quest Detector Action Finished.")
+        return quest_text

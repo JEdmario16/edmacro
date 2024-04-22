@@ -15,6 +15,7 @@ INSTALLED_ACTIONS = [
     "edmacro.actions.boss_run",
     "edmacro.actions.quest_detector",
     "edmacro.actions.crab_beard_bounty",
+    "edmacro.actions.mob_hunt",
 ]
 
 

@@ -60,7 +60,9 @@ class Action(ABC):
 
         if not self.detect_if_in_telerporter():
             if not self.current_map_is_known():
-                raise RuntimeError("The player wasnt respawned in the teleporter and we dont know wich map he is. Aborting.")
+                raise RuntimeError(
+                    "The player wasnt respawned in the teleporter and we dont know wich map he is. Aborting."
+                )
             self.macro_controller.logger.debug(
                 "The player wasnt respawned in the teleporter. Lets open the map and teleport him to same place."
             )
@@ -92,7 +94,6 @@ class Action(ABC):
         self._ahk.key_press("i")
         time.sleep(0.1)
         self._ahk.key_press("i")
-
 
     def open_map(self) -> None:
 
@@ -253,6 +254,12 @@ class Action(ABC):
         time.sleep(1.5)
         # then reset the char. We need this because the camera perspective changes
         # when we teleport
+
+        # for some goddamn reason, when we close the map
+        # the tab menu open, so lets fix it
+        self._ahk.send("{Tab down}")
+        time.sleep(0.1)
+        self._ahk.send("{Tab up}")
         self.restart_char()
 
     def detect_if_in_telerporter(
