@@ -38,19 +38,19 @@ class crabBeardBounty(Action):
         if not ({"hyper", "cores"} - tokenized_text):
             self.current_quest = "hypercore_hunt"
             return partial(
-                self.macro_controller.boss_run.execute, repeat=2, target_boss="HYPERCORE"
+                self.macro_controller.boss_run.execute, repeat=3, target_boss="HYPERCORE"
             )
         elif not ({"krakens", "defeat"} - tokenized_text):
             self.current_quest = "kraken_hunt"
             return partial(
-                self.macro_controller.boss_run.execute, repeat=2, target_boss="KRAKEN"
+                self.macro_controller.boss_run.execute, repeat=3, target_boss="KRAKEN"
             )
 
         elif not ({"defeat", "king", "slimes"} - tokenized_text):
             self.current_quest = "king_slimes"
             return partial(
                 self.macro_controller.boss_run.execute,
-                repeat=2,
+                repeat=3,
                 target_boss="KINGSLIME",
             )
 
@@ -59,7 +59,7 @@ class crabBeardBounty(Action):
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="MUTANT_SLIMES",
-                seconds=80,
+                seconds=120,
             )
 
         elif not ({"defeat", "molten", "crabs"} - tokenized_text):
@@ -67,7 +67,7 @@ class crabBeardBounty(Action):
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="MOLTEN_CRAB",
-                seconds=80,
+                seconds=120,
             )
 
         elif not ({"defeat", "anglerfish"} - tokenized_text):
@@ -75,7 +75,7 @@ class crabBeardBounty(Action):
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="ANGLERFISH",
-                seconds=80,
+                seconds=120,
             )
 
         elif not ({"defeat", "armored", "snowmen"} - tokenized_text):
@@ -83,13 +83,13 @@ class crabBeardBounty(Action):
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="ARMORED_SNOWMAN",
-                seconds=80,
+                seconds=120,
             )
 
         elif not ({"defeat", "slimes"} - tokenized_text):
             self.current_quest = "slimes"
             return partial(
-                self.macro_controller.mob_hunt.execute, target_mob="SLIMES", seconds=80
+                self.macro_controller.mob_hunt.execute, target_mob="SLIMES", seconds=200
             )
 
         elif not ({"defeat", "crabs"} - tokenized_text):
@@ -97,7 +97,7 @@ class crabBeardBounty(Action):
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="CRAB",
-                seconds=80,
+                seconds=120,
             )
 
         elif not ({"defeat", "snowmen"} - tokenized_text):
@@ -105,7 +105,7 @@ class crabBeardBounty(Action):
             return partial(
                 self.macro_controller.mob_hunt.execute,
                 target_mob="SNOWMAN",
-                seconds=80,
+                seconds=250,
             )
 
         elif not ({"defeat", "enemies"} - tokenized_text):
@@ -113,17 +113,18 @@ class crabBeardBounty(Action):
             # again, the smartest way is to do another quest, but for now lets just kill anglefish
             return partial(
                 self.macro_controller.mob_hunt.execute,
-                target_mob="ANGLERFISH",
-                seconds=120,
+                target_mob="MOLTEN_CRAB",
+                seconds=200,
             )
 
         elif not ({"deal", "damage"} - tokenized_text):
             # The smartest way is do another quest, but for now lets just kill hypercore once
             self.current_quest = "damage_dealer"
             return partial(
-                self.macro_controller.boss_run.execute, repeat=1, target_boss="HYPERCORE"
+                self.macro_controller.boss_run.execute, repeat=2, target_boss="HYPERCORE"
             )
 
         else:
             self.macro_controller.logger.error(f"Unknown quest: {tokenized_text}, ")
-            raise ValueError("Unknown quest")
+            self.macro_controller.current_map = (None, None)
+            self.execute()

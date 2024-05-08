@@ -43,11 +43,12 @@ class bossRunAction(Action):
 
     KRAKEN_HEALTHS: List[int] = [3_000_000] * 25  # TODO: get the real kraken healths
     SLIME_HEALTHS: List[int] = [400_000] * 25  # TODO: get the real slime healths
-
+    MECHKRAKEN_HEALTHS: List[int] = [50_000_000] * 25
     BOSS_HEALTH_MAP = {
         "HYPERCORE": HYPERCORE_HEALTHS,
         "KRAKEN": KRAKEN_HEALTHS,
         "KINGSLIME": SLIME_HEALTHS,
+        "MECHKRAKEN": MECHKRAKEN_HEALTHS
     }
     BOSS_MAP: Dict[TargetBoss, Tuple[int, int]] = {
         "KINGSLIME": (2, 0),
@@ -56,6 +57,8 @@ class bossRunAction(Action):
         "MECHKRAKEN": (9, 0),
         "QUEENSLIME": (9, 0),
     }
+
+
 
     BOSS_HEALTHBAR_CONFIDENCE_THRESHOLD = 0.90
     RESPAWN_TRASHOLD = 0.90
@@ -111,7 +114,8 @@ class bossRunAction(Action):
                 time.sleep(0.5)
 
             # finally click on start button
-            needle = self.macro_controller.assets["start"]
+            start_button = "hardcore_start" if target_boss == "MECHKRAKEN" else "start"
+            needle = self.macro_controller.assets[start_button]
             sc = utils.screenshot(
                 region=(0, 0, *self.macro_controller.user_resolution),
                 hwnd=self.macro_controller.roblox_hwnd,
@@ -125,7 +129,7 @@ class bossRunAction(Action):
             self.macro_controller.logger.info("clicked on start button")
 
             # then wait for the boss to spawn
-            boss_spawn_delay = 5 if target_boss == "HYPERCORE" else 10
+            boss_spawn_delay = 7 if (target_boss == "HYPERCORE" or target_boss == "MECHAKRAKEN") else 10
             time.sleep(boss_spawn_delay)
             self.__freeze_game()
             times.append(time.time() - run_start)
@@ -168,9 +172,27 @@ class bossRunAction(Action):
                 self.__kraken_interruns_path()
             case "KINGSLIME":
                 self.__kingslime_interruns_path()
+
+            case "MECHKRAKEN":
+                self.__mechkraken_interruns_path()
             case _:
                 self.macro_controller.logger.error("Invalid boss name")
                 raise ValueError("Invalid boss name")
+
+    def __mechkraken_interruns_path(self):
+        self._ahk.send("{Space down}")
+        time.sleep(0.3)
+        self._ahk.send("{Space up}")
+        time.sleep(0.3)
+        self._ahk.key_down("w")
+        time.sleep(3)
+        self._ahk.key_up("w")
+        self._ahk.key_down("a")
+        time.sleep(1)
+        self._ahk.key_up("w")
+        time.sleep(0.3)
+        self._ahk.key_press("e")
+        time.sleep(0.5)
 
     def __hypercore_interruns_path(self):
         """
@@ -228,6 +250,8 @@ class bossRunAction(Action):
                 self.__go_to_kingslime_boss()
             case "KRAKEN":
                 self.__go_to_kraken_boss()
+            case "MECHKRAKEN":
+                self.__go_to_mechkraken_boss()
             case _:
                 self.macro_controller.logger.error("Invalid boss name")
                 raise ValueError("Invalid boss name")
@@ -300,6 +324,20 @@ class bossRunAction(Action):
         self._ahk.key_down("a")
         time.sleep(1)
         self._ahk.key_up("a")
+
+    def __go_to_mechkraken_boss(self):
+        self.macro_controller.logger.info("Going to Kracken boss")
+        self._ahk.key_down("w")
+        time.sleep(11)
+        self._ahk.key_up("w")
+        self._ahk.key_down("a")
+        time.sleep(1)
+        self._ahk.key_up("a")
+        time.sleep(0.3)
+        self._ahk.send("e")
+        time.sleep(0.3)
+
+        
 
     def __freeze_game(self, seconds: Optional[float | int] = None):
         """
