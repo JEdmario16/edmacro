@@ -1,0 +1,55 @@
+2024-04-20 11:42:20.003 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-20 11:43:12.856 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-20 11:43:12.859 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-20 11:43:12.916 | DEBUG    | edmacro:__load_assets:70 - Loaded 24 assets.
+2024-04-20 11:43:12.916 | INFO     | edmacro:__init__:46 - Assets loaded
+2024-04-20 17:21:27.057 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-20 17:21:40.127 | DEBUG    | edmacro:__init__:33 - Config loaded
+2024-04-20 17:21:40.128 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-20 17:21:40.128 | INFO     | edmacro:__init__:43 - MacroController initialized
+2024-04-21 02:02:24.097 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:22:51.743 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:24:15.404 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:24:15.409 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:24:15.409 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:24:39.472 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:24:39.472 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:24:39.478 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:24:39.478 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:24:39.478 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:25:15.877 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:25:15.877 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:25:15.877 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:25:15.881 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:25:15.881 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:25:15.881 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:25:15.881 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:26:33.899 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:26:33.899 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:26:33.899 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:26:33.899 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:26:33.904 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:26:33.904 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:26:33.904 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:26:33.904 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:26:33.919 | DEBUG    | edmacro:__load_assets:69 - Loaded 25 assets.
+2024-04-21 02:26:33.919 | DEBUG    | edmacro:__load_assets:69 - Loaded 25 assets.
+2024-04-21 02:26:33.919 | DEBUG    | edmacro:__load_assets:69 - Loaded 25 assets.
+2024-04-21 02:26:33.919 | DEBUG    | edmacro:__load_assets:69 - Loaded 25 assets.
+2024-04-21 02:26:33.922 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-21 02:26:33.922 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-21 02:26:33.922 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-21 02:26:33.922 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-21 02:39:57.420 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:40:30.667 | DEBUG    | edmacro:__init__:31 - Config loaded
+2024-04-21 02:40:30.671 | INFO     | edmacro:__init__:41 - MacroController initialized
+2024-04-21 02:40:30.686 | DEBUG    | edmacro:__load_assets:69 - Loaded 25 assets.
+2024-04-21 02:40:30.687 | INFO     | edmacro:__init__:44 - Assets loaded
+2024-04-21 14:53:08.388 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 15:38:48.360 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 17:00:56.162 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 18:22:52.600 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 18:43:06.996 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 18:44:01.219 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 19:36:50.986 | INFO     | edmacro:__init__:42 - MacroController initialized
+2024-04-21 21:03:16.501 | INFO     | edmacro:__init__:42 - MacroController initialized

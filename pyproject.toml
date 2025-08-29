@@ -14,7 +14,30 @@ opencv-python = "^4.9.0.80"
 keyboard = "^0.13.5"
 pywin32 = "^306"
 ahk = {extras = ["binary"], version = "^1.5.3"}
+matplotlib = "^3.8.4"
+pytesseract = "^0.3.10"
 
+
+[tool.poetry.group.stubs.dependencies]
+pywin32-stubs = "^1.0.7"
+types-pyautogui = "^0.9.3.20240406"
+types-colorama = "^0.4.15.20240311"
+types-pywin32 = "^306.0.0.20240331"
+types-pillow = "^10.2.0.20240406"
+
+
+[tool.poetry.group.lint.dependencies]
+mypy = "^1.9.0"
+black = "^24.3.0"
+isort = "^5.13.2"
+flake8 = "^7.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.23.0"
+
+[tool.black]
+line-length = 90
 
 [build-system]
 requires = ["poetry-core"]
